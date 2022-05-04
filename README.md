@@ -2,7 +2,7 @@
 
 ## V0.1 
 
--First prototpe 
+- First prototype
 
 ## V0.2
 

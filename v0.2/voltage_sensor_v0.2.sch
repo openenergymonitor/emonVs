@@ -8,20 +8,20 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -30,8 +30,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -39,21 +39,21 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
-<layer number="58" name="bCAD" color="11" fill="1" visible="no" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
-<layer number="61" name="stand" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
+<layer number="58" name="bCAD" color="11" fill="1" visible="yes" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="61" name="stand" color="7" fill="1" visible="yes" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -19021,42 +19021,42 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 <part name="T1" library="ZMPT101B" deviceset="ZMPT101B" device=""/>
 <part name="J9" library="SparkFun-Connectors" deviceset="RJ11-6" device="" value="RJ11"/>
 <part name="R22" library="rcl" deviceset="R-EU_" device="0204/7"/>
-<part name="R9" library="rcl" deviceset="R-EU_" device="R1206"/>
+<part name="R9" library="rcl" deviceset="R-EU_" device="R0603" value="75R"/>
 <part name="R13" library="rcl" deviceset="R-EU_" device="R0603" value="3.3k"/>
 <part name="R14" library="rcl" deviceset="R-EU_" device="R0603" value="18k"/>
 <part name="P+7" library="SparkFun" deviceset="3.3V" device=""/>
-<part name="R1" library="rcl" deviceset="R-EU_" device="R1206"/>
-<part name="R2" library="rcl" deviceset="R-EU_" device="R1206"/>
-<part name="R3" library="rcl" deviceset="R-EU_" device="R1206"/>
-<part name="R4" library="rcl" deviceset="R-EU_" device="R1206"/>
-<part name="R5" library="rcl" deviceset="R-EU_" device="R1206"/>
-<part name="R6" library="rcl" deviceset="R-EU_" device="R1206"/>
+<part name="R1" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
+<part name="R2" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
+<part name="R3" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
+<part name="R4" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
+<part name="R5" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
+<part name="R6" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
 <part name="C8" library="resistor" deviceset="C-EU" device="C0603" value="10uF"/>
 <part name="T2" library="ZMPT101B" deviceset="ZMPT101B" device=""/>
 <part name="R7" library="rcl" deviceset="R-EU_" device="0204/7"/>
-<part name="R8" library="rcl" deviceset="R-EU_" device="R1206"/>
+<part name="R8" library="rcl" deviceset="R-EU_" device="R0603" value="75R"/>
 <part name="R10" library="rcl" deviceset="R-EU_" device="R0603" value="3.3k"/>
 <part name="R11" library="rcl" deviceset="R-EU_" device="R0603" value="18k"/>
 <part name="P+1" library="SparkFun" deviceset="3.3V" device=""/>
-<part name="R12" library="rcl" deviceset="R-EU_" device="R1206"/>
-<part name="R15" library="rcl" deviceset="R-EU_" device="R1206"/>
-<part name="R16" library="rcl" deviceset="R-EU_" device="R1206"/>
-<part name="R17" library="rcl" deviceset="R-EU_" device="R1206"/>
-<part name="R18" library="rcl" deviceset="R-EU_" device="R1206"/>
-<part name="R19" library="rcl" deviceset="R-EU_" device="R1206"/>
+<part name="R12" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
+<part name="R15" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
+<part name="R16" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
+<part name="R17" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
+<part name="R18" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
+<part name="R19" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
 <part name="C1" library="resistor" deviceset="C-EU" device="C0603" value="10uF"/>
 <part name="T3" library="ZMPT101B" deviceset="ZMPT101B" device=""/>
 <part name="R20" library="rcl" deviceset="R-EU_" device="0204/7"/>
-<part name="R21" library="rcl" deviceset="R-EU_" device="R1206"/>
+<part name="R21" library="rcl" deviceset="R-EU_" device="R0603" value="75R"/>
 <part name="R23" library="rcl" deviceset="R-EU_" device="R0603" value="3.3k"/>
 <part name="R24" library="rcl" deviceset="R-EU_" device="R0603" value="18k"/>
 <part name="P+2" library="SparkFun" deviceset="3.3V" device=""/>
-<part name="R25" library="rcl" deviceset="R-EU_" device="R1206"/>
-<part name="R26" library="rcl" deviceset="R-EU_" device="R1206"/>
-<part name="R27" library="rcl" deviceset="R-EU_" device="R1206"/>
-<part name="R28" library="rcl" deviceset="R-EU_" device="R1206"/>
-<part name="R29" library="rcl" deviceset="R-EU_" device="R1206"/>
-<part name="R30" library="rcl" deviceset="R-EU_" device="R1206"/>
+<part name="R25" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
+<part name="R26" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
+<part name="R27" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
+<part name="R28" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
+<part name="R29" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
+<part name="R30" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
 <part name="C2" library="resistor" deviceset="C-EU" device="C0603" value="10uF"/>
 <part name="J2" library="236-404_000-009_999-950" deviceset="236-404_000-009_999-950" device="">
 <attribute name="ARROW_PART_NUMBER" value="J2"/>
@@ -19099,7 +19099,7 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 </instance>
 <instance part="R9" gate="G$1" x="48.26" y="38.1" smashed="yes" rot="MR90">
 <attribute name="NAME" x="49.53" y="35.56" size="1.778" layer="95" rot="MR90"/>
-<attribute name="VALUE" x="50.038" y="36.83" size="1.778" layer="96" rot="MR90"/>
+<attribute name="VALUE" x="44.958" y="34.29" size="1.778" layer="96" rot="MR90"/>
 </instance>
 <instance part="R13" gate="G$1" x="68.58" y="27.94" smashed="yes" rot="MR270">
 <attribute name="NAME" x="66.04" y="25.4" size="1.27" layer="95" rot="MR90"/>
@@ -19114,27 +19114,27 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 </instance>
 <instance part="R1" gate="G$1" x="0" y="40.64" smashed="yes" rot="MR0">
 <attribute name="NAME" x="2.54" y="41.91" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="1.27" y="42.418" size="1.778" layer="96" rot="MR0"/>
+<attribute name="VALUE" x="1.27" y="44.958" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="R2" gate="G$1" x="-12.7" y="40.64" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-10.16" y="41.91" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="-11.43" y="42.418" size="1.778" layer="96" rot="MR0"/>
+<attribute name="VALUE" x="-11.43" y="44.958" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="R3" gate="G$1" x="-25.4" y="40.64" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-22.86" y="41.91" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="-24.13" y="42.418" size="1.778" layer="96" rot="MR0"/>
+<attribute name="VALUE" x="-24.13" y="44.958" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="R4" gate="G$1" x="0" y="35.56" smashed="yes" rot="MR0">
 <attribute name="NAME" x="2.54" y="36.83" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="1.27" y="37.338" size="1.778" layer="96" rot="MR0"/>
+<attribute name="VALUE" x="1.27" y="32.258" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="R5" gate="G$1" x="-12.7" y="35.56" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-10.16" y="36.83" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="-11.43" y="37.338" size="1.778" layer="96" rot="MR0"/>
+<attribute name="VALUE" x="-11.43" y="32.258" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="R6" gate="G$1" x="-25.4" y="35.56" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-22.86" y="36.83" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="-24.13" y="37.338" size="1.778" layer="96" rot="MR0"/>
+<attribute name="VALUE" x="-24.13" y="32.258" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="C8" gate="G$1" x="73.66" y="30.48" smashed="yes">
 <attribute name="NAME" x="73.66" y="29.845" size="1.27" layer="95"/>
@@ -19150,7 +19150,7 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 </instance>
 <instance part="R8" gate="G$1" x="48.26" y="7.62" smashed="yes" rot="MR90">
 <attribute name="NAME" x="49.53" y="5.08" size="1.778" layer="95" rot="MR90"/>
-<attribute name="VALUE" x="50.038" y="6.35" size="1.778" layer="96" rot="MR90"/>
+<attribute name="VALUE" x="44.958" y="6.35" size="1.778" layer="96" rot="MR90"/>
 </instance>
 <instance part="R10" gate="G$1" x="68.58" y="-2.54" smashed="yes" rot="MR270">
 <attribute name="NAME" x="66.04" y="-5.08" size="1.27" layer="95" rot="MR90"/>
@@ -19165,27 +19165,27 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 </instance>
 <instance part="R12" gate="G$1" x="0" y="10.16" smashed="yes" rot="MR0">
 <attribute name="NAME" x="2.54" y="11.43" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="1.27" y="11.938" size="1.778" layer="96" rot="MR0"/>
+<attribute name="VALUE" x="1.27" y="6.858" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="R15" gate="G$1" x="-12.7" y="10.16" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-10.16" y="11.43" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="-11.43" y="11.938" size="1.778" layer="96" rot="MR0"/>
+<attribute name="VALUE" x="-11.43" y="6.858" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="R16" gate="G$1" x="-25.4" y="10.16" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-22.86" y="11.43" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="-24.13" y="11.938" size="1.778" layer="96" rot="MR0"/>
+<attribute name="VALUE" x="-24.13" y="6.858" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="R17" gate="G$1" x="7.62" y="-7.62" smashed="yes" rot="MR0">
 <attribute name="NAME" x="10.16" y="-6.35" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="8.89" y="-5.842" size="1.778" layer="96" rot="MR0"/>
+<attribute name="VALUE" x="8.89" y="-10.922" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="R18" gate="G$1" x="-5.08" y="-7.62" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-2.54" y="-6.35" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="-3.81" y="-5.842" size="1.778" layer="96" rot="MR0"/>
+<attribute name="VALUE" x="-3.81" y="-10.922" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="R19" gate="G$1" x="-17.78" y="-7.62" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-15.24" y="-6.35" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="-16.51" y="-5.842" size="1.778" layer="96" rot="MR0"/>
+<attribute name="VALUE" x="-16.51" y="-10.922" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="C1" gate="G$1" x="73.66" y="0" smashed="yes">
 <attribute name="NAME" x="73.66" y="-0.635" size="1.27" layer="95"/>
@@ -19201,7 +19201,7 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 </instance>
 <instance part="R21" gate="G$1" x="53.34" y="-25.4" smashed="yes" rot="MR90">
 <attribute name="NAME" x="54.61" y="-27.94" size="1.778" layer="95" rot="MR90"/>
-<attribute name="VALUE" x="55.118" y="-26.67" size="1.778" layer="96" rot="MR90"/>
+<attribute name="VALUE" x="50.038" y="-26.67" size="1.778" layer="96" rot="MR90"/>
 </instance>
 <instance part="R23" gate="G$1" x="73.66" y="-35.56" smashed="yes" rot="MR270">
 <attribute name="NAME" x="71.12" y="-38.1" size="1.27" layer="95" rot="MR90"/>
@@ -19216,27 +19216,27 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 </instance>
 <instance part="R25" gate="G$1" x="5.08" y="-22.86" smashed="yes" rot="MR0">
 <attribute name="NAME" x="7.62" y="-21.59" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="6.35" y="-21.082" size="1.778" layer="96" rot="MR0"/>
+<attribute name="VALUE" x="6.35" y="-26.162" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="R26" gate="G$1" x="-7.62" y="-22.86" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-5.08" y="-21.59" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="-6.35" y="-21.082" size="1.778" layer="96" rot="MR0"/>
+<attribute name="VALUE" x="-6.35" y="-26.162" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="R27" gate="G$1" x="-20.32" y="-22.86" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-17.78" y="-21.59" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="-19.05" y="-21.082" size="1.778" layer="96" rot="MR0"/>
+<attribute name="VALUE" x="-19.05" y="-26.162" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="R28" gate="G$1" x="12.7" y="-40.64" smashed="yes" rot="MR0">
 <attribute name="NAME" x="15.24" y="-39.37" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="13.97" y="-38.862" size="1.778" layer="96" rot="MR0"/>
+<attribute name="VALUE" x="13.97" y="-43.942" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="R29" gate="G$1" x="0" y="-40.64" smashed="yes" rot="MR0">
 <attribute name="NAME" x="2.54" y="-39.37" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="1.27" y="-38.862" size="1.778" layer="96" rot="MR0"/>
+<attribute name="VALUE" x="1.27" y="-43.942" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="R30" gate="G$1" x="-12.7" y="-40.64" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-10.16" y="-39.37" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="-11.43" y="-38.862" size="1.778" layer="96" rot="MR0"/>
+<attribute name="VALUE" x="-11.43" y="-43.942" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="C2" gate="G$1" x="78.74" y="-33.02" smashed="yes">
 <attribute name="NAME" x="78.74" y="-33.655" size="1.27" layer="95"/>

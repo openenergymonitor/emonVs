@@ -19019,7 +19019,7 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 </classes>
 <parts>
 <part name="T1" library="ZMPT101B" deviceset="ZMPT101B" device=""/>
-<part name="J9" library="SparkFun-Connectors" deviceset="RJ11-6" device="" value="RJ11"/>
+<part name="J9" library="SparkFun-Connectors" deviceset="RJ11-6" device="" value="RJ11-6"/>
 <part name="R22" library="rcl" deviceset="R-EU_" device="0204/7"/>
 <part name="R9" library="rcl" deviceset="R-EU_" device="R0603" value="75R"/>
 <part name="R13" library="rcl" deviceset="R-EU_" device="R0603" value="3.3k"/>

@@ -1,2 +1,24 @@
-# emonVoltageSense
-AC Voltage Sensor and Power Supply for emonTx V4 / emonPi V2
+# Changelog
+
+## V0.1 
+
+-First prototpe 
+
+## V0.2
+
+**BOM V0.2**
+
+- Add 3.3V onboard reg 
+- Change AC-DC PSU, add multiple footprints 
+- Add mounting holes 
+- Add protection varistors 
+
+## V0.3
+
+**BOM V0.2**
+
+- Move C6 to be closer to input of 3.3V vreg 
+- Fix silkscreen labels, move all text to TNames 
+
+
+

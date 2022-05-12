@@ -20,5 +20,10 @@
 - Move C6 to be closer to input of 3.3V vreg 
 - Fix silkscreen labels, move all text to TNames 
 
+To do: 
+- Increase size of holes for J3 
+- Fix footprint for input AC connections 
+
+
 
 

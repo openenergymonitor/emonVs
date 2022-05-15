@@ -20,9 +20,8 @@
 - Move C6 to be closer to input of 3.3V vreg 
 - Fix silkscreen labels, move all text to TNames 
 - Increase footprint size of C5 to case C
-
-To do: 
-- Increase size of holes for J3 
 - Fix footprint for input AC connections 
+- Fix position of R34 current limiting resistor
+- Increase size of holes for J3 
 
 

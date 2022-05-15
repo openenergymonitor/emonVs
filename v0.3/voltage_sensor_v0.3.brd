@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="20" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="3.93700787" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -1622,40 +1622,6 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 &lt;/tr&gt;
 &lt;/table&gt;</description>
 <packages>
-<package name="PANASONIC_B" urn="urn:adsk.eagle:footprint:22925/1" library_version="11">
-<description>&lt;b&gt;Panasonic Aluminium Electrolytic Capacitor VS-Serie Package B&lt;/b&gt;</description>
-<wire x1="-2.1" y1="2.1" x2="1" y2="2.1" width="0.1016" layer="51"/>
-<wire x1="1" y1="2.1" x2="2.1" y2="1" width="0.1016" layer="51"/>
-<wire x1="2.1" y1="1" x2="2.1" y2="-1" width="0.1016" layer="51"/>
-<wire x1="2.1" y1="-1" x2="1" y2="-2.1" width="0.1016" layer="51"/>
-<wire x1="1" y1="-2.1" x2="-2.1" y2="-2.1" width="0.1016" layer="51"/>
-<wire x1="-2.1" y1="-2.1" x2="-2.1" y2="2.1" width="0.1016" layer="51"/>
-<wire x1="-1.75" y1="0.85" x2="1.75" y2="0.85" width="0.1016" layer="21" curve="-128.186984"/>
-<wire x1="-1.75" y1="-0.85" x2="1.75" y2="-0.85" width="0.1016" layer="21" curve="128.186984"/>
-<wire x1="-2.1" y1="0.85" x2="-2.1" y2="2.1" width="0.1016" layer="21"/>
-<wire x1="-2.1" y1="2.1" x2="1" y2="2.1" width="0.1016" layer="21"/>
-<wire x1="1" y1="2.1" x2="2.1" y2="1" width="0.1016" layer="21"/>
-<wire x1="2.1" y1="-1" x2="1" y2="-2.1" width="0.1016" layer="21"/>
-<wire x1="1" y1="-2.1" x2="-2.1" y2="-2.1" width="0.1016" layer="21"/>
-<wire x1="-2.1" y1="-2.1" x2="-2.1" y2="-0.85" width="0.1016" layer="21"/>
-<wire x1="-1.2" y1="1.5" x2="-1.2" y2="-1.5" width="0.1016" layer="51"/>
-<circle x="0" y="0" radius="1.95" width="0.1016" layer="51"/>
-<smd name="-" x="-1.6" y="0" dx="2.2" dy="1.4" layer="1"/>
-<smd name="+" x="1.6" y="0" dx="2.2" dy="1.4" layer="1"/>
-<text x="-2.15" y="2.3" size="1.016" layer="25">&gt;NAME</text>
-<text x="-2.15" y="-3.275" size="1.016" layer="27">&gt;VALUE</text>
-<rectangle x1="-2.3" y1="-0.35" x2="-1.85" y2="0.35" layer="51"/>
-<rectangle x1="1.9" y1="-0.35" x2="2.3" y2="0.35" layer="51"/>
-<polygon width="0.1016" layer="51">
-<vertex x="-1.25" y="1.45"/>
-<vertex x="-1.7" y="0.85"/>
-<vertex x="-1.85" y="0.35"/>
-<vertex x="-1.85" y="-0.4"/>
-<vertex x="-1.7" y="-0.85"/>
-<vertex x="-1.25" y="-1.4"/>
-<vertex x="-1.25" y="1.4"/>
-</polygon>
-</package>
 <package name="R2512" urn="urn:adsk.eagle:footprint:23055/1" library_version="11">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
 <wire x1="-2.362" y1="1.473" x2="2.387" y2="1.473" width="0.1524" layer="51"/>
@@ -1672,18 +1638,54 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <rectangle x1="2.3622" y1="-1.5494" x2="3.2121" y2="1.5507" layer="51"/>
 <rectangle x1="-0.5001" y1="-1" x2="0.5001" y2="1" layer="35"/>
 </package>
+<package name="PANASONIC_C" urn="urn:adsk.eagle:footprint:22926/1" library_version="11">
+<description>&lt;b&gt;Panasonic Aluminium Electrolytic Capacitor VS-Serie Package C&lt;/b&gt;</description>
+<wire x1="-2.6" y1="2.6" x2="1.25" y2="2.6" width="0.1016" layer="51"/>
+<wire x1="1.25" y1="2.6" x2="2.6" y2="1.25" width="0.1016" layer="51"/>
+<wire x1="2.6" y1="1.25" x2="2.6" y2="-1.25" width="0.1016" layer="51"/>
+<wire x1="2.6" y1="-1.25" x2="1.25" y2="-2.6" width="0.1016" layer="51"/>
+<wire x1="1.25" y1="-2.6" x2="-2.6" y2="-2.6" width="0.1016" layer="51"/>
+<wire x1="-2.6" y1="-2.6" x2="-2.6" y2="2.6" width="0.1016" layer="51"/>
+<wire x1="-2.6" y1="0.95" x2="-2.6" y2="2.6" width="0.1016" layer="21"/>
+<wire x1="-2.6" y1="2.6" x2="1.25" y2="2.6" width="0.1016" layer="21"/>
+<wire x1="1.25" y1="2.6" x2="2.6" y2="1.25" width="0.1016" layer="21"/>
+<wire x1="2.6" y1="1.25" x2="2.6" y2="0.95" width="0.1016" layer="21"/>
+<wire x1="2.6" y1="-0.95" x2="2.6" y2="-1.25" width="0.1016" layer="21"/>
+<wire x1="2.6" y1="-1.25" x2="1.25" y2="-2.6" width="0.1016" layer="21"/>
+<wire x1="1.25" y1="-2.6" x2="-2.6" y2="-2.6" width="0.1016" layer="21"/>
+<wire x1="-2.6" y1="-2.6" x2="-2.6" y2="-0.95" width="0.1016" layer="21"/>
+<wire x1="-2.3" y1="0.85" x2="2.3" y2="0.85" width="0.1016" layer="21" curve="-139.434882"/>
+<wire x1="-2.3" y1="-0.85" x2="2.3" y2="-0.85" width="0.1016" layer="21" curve="139.434882"/>
+<wire x1="-1.55" y1="1.85" x2="-1.55" y2="-1.85" width="0.1016" layer="51"/>
+<circle x="0" y="0" radius="2.45" width="0.1016" layer="51"/>
+<smd name="-" x="-2.05" y="0" dx="2.6" dy="1.4" layer="1"/>
+<smd name="+" x="2.05" y="0" dx="2.6" dy="1.4" layer="1"/>
+<text x="-2.6" y="2.75" size="1.016" layer="25">&gt;NAME</text>
+<text x="-2.65" y="-3.775" size="1.016" layer="27">&gt;VALUE</text>
+<rectangle x1="-2.95" y1="-0.35" x2="-2.4" y2="0.35" layer="51"/>
+<rectangle x1="2.4" y1="-0.35" x2="2.95" y2="0.35" layer="51"/>
+<polygon width="0.1016" layer="51">
+<vertex x="-1.6" y="1.8"/>
+<vertex x="-2" y="1.35"/>
+<vertex x="-2.25" y="0.75"/>
+<vertex x="-2.45" y="0.05"/>
+<vertex x="-2.25" y="-0.75"/>
+<vertex x="-1.95" y="-1.35"/>
+<vertex x="-1.6" y="-1.8"/>
+</polygon>
+</package>
 </packages>
 <packages3d>
-<package3d name="PANASONIC_B" urn="urn:adsk.eagle:package:23421/2" type="model" library_version="11">
-<description>Panasonic Aluminium Electrolytic Capacitor VS-Serie Package B</description>
-<packageinstances>
-<packageinstance name="PANASONIC_B"/>
-</packageinstances>
-</package3d>
 <package3d name="R2512" urn="urn:adsk.eagle:package:23545/2" type="model" library_version="11">
 <description>RESISTOR</description>
 <packageinstances>
 <packageinstance name="R2512"/>
+</packageinstances>
+</package3d>
+<package3d name="PANASONIC_C" urn="urn:adsk.eagle:package:23422/2" type="model" library_version="11">
+<description>Panasonic Aluminium Electrolytic Capacitor VS-Serie Package C</description>
+<packageinstances>
+<packageinstance name="PANASONIC_C"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -2260,7 +2262,7 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <attribute name="NAME" x="56.911" y="3.062" size="1.27" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="56.411" y="3.768" size="1.27" layer="27"/>
 </element>
-<element name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" package="PANASONIC_B" package3d_urn="urn:adsk.eagle:package:23421/2" value="180uF" x="52.8" y="4.9" smashed="yes" rot="R90">
+<element name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" package="PANASONIC_C" package3d_urn="urn:adsk.eagle:package:23422/2" value="180uF" x="52.8" y="4.9" smashed="yes" rot="R90">
 <attribute name="NAME" x="53.489" y="1.538" size="1.27" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="POPULARITY" value="4" x="52.8" y="4.9" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="52.8" y="4.9" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2438,11 +2440,8 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <contactref element="J3" pad="1"/>
 <wire x1="58.15" y1="5.8" x2="58.15" y2="11.835" width="1.016" layer="1"/>
 <wire x1="58.15" y1="11.835" x2="59.295" y2="12.98" width="1.016" layer="1"/>
-<wire x1="52.8" y1="3.3" x2="46.75" y2="3.3" width="1.016" layer="1"/>
 <wire x1="46.75" y1="3.3" x2="46.4" y2="3.65" width="1.016" layer="1"/>
-<wire x1="52.8" y1="3.3" x2="57.656" y2="3.3" width="1.016" layer="1"/>
-<wire x1="57.656" y1="3.3" x2="58.42" y2="4.064" width="1.016" layer="1"/>
-<wire x1="58.42" y1="4.064" x2="58.42" y2="5.53" width="1.016" layer="1"/>
+<wire x1="58.42" y1="5.53" x2="58.42" y2="4.064" width="1.016" layer="1"/>
 <wire x1="58.42" y1="5.53" x2="58.15" y2="5.8" width="1.016" layer="1"/>
 <wire x1="38.1" y1="4.4" x2="42.844" y2="4.4" width="1.016" layer="1"/>
 <wire x1="43.944" y1="3.3" x2="46.75" y2="3.3" width="1.016" layer="1"/>
@@ -2496,6 +2495,26 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <wire x1="38.608" y1="26.924" x2="45.212" y2="26.924" width="1.016" layer="16"/>
 <via x="36.068" y="24.384" extent="1-16" drill="0.5"/>
 <via x="41.656" y="14.732" extent="1-16" drill="0.5"/>
+<wire x1="52.8" y1="2.85" x2="49.55" y2="2.85" width="1.016" layer="1"/>
+<wire x1="49.55" y1="2.85" x2="48.7" y2="3.7" width="1.016" layer="1"/>
+<wire x1="48.7" y1="3.7" x2="47.15" y2="3.7" width="1.016" layer="1"/>
+<wire x1="47.15" y1="3.7" x2="46.75" y2="3.3" width="1.016" layer="1"/>
+<wire x1="57.206" y1="2.85" x2="52.8" y2="2.85" width="1.016" layer="1"/>
+<wire x1="58.42" y1="4.064" x2="57.206" y2="2.85" width="1.016" layer="1"/>
+<wire x1="3.048" y1="90.424" x2="14.224" y2="102.108" width="0" layer="19" extent="1-1"/>
+<wire x1="2.706" y1="80.28" x2="3.048" y2="90.424" width="0" layer="19" extent="1-1"/>
+<wire x1="13.716" y1="1.524" x2="15.15" y2="3.65" width="0" layer="19" extent="1-1"/>
+<wire x1="49.784" y1="1.524" x2="52.8" y2="2.85" width="0" layer="19" extent="1-1"/>
+<wire x1="55.88" y1="1.524" x2="52.8" y2="2.85" width="0" layer="19" extent="1-1"/>
+<wire x1="24.22" y1="9.31" x2="21.75" y2="6" width="0" layer="19" extent="1-1"/>
+<wire x1="11.176" y1="8.636" x2="12" y2="3.65" width="0" layer="19" extent="1-1"/>
+<wire x1="41.656" y1="14.732" x2="38.1" y2="4.4" width="0" layer="19" extent="1-1"/>
+<wire x1="46.228" y1="15.24" x2="41.656" y2="14.732" width="0" layer="19" extent="1-1"/>
+<wire x1="36.068" y1="24.384" x2="37.592" y2="25.908" width="0" layer="19" extent="1-1"/>
+<wire x1="14.224" y1="61.468" x2="2.706" y2="61.484" width="0" layer="19" extent="1-1"/>
+<wire x1="14.224" y1="79.756" x2="2.706" y2="80.28" width="0" layer="19" extent="1-1"/>
+<wire x1="15.748" y1="42.164" x2="2.706" y2="42.18" width="0" layer="19" extent="1-1"/>
+<wire x1="6.096" y1="21.844" x2="11.176" y2="8.636" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$25">
 <contactref element="R9" pad="1"/>
@@ -2790,9 +2809,7 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <wire x1="72" y1="12.98" x2="70.612" y2="14.368" width="1.27" layer="1"/>
 <wire x1="70.612" y1="36.292" x2="73.32" y2="39" width="1.27" layer="1"/>
 <wire x1="70.612" y1="14.368" x2="70.612" y2="36.292" width="1.27" layer="1"/>
-<wire x1="52.8" y1="6.5" x2="54.968" y2="6.5" width="1.016" layer="1"/>
-<wire x1="55.668" y1="5.8" x2="56.45" y2="5.8" width="1.016" layer="1"/>
-<wire x1="54.968" y1="6.5" x2="55.668" y2="5.8" width="1.016" layer="1"/>
+<wire x1="56.45" y1="5.8" x2="55.668" y2="5.8" width="1.016" layer="1"/>
 <wire x1="46.4" y1="7.95" x2="46.064" y2="8.286" width="1.016" layer="1"/>
 <wire x1="21.75" y1="6.95" x2="32.512" y2="6.95" width="0.508" layer="1"/>
 <wire x1="32.512" y1="6.95" x2="35.57" y2="6.95" width="0.508" layer="1"/>
@@ -2801,13 +2818,13 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <wire x1="23.906" y1="5.05" x2="24.892" y2="4.064" width="0.508" layer="1"/>
 <wire x1="29.626" y1="4.064" x2="32.512" y2="6.95" width="0.508" layer="1"/>
 <wire x1="24.892" y1="4.064" x2="29.626" y2="4.064" width="0.508" layer="1"/>
-<wire x1="52.8" y1="6.5" x2="52.832" y2="6.532" width="1.27" layer="1"/>
+<wire x1="52.8" y1="6.95" x2="52.832" y2="6.532" width="1.27" layer="1"/>
 <wire x1="52.832" y1="6.532" x2="52.832" y2="9.652" width="1.27" layer="1"/>
 <via x="52.832" y="9.652" extent="1-16" drill="0.5"/>
 <wire x1="52.832" y1="9.652" x2="68.672" y2="9.652" width="1.27" layer="16"/>
 <wire x1="68.672" y1="9.652" x2="72" y2="12.98" width="1.27" layer="16"/>
 <wire x1="46.4" y1="7.95" x2="51.35" y2="7.95" width="1.27" layer="1"/>
-<wire x1="51.35" y1="7.95" x2="52.8" y2="6.5" width="1.27" layer="1"/>
+<wire x1="51.35" y1="7.95" x2="52.8" y2="6.95" width="1.27" layer="1"/>
 <wire x1="38.1" y1="9.48" x2="36.576" y2="11.004" width="1.27" layer="1"/>
 <wire x1="38.809" y1="22.045" x2="39.438" y2="22.045" width="1.27" layer="1"/>
 <wire x1="36.576" y1="11.004" x2="36.576" y2="19.812" width="1.27" layer="1"/>
@@ -2818,6 +2835,8 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <wire x1="43.358" y1="7.95" x2="41.656" y2="9.652" width="1.27" layer="1"/>
 <wire x1="41.656" y1="9.652" x2="38.272" y2="9.652" width="1.27" layer="1"/>
 <wire x1="38.272" y1="9.652" x2="38.1" y2="9.48" width="1.27" layer="1"/>
+<wire x1="54.936" y1="6.532" x2="52.832" y2="6.532" width="1.016" layer="1"/>
+<wire x1="55.668" y1="5.8" x2="54.936" y2="6.532" width="1.016" layer="1"/>
 </signal>
 <signal name="N$17">
 <contactref element="R34" pad="2"/>

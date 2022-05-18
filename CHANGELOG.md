@@ -29,4 +29,4 @@
 - Reduce TVS MOV to 14mm disk footprint 
 - Move J9 and J2 to give more clearance for glands
 - Reduce board size to 77mm x 100mm
-
+- Fix footprint for MP-LD10-23B05R2 10W PSU

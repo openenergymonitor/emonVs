@@ -31,3 +31,10 @@
 - Reduce board size to 77mm x 100mm
 - Fix footprint for MP-LD10-23B05R2 10W PSU
 - Add fiducials, RoHs & OSHW logos 
+
+
+## TO DO
+
+Invert voltage sample polarity 
+Consider common-mode choke filter on AC input 
+Add GND connection 

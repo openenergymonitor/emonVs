@@ -35,6 +35,7 @@
 
 ## TO DO
 
-Invert voltage sample polarity 
-Consider common-mode choke filter on AC input 
-Add GND connection 
+- Invert voltage sample polarity 
+- common-mode choke filter and capacitor 
+- Add AC GND connection 
+- Increase input connection clearance to 3mm 

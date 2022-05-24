@@ -32,6 +32,10 @@
 - Fix footprint for MP-LD10-23B05R2 10W PSU
 - Add fiducials, RoHs & OSHW logos 
 
+## V0.5
+
+- Increase board size to fit new case
+
 
 ## TO DO
 

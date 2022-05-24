@@ -24977,6 +24977,217 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
+<library name="Schaffner-CM-Choke">
+<packages>
+<package name="RN214-0.3-02-47M">
+<wire x1="0" y1="1.79605" x2="0" y2="21.102371875" width="0.127" layer="21"/>
+<wire x1="0" y1="21.102371875" x2="1.897628125" y2="23" width="0.127" layer="21" curve="-90"/>
+<wire x1="1.897628125" y1="23" x2="13.419378125" y2="23" width="0.127" layer="21"/>
+<wire x1="13.419378125" y1="23" x2="15.5" y2="20.919378125" width="0.127" layer="21" curve="-90"/>
+<wire x1="15.5" y1="20.919378125" x2="15.5" y2="1.988415625" width="0.127" layer="21"/>
+<wire x1="15.5" y1="1.988415625" x2="13.511584375" y2="0" width="0.127" layer="21" curve="-90"/>
+<wire x1="13.511584375" y1="0" x2="1.79605" y2="0" width="0.127" layer="21"/>
+<wire x1="1.79605" y1="0" x2="0" y2="1.79605" width="0.127" layer="21" curve="-90"/>
+<pad name="P$2" x="1.5" y="6.5" drill="1.2" diameter="2.54"/>
+<pad name="P$4" x="1.5" y="16.5" drill="1.2" diameter="2.54"/>
+<pad name="P$1" x="14" y="6.5" drill="1.2" diameter="2.54"/>
+<pad name="P$3" x="14" y="16.5" drill="1.2" diameter="2.54"/>
+<circle x="7.5" y="11.5" radius="2.662703125" width="0.127" layer="21"/>
+<wire x1="14" y1="16" x2="14" y2="17" width="0.127" layer="21"/>
+<wire x1="3" y1="6.5" x2="5.5" y2="6.5" width="0.127" layer="21"/>
+<wire x1="5.5" y1="6.5" x2="5.5" y2="7.5" width="0.127" layer="21"/>
+<wire x1="5.5" y1="6.5" x2="5.5" y2="5.5" width="0.127" layer="21"/>
+<wire x1="5.5" y1="5.5" x2="10" y2="5.5" width="0.127" layer="21"/>
+<wire x1="10" y1="5.5" x2="10" y2="7.5" width="0.127" layer="21"/>
+<wire x1="10" y1="7.5" x2="5.5" y2="7.5" width="0.127" layer="21"/>
+<wire x1="10" y1="6.5" x2="12.5" y2="6.5" width="0.127" layer="21"/>
+<wire x1="3" y1="16.5" x2="5.5" y2="16.5" width="0.127" layer="21"/>
+<wire x1="5.5" y1="16.5" x2="5.5" y2="17.5" width="0.127" layer="21"/>
+<wire x1="5.5" y1="16.5" x2="5.5" y2="15.5" width="0.127" layer="21"/>
+<wire x1="5.5" y1="15.5" x2="10" y2="15.5" width="0.127" layer="21"/>
+<wire x1="10" y1="15.5" x2="10" y2="17.5" width="0.127" layer="21"/>
+<wire x1="10" y1="17.5" x2="5.5" y2="17.5" width="0.127" layer="21"/>
+<wire x1="10" y1="16.5" x2="12.5" y2="16.5" width="0.127" layer="21"/>
+</package>
+<package name="RN114-0.3-02-47M">
+<wire x1="7.868440625" y1="-10.16" x2="-7.82445" y2="-10.16" width="0.127" layer="21"/>
+<wire x1="-7.82445" y1="-10.16" x2="-11.43" y2="-6.55445" width="0.127" layer="21" curve="-90"/>
+<wire x1="-11.43" y1="-6.55445" x2="-11.43" y2="7.9859" width="0.127" layer="21"/>
+<wire x1="-11.43" y1="7.9859" x2="-8.0759" y2="11.34" width="0.127" layer="21" curve="-90"/>
+<wire x1="-8.0759" y1="11.34" x2="7.53446875" y2="11.34" width="0.127" layer="21"/>
+<wire x1="7.53446875" y1="11.34" x2="11.07" y2="7.80446875" width="0.127" layer="21" curve="-90"/>
+<wire x1="11.07" y1="7.80446875" x2="11.07" y2="-6.958440625" width="0.127" layer="21"/>
+<wire x1="11.07" y1="-6.958440625" x2="7.868440625" y2="-10.16" width="0.127" layer="21" curve="-90"/>
+<pad name="P$2" x="-10.23" y="-5.66" drill="1.2" diameter="2.54"/>
+<pad name="P$4" x="-10.23" y="6.84" drill="1.2" diameter="2.54"/>
+<pad name="P$1" x="9.87" y="-5.66" drill="1.2" diameter="2.54"/>
+<pad name="P$3" x="9.87" y="6.84" drill="1.2" diameter="2.54"/>
+<circle x="-0.23" y="0.54" radius="2.662703125" width="0.127" layer="21"/>
+<wire x1="-8.93" y1="-5.66" x2="-2.93" y2="-5.66" width="0.127" layer="21"/>
+<wire x1="-2.93" y1="-5.66" x2="-2.93" y2="-4.66" width="0.127" layer="21"/>
+<wire x1="-2.93" y1="-5.66" x2="-2.93" y2="-6.66" width="0.127" layer="21"/>
+<wire x1="-2.93" y1="-6.66" x2="2.57" y2="-6.66" width="0.127" layer="21"/>
+<wire x1="2.57" y1="-6.66" x2="2.57" y2="-5.66" width="0.127" layer="21"/>
+<wire x1="2.57" y1="-5.66" x2="2.57" y2="-4.66" width="0.127" layer="21"/>
+<wire x1="2.57" y1="-4.66" x2="-2.93" y2="-4.66" width="0.127" layer="21"/>
+<wire x1="2.57" y1="-5.66" x2="8.57" y2="-5.66" width="0.127" layer="21"/>
+<wire x1="-8.93" y1="6.84" x2="-2.93" y2="6.84" width="0.127" layer="21"/>
+<wire x1="-2.93" y1="6.84" x2="-2.93" y2="7.84" width="0.127" layer="21"/>
+<wire x1="-2.93" y1="6.84" x2="-2.93" y2="5.84" width="0.127" layer="21"/>
+<wire x1="-2.93" y1="5.84" x2="2.57" y2="5.84" width="0.127" layer="21"/>
+<wire x1="2.57" y1="5.84" x2="2.57" y2="6.84" width="0.127" layer="21"/>
+<wire x1="2.57" y1="6.84" x2="2.57" y2="7.84" width="0.127" layer="21"/>
+<wire x1="2.57" y1="7.84" x2="-2.93" y2="7.84" width="0.127" layer="21"/>
+<wire x1="2.57" y1="6.84" x2="8.57" y2="6.84" width="0.127" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="CM-CHOKE">
+<wire x1="0" y1="0" x2="0" y2="5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="5.08" x2="0" y2="12.7" width="0.254" layer="94"/>
+<wire x1="0" y1="12.7" x2="0" y2="17.78" width="0.254" layer="94"/>
+<wire x1="0" y1="17.78" x2="22.86" y2="17.78" width="0.254" layer="94"/>
+<wire x1="22.86" y1="17.78" x2="22.86" y2="12.7" width="0.254" layer="94"/>
+<wire x1="22.86" y1="12.7" x2="22.86" y2="5.08" width="0.254" layer="94"/>
+<wire x1="22.86" y1="5.08" x2="22.86" y2="0" width="0.254" layer="94"/>
+<wire x1="22.86" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<pin name="P$4" x="-5.08" y="12.7" length="middle"/>
+<pin name="P$2" x="-5.08" y="5.08" length="middle"/>
+<pin name="P$3" x="27.94" y="12.7" length="middle" rot="R180"/>
+<pin name="P$1" x="27.94" y="5.08" length="middle" rot="R180"/>
+<circle x="11.43" y="8.89" radius="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="7.62" y2="6.35" width="0.254" layer="94"/>
+<wire x1="7.62" y1="6.35" x2="15.24" y2="6.35" width="0.254" layer="94"/>
+<wire x1="15.24" y1="6.35" x2="15.24" y2="5.08" width="0.254" layer="94"/>
+<wire x1="15.24" y1="5.08" x2="15.24" y2="3.81" width="0.254" layer="94"/>
+<wire x1="15.24" y1="3.81" x2="7.62" y2="3.81" width="0.254" layer="94"/>
+<wire x1="7.62" y1="3.81" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="15.24" y1="5.08" x2="22.86" y2="5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="12.7" x2="7.62" y2="12.7" width="0.254" layer="94"/>
+<wire x1="7.62" y1="12.7" x2="7.62" y2="11.43" width="0.254" layer="94"/>
+<wire x1="7.62" y1="11.43" x2="15.24" y2="11.43" width="0.254" layer="94"/>
+<wire x1="15.24" y1="11.43" x2="15.24" y2="12.7" width="0.254" layer="94"/>
+<wire x1="15.24" y1="12.7" x2="15.24" y2="13.97" width="0.254" layer="94"/>
+<wire x1="15.24" y1="13.97" x2="7.62" y2="13.97" width="0.254" layer="94"/>
+<wire x1="7.62" y1="13.97" x2="7.62" y2="12.7" width="0.254" layer="94"/>
+<wire x1="15.24" y1="12.7" x2="22.86" y2="12.7" width="0.254" layer="94"/>
+<text x="1.27" y="2.54" size="1.27" layer="94">2</text>
+<text x="20.32" y="2.54" size="1.27" layer="94">1</text>
+<text x="20.32" y="13.97" size="1.27" layer="94">3</text>
+<text x="1.27" y="13.97" size="1.27" layer="94">4</text>
+<text x="6.35" y="15.24" size="1.27" layer="94">CM-CHOKE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="RN214-0.3-02-47M">
+<gates>
+<gate name="G$1" symbol="CM-CHOKE" x="-10.16" y="-7.62"/>
+</gates>
+<devices>
+<device name="" package="RN214-0.3-02-47M">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+<connect gate="G$1" pin="P$3" pad="P$3"/>
+<connect gate="G$1" pin="P$4" pad="P$4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RN114-0.3-02-47M">
+<gates>
+<gate name="G$1" symbol="CM-CHOKE" x="-10.16" y="-7.62"/>
+</gates>
+<devices>
+<device name="" package="RN114-0.3-02-47M">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+<connect gate="G$1" pin="P$3" pad="P$3"/>
+<connect gate="G$1" pin="P$4" pad="P$4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="VALUE" value="47mH"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="B32923C3105M000">
+<description>&lt;EPCOS - B32923C3105M000 - Safety Capacitor, 1 ?F, X2, B32923C Series, 305 V, Metallized PP&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="B32923C_(26.5_X_12)">
+<description>&lt;b&gt;B32923C_(26.5_x_12)&lt;/b&gt;&lt;br&gt;
+</description>
+<pad name="1" x="0" y="0" drill="1" diameter="1.5" shape="square"/>
+<pad name="2" x="22.5" y="0" drill="1" diameter="1.5"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-2" y1="6" x2="24.5" y2="6" width="0.2" layer="51"/>
+<wire x1="24.5" y1="6" x2="24.5" y2="-6" width="0.2" layer="51"/>
+<wire x1="24.5" y1="-6" x2="-2" y2="-6" width="0.2" layer="51"/>
+<wire x1="-2" y1="-6" x2="-2" y2="6" width="0.2" layer="51"/>
+<wire x1="-2" y1="6" x2="24.5" y2="6" width="0.1" layer="21"/>
+<wire x1="24.5" y1="6" x2="24.5" y2="-6" width="0.1" layer="21"/>
+<wire x1="24.5" y1="-6" x2="-2" y2="-6" width="0.1" layer="21"/>
+<wire x1="-2" y1="-6" x2="-2" y2="6" width="0.1" layer="21"/>
+<circle x="-2.35" y="0" radius="0.05" width="0.2" layer="25"/>
+<wire x1="-3.25" y1="7" x2="25.5" y2="7" width="0.05" layer="51"/>
+<wire x1="25.5" y1="7" x2="25.5" y2="-7" width="0.05" layer="51"/>
+<wire x1="25.5" y1="-7" x2="-3.25" y2="-7" width="0.05" layer="51"/>
+<wire x1="-3.25" y1="-7" x2="-3.25" y2="7" width="0.05" layer="51"/>
+</package>
+</packages>
+<symbols>
+<symbol name="B32923C3105M000">
+<wire x1="5.588" y1="2.54" x2="5.588" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="7.112" y1="2.54" x2="7.112" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="0" x2="5.588" y2="0" width="0.254" layer="94"/>
+<wire x1="7.112" y1="0" x2="7.62" y2="0" width="0.254" layer="94"/>
+<text x="8.89" y="6.35" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="8.89" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="1" x="0" y="0" visible="pad" length="middle"/>
+<pin name="2" x="12.7" y="0" visible="pad" length="middle" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="B32923C3105M000" prefix="C">
+<description>&lt;b&gt;EPCOS - B32923C3105M000 - Safety Capacitor, 1 ?F, X2, B32923C Series, 305 V, Metallized PP&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://product.tdk.com/system/files/dam/doc/product/capacitor/film/emi/data_sheet/20/20/db/fc_2009/x2_b32921_928.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="B32923C3105M000" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="B32923C_(26.5_X_12)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="ARROW_PART_NUMBER" value="B32923C3105M000" constant="no"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/b32923c3105m000/epcos-tdk" constant="no"/>
+<attribute name="DESCRIPTION" value="EPCOS - B32923C3105M000 - Safety Capacitor, 1 ?F, X2, B32923C Series, 305 V, Metallized PP" constant="no"/>
+<attribute name="HEIGHT" value="mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="TDK" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="B32923C3105M000" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -25059,6 +25270,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-A4L" device=""/>
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="ROHS_LOGO" device=""/>
 <part name="LOGO2" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="S-COPPER"/>
+<part name="U$2" library="Schaffner-CM-Choke" deviceset="RN214-0.3-02-47M" device=""/>
+<part name="U$1" library="Schaffner-CM-Choke" deviceset="RN114-0.3-02-47M" device="" value="47mH"/>
+<part name="C4" library="B32923C3105M000" deviceset="B32923C3105M000" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -25289,17 +25503,23 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="105.41" y="-17.78" size="1.778" layer="95" rot="R180" align="center-left"/>
 <attribute name="VALUE" x="105.41" y="-15.24" size="1.778" layer="96" rot="R180" align="center-left"/>
 </instance>
-<instance part="FD1" gate="G$1" x="43.18" y="109.22" smashed="yes"/>
-<instance part="FD2" gate="G$1" x="43.18" y="104.14" smashed="yes"/>
-<instance part="FD3" gate="G$1" x="43.18" y="99.06" smashed="yes"/>
+<instance part="FD1" gate="G$1" x="129.54" y="111.76" smashed="yes"/>
+<instance part="FD2" gate="G$1" x="129.54" y="106.68" smashed="yes"/>
+<instance part="FD3" gate="G$1" x="129.54" y="101.6" smashed="yes"/>
 <instance part="FRAME1" gate="G$1" x="-81.28" y="-55.88" smashed="yes">
 <attribute name="DRAWING_NAME" x="100.33" y="-44.45" size="2.54" layer="94" font="vector"/>
 <attribute name="LAST_DATE_TIME" x="100.33" y="-49.53" size="2.286" layer="94" font="vector"/>
 <attribute name="SHEET" x="114.3" y="-54.61" size="2.54" layer="94" font="vector"/>
 <attribute name="DESIGNER" x="144.98" y="-49.53" size="2.54" layer="94" font="vector"/>
 </instance>
-<instance part="LOGO1" gate="G$1" x="50.8" y="93.98" smashed="yes"/>
-<instance part="LOGO2" gate="G$1" x="86.36" y="104.14" smashed="yes"/>
+<instance part="LOGO1" gate="G$1" x="137.16" y="96.52" smashed="yes"/>
+<instance part="LOGO2" gate="G$1" x="172.72" y="106.68" smashed="yes"/>
+<instance part="U$2" gate="G$1" x="66.04" y="81.28" smashed="yes"/>
+<instance part="U$1" gate="G$1" x="66.04" y="99.06" smashed="yes"/>
+<instance part="C4" gate="G$1" x="45.72" y="86.36" smashed="yes" rot="R90">
+<attribute name="NAME" x="52.07" y="92.71" size="1.778" layer="95" rot="R180" align="center-left"/>
+<attribute name="VALUE" x="44.45" y="90.17" size="1.778" layer="96" rot="R180" align="center-left"/>
+</instance>
 </instances>
 <busses>
 </busses>

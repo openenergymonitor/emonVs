@@ -43,3 +43,4 @@
 - common-mode choke filter and capacitor 
 - Add AC GND connection 
 - Increase input connection clearance to 3mm 
+- Add footprint for smaller X2 capacitors 

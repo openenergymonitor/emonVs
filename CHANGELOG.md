@@ -35,12 +35,12 @@
 ## V0.5
 
 - Increase board size to fit new case
-
-
-## TO DO
-
 - Invert voltage sample polarity 
 - common-mode choke filter and capacitor 
 - Add AC GND connection 
-- Increase input connection clearance to 3mm 
+- Increase input connection clearance 
 - Add footprint for smaller X2 capacitors 
+
+## TO DO
+
+

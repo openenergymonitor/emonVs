@@ -21735,6 +21735,85 @@ Source: &lt;a href="https://psearch.en.murata.com/capacitor/product/DE2F3KY103MA
 </deviceset>
 </devicesets>
 </library>
+<library name="744252101">
+<description>&lt;Common Mode Choke WE-SL3 2x100uH 0.5A Wurth WE-SL3 Series Wire-wound SMD Inductor with a Ferrite Core, 100 uH +50/-30 Bifilar Winding 500mA Idc&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="744252101">
+<description>&lt;b&gt;744252101-1&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-2.54" y="-3.43" dx="1.78" dy="1.27" layer="1"/>
+<smd name="3" x="2.54" y="-3.43" dx="1.78" dy="1.27" layer="1"/>
+<smd name="4" x="2.54" y="3.43" dx="1.78" dy="1.27" layer="1"/>
+<smd name="6" x="-2.54" y="3.43" dx="1.78" dy="1.27" layer="1"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-3.3" y1="-3.62" x2="3.3" y2="-3.62" width="0.1" layer="51"/>
+<wire x1="3.3" y1="-3.62" x2="3.3" y2="3.62" width="0.1" layer="51"/>
+<wire x1="3.3" y1="3.62" x2="-3.3" y2="3.62" width="0.1" layer="51"/>
+<wire x1="-3.3" y1="3.62" x2="-3.3" y2="-3.62" width="0.1" layer="51"/>
+<wire x1="-4.43" y1="5.065" x2="4.43" y2="5.065" width="0.1" layer="51"/>
+<wire x1="4.43" y1="5.065" x2="4.43" y2="-5.065" width="0.1" layer="51"/>
+<wire x1="4.43" y1="-5.065" x2="-4.43" y2="-5.065" width="0.1" layer="51"/>
+<wire x1="-4.43" y1="-5.065" x2="-4.43" y2="5.065" width="0.1" layer="51"/>
+<wire x1="-1.2" y1="3.62" x2="1.2" y2="3.62" width="0.2" layer="21"/>
+<wire x1="-3.3" y1="2.4" x2="-3.3" y2="-2.4" width="0.2" layer="21"/>
+<wire x1="-1.2" y1="-3.62" x2="1.2" y2="-3.62" width="0.2" layer="21"/>
+<wire x1="3.3" y1="-2.4" x2="3.3" y2="2.4" width="0.2" layer="21"/>
+<wire x1="-2.54" y1="-4.6" x2="-2.54" y2="-4.6" width="0.2" layer="21"/>
+<wire x1="-2.54" y1="-4.6" x2="-2.54" y2="-4.7" width="0.2" layer="21" curve="180"/>
+<wire x1="-2.54" y1="-4.7" x2="-2.54" y2="-4.7" width="0.2" layer="21"/>
+<wire x1="-2.54" y1="-4.7" x2="-2.54" y2="-4.6" width="0.2" layer="21" curve="180"/>
+<wire x1="-2.54" y1="-4.6" x2="-2.54" y2="-4.6" width="0.2" layer="21"/>
+<wire x1="-2.54" y1="-4.6" x2="-2.54" y2="-4.7" width="0.2" layer="21" curve="180"/>
+</package>
+</packages>
+<symbols>
+<symbol name="744252101">
+<wire x1="5.08" y1="2.54" x2="15.24" y2="2.54" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-5.08" x2="15.24" y2="2.54" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<text x="16.51" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="16.51" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="1" x="0" y="-2.54" length="middle"/>
+<pin name="3" x="20.32" y="-2.54" length="middle" rot="R180"/>
+<pin name="4" x="20.32" y="0" length="middle" rot="R180"/>
+<pin name="6" x="0" y="0" length="middle"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="744252101" prefix="L">
+<description>&lt;b&gt;Common Mode Choke WE-SL3 2x100uH 0.5A Wurth WE-SL3 Series Wire-wound SMD Inductor with a Ferrite Core, 100 uH +50/-30 Bifilar Winding 500mA Idc&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/813b8c68731e2e4ca9c504a5a5705204.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="744252101" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="744252101">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="6" pad="6"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="ARROW_PART_NUMBER" value="" constant="no"/>
+<attribute name="ARROW_PRICE-STOCK" value="" constant="no"/>
+<attribute name="DESCRIPTION" value="Common Mode Choke WE-SL3 2x100uH 0.5A Wurth WE-SL3 Series Wire-wound SMD Inductor with a Ferrite Core, 100 uH +50/-30 Bifilar Winding 500mA Idc" constant="no"/>
+<attribute name="HEIGHT" value="2.5mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Wurth Elektronik" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="744252101" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="710-744252101" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/744252101?qs=T3oQrply3y%2FhsB6zILUctg%3D%3D" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -21754,7 +21833,7 @@ Source: &lt;a href="https://psearch.en.murata.com/capacitor/product/DE2F3KY103MA
 <parts>
 <part name="T1" library="ZMPT101B" deviceset="ZMPT101B" device=""/>
 <part name="J7" library="SparkFun-Connectors" deviceset="RJ11-6" device="" value="RJ11-6"/>
-<part name="R22" library="rcl" deviceset="R-EU_" device="0204/7"/>
+<part name="R9B" library="rcl" deviceset="R-EU_" device="0204/7"/>
 <part name="R9" library="rcl" deviceset="R-EU_" device="R0603" value="75R"/>
 <part name="R13" library="rcl" deviceset="R-EU_" device="R0603" value="3.3k"/>
 <part name="R14" library="rcl" deviceset="R-EU_" device="R0603" value="18k"/>
@@ -21767,7 +21846,7 @@ Source: &lt;a href="https://psearch.en.murata.com/capacitor/product/DE2F3KY103MA
 <part name="R6" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
 <part name="C8" library="resistor" deviceset="C-EU" device="C0603" value="10uF"/>
 <part name="T2" library="ZMPT101B" deviceset="ZMPT101B" device=""/>
-<part name="R7" library="rcl" deviceset="R-EU_" device="0204/7"/>
+<part name="R8B" library="rcl" deviceset="R-EU_" device="0204/7"/>
 <part name="R8" library="rcl" deviceset="R-EU_" device="R0603" value="75R"/>
 <part name="R10" library="rcl" deviceset="R-EU_" device="R0603" value="3.3k"/>
 <part name="R11" library="rcl" deviceset="R-EU_" device="R0603" value="18k"/>
@@ -21780,7 +21859,7 @@ Source: &lt;a href="https://psearch.en.murata.com/capacitor/product/DE2F3KY103MA
 <part name="R19" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
 <part name="C1" library="resistor" deviceset="C-EU" device="C0603" value="10uF"/>
 <part name="T3" library="ZMPT101B" deviceset="ZMPT101B" device=""/>
-<part name="R20" library="rcl" deviceset="R-EU_" device="0204/7"/>
+<part name="R21B" library="rcl" deviceset="R-EU_" device="0204/7"/>
 <part name="R21" library="rcl" deviceset="R-EU_" device="R0603" value="75R"/>
 <part name="R23" library="rcl" deviceset="R-EU_" device="R0603" value="3.3k"/>
 <part name="R24" library="rcl" deviceset="R-EU_" device="R0603" value="18k"/>
@@ -21798,7 +21877,7 @@ Source: &lt;a href="https://psearch.en.murata.com/capacitor/product/DE2F3KY103MA
 <part name="C6" library="resistor" deviceset="C-EU" device="C0603" value="1uf "/>
 <part name="C7" library="resistor" deviceset="C-EU" device="C0603" value="1uF"/>
 <part name="PS1" library="MP-LD10-23B12R2" deviceset="MP-LD10-23B12R2" device="" value="MP-LD10-23B05R2"/>
-<part name="PS2" library="MP-LD05-23B03R2" deviceset="MP-LD05-23B03R2" device="" value="MP-LD05-23B05R2"/>
+<part name="PS1B" library="MP-LD05-23B03R2" deviceset="MP-LD05-23B03R2" device="" value="MP-LD05-23B05R2"/>
 <part name="IC1" library="AP2112K-3.3TRG1" deviceset="AP2112K-3.3TRG1" device=""/>
 <part name="C9" library="resistor" deviceset="C-EU" device="C0603" value="100nF"/>
 <part name="M1" library="MOV-14D431KTR" deviceset="MOV-14D431KTR" device=""/>
@@ -21814,7 +21893,7 @@ Source: &lt;a href="https://psearch.en.murata.com/capacitor/product/DE2F3KY103MA
 <part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-A4L" device=""/>
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="ROHS_LOGO" device=""/>
 <part name="LOGO2" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="S-COPPER"/>
-<part name="U$2" library="Schaffner-CM-Choke" deviceset="RN214-0.3-02-47M" device=""/>
+<part name="U$1B" library="Schaffner-CM-Choke" deviceset="RN214-0.3-02-47M" device=""/>
 <part name="U$1" library="Schaffner-CM-Choke" deviceset="RN114-0.3-02-47M" device="" value="47mH"/>
 <part name="C4" library="B32923C3105M000" deviceset="B32923C3105M000" device=""/>
 <part name="JP1" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_PASTE" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39283/1"/>
@@ -21824,6 +21903,7 @@ Source: &lt;a href="https://psearch.en.murata.com/capacitor/product/DE2F3KY103MA
 <part name="J1" library="Phoenix-Contact-1905010" deviceset="1905010" device=""/>
 <part name="J5" library="Phoenix-Contact-1905010" deviceset="1905010" device=""/>
 <part name="C10" library="DE2F3KY103MA3BM02F" deviceset="DE2F3KY103MA3BM02F" device=""/>
+<part name="L1" library="744252101" deviceset="744252101" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -21838,7 +21918,7 @@ Source: &lt;a href="https://psearch.en.murata.com/capacitor/product/DE2F3KY103MA
 <attribute name="VALUE" x="93.98" y="-7.366" size="1.9304" layer="96" font="vector"/>
 <attribute name="NAME" x="93.98" y="13.208" size="1.9304" layer="95" font="vector"/>
 </instance>
-<instance part="R22" gate="G$1" x="40.64" y="30.48" smashed="yes" rot="MR90">
+<instance part="R9B" gate="G$1" x="40.64" y="30.48" smashed="yes" rot="MR90">
 <attribute name="NAME" x="41.91" y="27.94" size="1.9304" layer="95" rot="MR90"/>
 <attribute name="VALUE" x="42.418" y="29.21" size="1.778" layer="96" rot="MR90"/>
 </instance>
@@ -21889,7 +21969,7 @@ Source: &lt;a href="https://psearch.en.murata.com/capacitor/product/DE2F3KY103MA
 <attribute name="NAME" x="26.67" y="10.16" size="1.9304" layer="95" align="center-left"/>
 <attribute name="VALUE" x="26.67" y="7.62" size="1.9304" layer="96" align="center-left"/>
 </instance>
-<instance part="R7" gate="G$1" x="40.64" y="0" smashed="yes" rot="MR90">
+<instance part="R8B" gate="G$1" x="40.64" y="0" smashed="yes" rot="MR90">
 <attribute name="NAME" x="41.91" y="-2.54" size="1.9304" layer="95" rot="MR90"/>
 <attribute name="VALUE" x="42.418" y="-1.27" size="1.778" layer="96" rot="MR90"/>
 </instance>
@@ -21940,7 +22020,7 @@ Source: &lt;a href="https://psearch.en.murata.com/capacitor/product/DE2F3KY103MA
 <attribute name="NAME" x="31.75" y="-22.86" size="1.9304" layer="95" align="center-left"/>
 <attribute name="VALUE" x="31.75" y="-25.4" size="1.9304" layer="96" align="center-left"/>
 </instance>
-<instance part="R20" gate="G$1" x="45.72" y="-33.02" smashed="yes" rot="MR90">
+<instance part="R21B" gate="G$1" x="45.72" y="-33.02" smashed="yes" rot="MR90">
 <attribute name="NAME" x="46.99" y="-35.56" size="1.9304" layer="95" rot="MR90"/>
 <attribute name="VALUE" x="47.498" y="-34.29" size="1.778" layer="96" rot="MR90"/>
 </instance>
@@ -21990,29 +22070,29 @@ Source: &lt;a href="https://psearch.en.murata.com/capacitor/product/DE2F3KY103MA
 <instance part="F2" gate="G$1" x="-30.48" y="111.76" smashed="yes" rot="R180"/>
 <instance part="F1" gate="G$1" x="-30.48" y="106.68" smashed="yes" rot="R180"/>
 <instance part="F3" gate="G$1" x="-30.48" y="116.84" smashed="yes" rot="R180"/>
-<instance part="C6" gate="G$1" x="58.42" y="73.66" smashed="yes">
-<attribute name="NAME" x="59.42" y="74.025" size="1.9304" layer="95"/>
-<attribute name="VALUE" x="54.815" y="69.755" size="1.9304" layer="96" rot="R90"/>
+<instance part="C6" gate="G$1" x="83.82" y="73.66" smashed="yes">
+<attribute name="NAME" x="84.82" y="74.025" size="1.9304" layer="95"/>
+<attribute name="VALUE" x="80.215" y="69.755" size="1.9304" layer="96" rot="R90"/>
 </instance>
-<instance part="C7" gate="G$1" x="111.76" y="73.66" smashed="yes">
-<attribute name="NAME" x="106.22" y="73.025" size="1.9304" layer="95"/>
-<attribute name="VALUE" x="108.355" y="64.095" size="1.9304" layer="96" rot="R90"/>
+<instance part="C7" gate="G$1" x="137.16" y="73.66" smashed="yes">
+<attribute name="NAME" x="131.62" y="73.025" size="1.9304" layer="95"/>
+<attribute name="VALUE" x="133.755" y="64.095" size="1.9304" layer="96" rot="R90"/>
 </instance>
 <instance part="PS1" gate="G$1" x="-15.24" y="81.28" smashed="yes">
 <attribute name="NAME" x="-3.81" y="88.9" size="1.9304" layer="95" align="center-left"/>
 <attribute name="VALUE" x="-11.43" y="86.36" size="1.9304" layer="96" align="center-left"/>
 </instance>
-<instance part="PS2" gate="G$1" x="-15.24" y="63.5" smashed="yes">
+<instance part="PS1B" gate="G$1" x="-15.24" y="63.5" smashed="yes">
 <attribute name="NAME" x="-1.27" y="71.12" size="1.9304" layer="95" align="center-left"/>
 <attribute name="VALUE" x="-8.89" y="68.58" size="1.9304" layer="96" align="center-left"/>
 </instance>
-<instance part="IC1" gate="G$1" x="71.12" y="76.2" smashed="yes">
-<attribute name="NAME" x="85.09" y="83.82" size="1.9304" layer="95" align="center-left"/>
-<attribute name="VALUE" x="77.47" y="81.28" size="1.9304" layer="96" align="center-left"/>
+<instance part="IC1" gate="G$1" x="96.52" y="76.2" smashed="yes">
+<attribute name="NAME" x="110.49" y="83.82" size="1.9304" layer="95" align="center-left"/>
+<attribute name="VALUE" x="102.87" y="81.28" size="1.9304" layer="96" align="center-left"/>
 </instance>
-<instance part="C9" gate="G$1" x="116.84" y="73.66" smashed="yes">
-<attribute name="NAME" x="119.3" y="74.025" size="1.9304" layer="95"/>
-<attribute name="VALUE" x="120.355" y="63.175" size="1.9304" layer="96" rot="R90"/>
+<instance part="C9" gate="G$1" x="142.24" y="73.66" smashed="yes">
+<attribute name="NAME" x="144.7" y="74.025" size="1.9304" layer="95"/>
+<attribute name="VALUE" x="145.755" y="63.175" size="1.9304" layer="96" rot="R90"/>
 </instance>
 <instance part="M1" gate="G$1" x="-50.8" y="14.732" smashed="yes" rot="R90">
 <attribute name="NAME" x="-54.41" y="23.5404" size="1.9304" layer="95" rot="R180"/>
@@ -22038,8 +22118,8 @@ Source: &lt;a href="https://psearch.en.murata.com/capacitor/product/DE2F3KY103MA
 <attribute name="NAME" x="47.07" y="63.04" size="1.9304" layer="95" align="center-left"/>
 <attribute name="VALUE" x="42.07" y="57.5" size="1.9304" layer="96" align="center-left"/>
 </instance>
-<instance part="J6" gate="G$1" x="109.22" y="-17.78" smashed="yes" rot="R180">
-<attribute name="NAME" x="100.33" y="-22.86" size="1.778" layer="95" rot="R180" align="center-left"/>
+<instance part="J6" gate="G$1" x="109.22" y="30.48" smashed="yes" rot="R180">
+<attribute name="NAME" x="100.33" y="25.4" size="1.778" layer="95" rot="R180" align="center-left"/>
 </instance>
 <instance part="FD1" gate="G$1" x="129.54" y="111.76" smashed="yes"/>
 <instance part="FD2" gate="G$1" x="129.54" y="106.68" smashed="yes"/>
@@ -22052,15 +22132,15 @@ Source: &lt;a href="https://psearch.en.murata.com/capacitor/product/DE2F3KY103MA
 </instance>
 <instance part="LOGO1" gate="G$1" x="137.16" y="96.52" smashed="yes"/>
 <instance part="LOGO2" gate="G$1" x="172.72" y="106.68" smashed="yes"/>
-<instance part="U$2" gate="G$1" x="35.56" y="86.36" smashed="yes"/>
+<instance part="U$1B" gate="G$1" x="35.56" y="86.36" smashed="yes"/>
 <instance part="U$1" gate="G$1" x="35.56" y="104.14" smashed="yes"/>
 <instance part="C4" gate="G$1" x="5.08" y="101.6" smashed="yes" rot="R90">
 <attribute name="NAME" x="11.43" y="107.95" size="1.778" layer="95" rot="R180" align="center-left"/>
 <attribute name="VALUE" x="13.97" y="97.79" size="1.778" layer="96" rot="R180" align="center-left"/>
 </instance>
-<instance part="JP1" gate="G$1" x="127" y="2.54" smashed="yes">
-<attribute name="NAME" x="127" y="6.096" size="1.778" layer="95" font="vector" align="center"/>
-<attribute name="VALUE" x="127" y="-0.762" size="1.778" layer="96" font="vector" align="center"/>
+<instance part="JP1" gate="G$1" x="124.46" y="2.54" smashed="yes">
+<attribute name="NAME" x="124.46" y="6.096" size="1.778" layer="95" font="vector" align="center"/>
+<attribute name="VALUE" x="142.24" y="9.398" size="1.778" layer="96" font="vector" align="center"/>
 </instance>
 <instance part="J4" gate="G$1" x="-73.66" y="111.76" smashed="yes"/>
 <instance part="J3" gate="G$1" x="-73.66" y="106.68" smashed="yes"/>
@@ -22070,6 +22150,10 @@ Source: &lt;a href="https://psearch.en.murata.com/capacitor/product/DE2F3KY103MA
 <instance part="C10" gate="G$1" x="12.7" y="101.6" smashed="yes" rot="R90">
 <attribute name="NAME" x="6.35" y="110.49" size="1.778" layer="95" rot="R90" align="center-left"/>
 <attribute name="VALUE" x="8.89" y="110.49" size="1.778" layer="96" rot="R90" align="center-left"/>
+</instance>
+<instance part="L1" gate="G$1" x="132.08" y="-5.08" smashed="yes" rot="R270">
+<attribute name="NAME" x="138.43" y="-20.32" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="138.43" y="-15.24" size="1.778" layer="96" align="center-left"/>
 </instance>
 </instances>
 <busses>
@@ -22083,7 +22167,7 @@ Source: &lt;a href="https://psearch.en.murata.com/capacitor/product/DE2F3KY103MA
 </segment>
 <segment>
 <pinref part="R9" gate="G$1" pin="1"/>
-<pinref part="R22" gate="G$1" pin="1"/>
+<pinref part="R9B" gate="G$1" pin="1"/>
 <wire x1="35.56" y1="25.4" x2="40.64" y2="25.4" width="0.1524" layer="91"/>
 <junction x="35.56" y="25.4"/>
 <pinref part="T1" gate="G$1" pin="SEC_1"/>
@@ -22105,7 +22189,7 @@ Source: &lt;a href="https://psearch.en.murata.com/capacitor/product/DE2F3KY103MA
 <wire x1="30.48" y1="0" x2="30.48" y2="-5.08" width="0.1524" layer="91"/>
 <pinref part="R8" gate="G$1" pin="1"/>
 <wire x1="30.48" y1="-5.08" x2="35.56" y2="-5.08" width="0.1524" layer="91"/>
-<pinref part="R7" gate="G$1" pin="1"/>
+<pinref part="R8B" gate="G$1" pin="1"/>
 <wire x1="35.56" y1="-5.08" x2="40.64" y2="-5.08" width="0.1524" layer="91"/>
 <junction x="35.56" y="-5.08"/>
 <wire x1="40.64" y1="-5.08" x2="45.72" y2="-5.08" width="0.1524" layer="91"/>
@@ -22124,7 +22208,7 @@ Source: &lt;a href="https://psearch.en.murata.com/capacitor/product/DE2F3KY103MA
 <wire x1="35.56" y1="-33.02" x2="35.56" y2="-38.1" width="0.1524" layer="91"/>
 <pinref part="R21" gate="G$1" pin="1"/>
 <wire x1="35.56" y1="-38.1" x2="40.64" y2="-38.1" width="0.1524" layer="91"/>
-<pinref part="R20" gate="G$1" pin="1"/>
+<pinref part="R21B" gate="G$1" pin="1"/>
 <wire x1="40.64" y1="-38.1" x2="45.72" y2="-38.1" width="0.1524" layer="91"/>
 <junction x="40.64" y="-38.1"/>
 <wire x1="45.72" y1="-38.1" x2="48.26" y2="-38.1" width="0.1524" layer="91"/>
@@ -22135,7 +22219,7 @@ Source: &lt;a href="https://psearch.en.murata.com/capacitor/product/DE2F3KY103MA
 <net name="BIAS" class="0">
 <segment>
 <pinref part="J7" gate="G$1" pin="3"/>
-<wire x1="104.14" y1="2.54" x2="121.92" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="2.54" x2="119.38" y2="2.54" width="0.1524" layer="91"/>
 <label x="109.22" y="2.54" size="1.9304" layer="95"/>
 <pinref part="JP1" gate="G$1" pin="1"/>
 </segment>
@@ -22157,28 +22241,23 @@ Source: &lt;a href="https://psearch.en.murata.com/capacitor/product/DE2F3KY103MA
 <wire x1="58.42" y1="-13.97" x2="58.42" y2="-17.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="132.08" y1="2.54" x2="134.62" y2="2.54" width="0.1524" layer="91"/>
-<label x="137.16" y="2.54" size="1.9304" layer="95"/>
+<wire x1="129.54" y1="2.54" x2="134.62" y2="2.54" width="0.1524" layer="91"/>
+<label x="134.62" y="2.54" size="1.9304" layer="95"/>
 <pinref part="JP1" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="VOUT"/>
-<wire x1="101.6" y1="76.2" x2="111.76" y2="76.2" width="0.1524" layer="91"/>
-<label x="124.46" y="78.74" size="1.9304" layer="95"/>
+<wire x1="127" y1="76.2" x2="137.16" y2="76.2" width="0.1524" layer="91"/>
+<label x="149.86" y="78.74" size="1.9304" layer="95"/>
 <pinref part="C7" gate="G$1" pin="1"/>
-<wire x1="111.76" y1="76.2" x2="116.84" y2="76.2" width="0.1524" layer="91"/>
-<junction x="111.76" y="76.2"/>
+<wire x1="137.16" y1="76.2" x2="142.24" y2="76.2" width="0.1524" layer="91"/>
+<junction x="137.16" y="76.2"/>
 <pinref part="C9" gate="G$1" pin="1"/>
-<wire x1="116.84" y1="76.2" x2="124.46" y2="76.2" width="0.1524" layer="91"/>
-<junction x="116.84" y="76.2"/>
+<wire x1="142.24" y1="76.2" x2="149.86" y2="76.2" width="0.1524" layer="91"/>
+<junction x="142.24" y="76.2"/>
 </segment>
 </net>
 <net name="GND" class="0">
-<segment>
-<pinref part="J7" gate="G$1" pin="1"/>
-<wire x1="104.14" y1="-2.54" x2="114.3" y2="-2.54" width="0.1524" layer="91"/>
-<label x="109.22" y="-2.54" size="1.9304" layer="95"/>
-</segment>
 <segment>
 <pinref part="R13" gate="G$1" pin="2"/>
 <wire x1="55.88" y1="25.4" x2="60.96" y2="25.4" width="0.1524" layer="91"/>
@@ -22210,43 +22289,8 @@ Source: &lt;a href="https://psearch.en.murata.com/capacitor/product/DE2F3KY103MA
 <junction x="63.5" y="-38.1"/>
 </segment>
 <segment>
-<pinref part="PS2" gate="G$1" pin="-VO"/>
-<label x="17.78" y="60.96" size="1.9304" layer="95"/>
-<pinref part="IC1" gate="G$1" pin="ADJ/NC"/>
-<wire x1="101.6" y1="71.12" x2="101.6" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="60.96" x2="66.04" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G$1" pin="GND"/>
-<wire x1="66.04" y1="60.96" x2="57.88" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="57.88" y1="60.96" x2="45.72" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="60.96" x2="38.1" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="60.96" x2="30.48" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="60.96" x2="12.7" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="73.66" x2="66.04" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="73.66" x2="66.04" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="C6" gate="G$1" pin="2"/>
-<wire x1="58.42" y1="68.58" x2="57.88" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="C7" gate="G$1" pin="2"/>
-<wire x1="101.6" y1="60.96" x2="111.76" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="60.96" x2="111.76" y2="68.58" width="0.1524" layer="91"/>
-<junction x="57.88" y="60.96"/>
-<junction x="66.04" y="60.96"/>
-<pinref part="C9" gate="G$1" pin="2"/>
-<wire x1="116.84" y1="68.58" x2="116.84" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="60.96" x2="111.76" y2="60.96" width="0.1524" layer="91"/>
-<junction x="111.76" y="60.96"/>
-<pinref part="C3" gate="G$1" pin="2"/>
-<wire x1="30.48" y1="68.58" x2="30.48" y2="60.96" width="0.1524" layer="91"/>
-<junction x="30.48" y="60.96"/>
-<pinref part="C5" gate="G$1" pin="-"/>
-<wire x1="38.1" y1="68.58" x2="38.1" y2="60.96" width="0.1524" layer="91"/>
-<junction x="38.1" y="60.96"/>
-<pinref part="D1" gate="G$1" pin="A"/>
-<junction x="45.72" y="60.96"/>
-<junction x="101.6" y="60.96"/>
-</segment>
-<segment>
-<wire x1="109.22" y1="-17.78" x2="116.84" y2="-17.78" width="0.1524" layer="91"/>
-<label x="111.76" y="-20.32" size="1.9304" layer="95"/>
+<wire x1="109.22" y1="30.48" x2="116.84" y2="30.48" width="0.1524" layer="91"/>
+<label x="111.76" y="27.94" size="1.9304" layer="95"/>
 <pinref part="J6" gate="G$1" pin="1"/>
 </segment>
 <segment>
@@ -22259,6 +22303,47 @@ Source: &lt;a href="https://psearch.en.murata.com/capacitor/product/DE2F3KY103MA
 <pinref part="J1" gate="G$1" pin="P$1"/>
 <wire x1="-63.5" y1="99.06" x2="-33.02" y2="99.06" width="0.1524" layer="91"/>
 <label x="-33.02" y="99.06" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="PS1B" gate="G$1" pin="-VO"/>
+<pinref part="D1" gate="G$1" pin="A"/>
+<wire x1="45.72" y1="60.96" x2="38.1" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="C5" gate="G$1" pin="-"/>
+<wire x1="38.1" y1="68.58" x2="38.1" y2="60.96" width="0.1524" layer="91"/>
+<junction x="38.1" y="60.96"/>
+<wire x1="38.1" y1="60.96" x2="30.48" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="C3" gate="G$1" pin="2"/>
+<wire x1="30.48" y1="68.58" x2="30.48" y2="60.96" width="0.1524" layer="91"/>
+<junction x="30.48" y="60.96"/>
+<wire x1="30.48" y1="60.96" x2="12.7" y2="60.96" width="0.1524" layer="91"/>
+<label x="20.32" y="58.42" size="1.9304" layer="95"/>
+<junction x="45.72" y="60.96"/>
+<pinref part="IC1" gate="G$1" pin="ADJ/NC"/>
+<wire x1="127" y1="71.12" x2="127" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="127" y1="60.96" x2="91.44" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="G$1" pin="GND"/>
+<wire x1="96.52" y1="73.66" x2="91.44" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="73.66" x2="91.44" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="C7" gate="G$1" pin="2"/>
+<wire x1="127" y1="60.96" x2="137.16" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="60.96" x2="137.16" y2="68.58" width="0.1524" layer="91"/>
+<junction x="91.44" y="60.96"/>
+<pinref part="C9" gate="G$1" pin="2"/>
+<wire x1="142.24" y1="68.58" x2="142.24" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="60.96" x2="137.16" y2="60.96" width="0.1524" layer="91"/>
+<junction x="137.16" y="60.96"/>
+<junction x="127" y="60.96"/>
+<pinref part="C6" gate="G$1" pin="2"/>
+<wire x1="83.82" y1="60.96" x2="91.44" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="68.58" x2="83.82" y2="60.96" width="0.1524" layer="91"/>
+<junction x="83.82" y="60.96"/>
+<label x="76.2" y="58.42" size="1.778" layer="95"/>
+<wire x1="45.72" y1="60.96" x2="83.82" y2="60.96" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="L1" gate="G$1" pin="4"/>
+<wire x1="132.08" y1="-25.4" x2="137.16" y2="-25.4" width="0.1524" layer="91"/>
+<label x="139.7" y="-25.4" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -22397,7 +22482,7 @@ Source: &lt;a href="https://psearch.en.murata.com/capacitor/product/DE2F3KY103MA
 <wire x1="-50.8" y1="63.5" x2="-50.8" y2="33.02" width="0.1524" layer="91"/>
 <junction x="-50.8" y="33.02"/>
 <label x="-55.88" y="33.02" size="1.9304" layer="95" rot="R180"/>
-<pinref part="PS2" gate="G$1" pin="AC(N)"/>
+<pinref part="PS1B" gate="G$1" pin="AC(N)"/>
 <wire x1="-50.8" y1="63.5" x2="-50.8" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="PS1" gate="G$1" pin="AC(N)"/>
 <wire x1="-50.8" y1="78.74" x2="-15.24" y2="78.74" width="0.1524" layer="91"/>
@@ -22423,33 +22508,14 @@ Source: &lt;a href="https://psearch.en.murata.com/capacitor/product/DE2F3KY103MA
 <junction x="-43.18" y="-30.48"/>
 </segment>
 <segment>
-<pinref part="U$6" gate="G$1" pin="P$1"/>
-<wire x1="-63.5" y1="104.14" x2="-5.08" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="-5.08" y1="104.14" x2="-5.08" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="C4" gate="G$1" pin="1"/>
-<wire x1="-5.08" y1="101.6" x2="5.08" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="5.08" y1="101.6" x2="12.7" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="12.7" y1="101.6" x2="17.78" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="17.78" y1="101.6" x2="17.78" y2="109.22" width="0.1524" layer="91"/>
-<junction x="5.08" y="101.6"/>
-<pinref part="U$1" gate="G$1" pin="P$2"/>
-<wire x1="17.78" y1="109.22" x2="30.48" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="P$2"/>
-<wire x1="30.48" y1="91.44" x2="17.78" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="17.78" y1="91.44" x2="17.78" y2="101.6" width="0.1524" layer="91"/>
-<junction x="17.78" y="101.6"/>
-<pinref part="C10" gate="G$1" pin="1"/>
-<junction x="12.7" y="101.6"/>
+<pinref part="U$1" gate="G$1" pin="P$3"/>
+<wire x1="63.5" y1="116.84" x2="73.66" y2="116.84" width="0.1524" layer="91"/>
+<label x="73.66" y="119.38" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="P$1"/>
-<wire x1="63.5" y1="109.22" x2="76.2" y2="109.22" width="0.1524" layer="91"/>
-<label x="76.2" y="109.22" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U$2" gate="G$1" pin="P$1"/>
-<wire x1="63.5" y1="91.44" x2="76.2" y2="91.44" width="0.1524" layer="91"/>
-<label x="76.2" y="91.44" size="1.778" layer="95"/>
+<pinref part="U$1B" gate="G$1" pin="P$3"/>
+<wire x1="63.5" y1="99.06" x2="71.12" y2="99.06" width="0.1524" layer="91"/>
+<label x="73.66" y="99.06" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="L1" class="0">
@@ -22464,7 +22530,7 @@ Source: &lt;a href="https://psearch.en.murata.com/capacitor/product/DE2F3KY103MA
 <pinref part="M1" gate="G$1" pin="1"/>
 <wire x1="-50.8" y1="14.732" x2="-50.8" y2="14.224" width="0.1524" layer="91"/>
 <junction x="-50.8" y="14.224"/>
-<pinref part="PS2" gate="G$1" pin="AC(L)"/>
+<pinref part="PS1B" gate="G$1" pin="AC(L)"/>
 <wire x1="-45.72" y1="60.96" x2="-15.24" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="-45.72" y1="60.96" x2="-45.72" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="PS1" gate="G$1" pin="AC(L)"/>
@@ -22473,14 +22539,14 @@ Source: &lt;a href="https://psearch.en.murata.com/capacitor/product/DE2F3KY103MA
 <junction x="-45.72" y="60.96"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="P$3"/>
-<wire x1="63.5" y1="116.84" x2="76.2" y2="116.84" width="0.1524" layer="91"/>
-<label x="76.2" y="116.84" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$1" pin="P$1"/>
+<wire x1="63.5" y1="109.22" x2="73.66" y2="109.22" width="0.1524" layer="91"/>
+<label x="76.2" y="109.22" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="P$3"/>
-<wire x1="63.5" y1="99.06" x2="76.2" y2="99.06" width="0.1524" layer="91"/>
-<label x="76.2" y="99.06" size="1.778" layer="95"/>
+<pinref part="U$1B" gate="G$1" pin="P$1"/>
+<wire x1="63.5" y1="91.44" x2="71.12" y2="91.44" width="0.1524" layer="91"/>
+<label x="73.66" y="91.44" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="L2" class="0">
@@ -22525,49 +22591,50 @@ Source: &lt;a href="https://psearch.en.murata.com/capacitor/product/DE2F3KY103MA
 </net>
 <net name="5V" class="0">
 <segment>
-<pinref part="J7" gate="G$1" pin="2"/>
-<wire x1="104.14" y1="0" x2="114.3" y2="0" width="0.1524" layer="91"/>
-<label x="109.22" y="0" size="1.9304" layer="95"/>
+<wire x1="109.22" y1="33.02" x2="116.84" y2="33.02" width="0.1524" layer="91"/>
+<label x="111.76" y="35.56" size="1.9304" layer="95"/>
+<pinref part="J6" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<label x="20.32" y="81.28" size="1.9304" layer="95"/>
-<pinref part="PS2" gate="G$1" pin="+VO"/>
-<wire x1="12.7" y1="63.5" x2="25.4" y2="63.5" width="0.1524" layer="91"/>
-<label x="22.86" y="63.5" size="1.9304" layer="95"/>
-<wire x1="25.4" y1="81.28" x2="25.4" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="G$1" pin="VIN"/>
+<pinref part="IC1" gate="G$1" pin="EN"/>
+<wire x1="96.52" y1="71.12" x2="88.9" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="71.12" x2="88.9" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="76.2" x2="96.52" y2="76.2" width="0.1524" layer="91"/>
+<junction x="88.9" y="76.2"/>
+<pinref part="C6" gate="G$1" pin="1"/>
+<wire x1="83.82" y1="76.2" x2="88.9" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="76.2" x2="83.82" y2="76.2" width="0.1524" layer="91"/>
+<junction x="83.82" y="76.2"/>
+<label x="73.66" y="78.74" size="1.778" layer="95"/>
 <pinref part="C3" gate="G$1" pin="1"/>
 <wire x1="30.48" y1="76.2" x2="30.48" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="81.28" x2="25.4" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="81.28" x2="38.1" y2="81.28" width="0.1524" layer="91"/>
-<junction x="30.48" y="81.28"/>
+<pinref part="PS1B" gate="G$1" pin="+VO"/>
+<wire x1="12.7" y1="63.5" x2="22.86" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="63.5" x2="22.86" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="81.28" x2="30.48" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="C5" gate="G$1" pin="+"/>
 <wire x1="38.1" y1="81.28" x2="38.1" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G$1" pin="EN"/>
-<wire x1="71.12" y1="71.12" x2="63.5" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="63.5" y1="71.12" x2="63.5" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G$1" pin="VIN"/>
-<wire x1="63.5" y1="76.2" x2="71.12" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="C6" gate="G$1" pin="1"/>
-<wire x1="58.42" y1="76.2" x2="63.5" y2="76.2" width="0.1524" layer="91"/>
-<junction x="63.5" y="76.2"/>
-<wire x1="58.42" y1="76.2" x2="55.88" y2="81.28" width="0.1524" layer="91"/>
-<junction x="58.42" y="76.2"/>
-<wire x1="55.88" y1="81.28" x2="45.72" y2="81.28" width="0.1524" layer="91"/>
-<junction x="38.1" y="81.28"/>
+<wire x1="30.48" y1="81.28" x2="38.1" y2="81.28" width="0.1524" layer="91"/>
+<junction x="30.48" y="81.28"/>
 <pinref part="D1" gate="G$1" pin="K"/>
-<wire x1="45.72" y1="81.28" x2="38.1" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="76.2" x2="45.72" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="81.28" x2="45.72" y2="81.28" width="0.1524" layer="91"/>
+<junction x="38.1" y="81.28"/>
 <junction x="45.72" y="81.28"/>
 <pinref part="PS1" gate="G$1" pin="+VO"/>
-<wire x1="12.7" y1="78.74" x2="22.86" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="78.74" x2="22.86" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="81.28" x2="25.4" y2="81.28" width="0.1524" layer="91"/>
-<junction x="25.4" y="81.28"/>
+<wire x1="12.7" y1="78.74" x2="20.32" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="78.74" x2="20.32" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="81.28" x2="22.86" y2="81.28" width="0.1524" layer="91"/>
+<junction x="22.86" y="81.28"/>
+<wire x1="45.72" y1="81.28" x2="73.66" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="81.28" x2="73.66" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="109.22" y1="-15.24" x2="116.84" y2="-15.24" width="0.1524" layer="91"/>
-<label x="111.76" y="-12.7" size="1.9304" layer="95"/>
-<pinref part="J6" gate="G$1" pin="2"/>
+<pinref part="L1" gate="G$1" pin="6"/>
+<wire x1="132.08" y1="-5.08" x2="132.08" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="-2.54" x2="137.16" y2="-2.54" width="0.1524" layer="91"/>
+<label x="139.7" y="-2.54" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -22588,27 +22655,6 @@ Source: &lt;a href="https://psearch.en.murata.com/capacitor/product/DE2F3KY103MA
 <wire x1="-50.8" y1="114.3" x2="-63.5" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$17" class="0">
-<segment>
-<pinref part="F1" gate="G$1" pin="P$1"/>
-<wire x1="-25.4" y1="106.68" x2="-2.54" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="-2.54" y1="106.68" x2="-2.54" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="C4" gate="G$1" pin="2"/>
-<wire x1="-2.54" y1="114.3" x2="5.08" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="5.08" y1="114.3" x2="12.7" y2="114.3" width="0.1524" layer="91"/>
-<junction x="5.08" y="114.3"/>
-<wire x1="12.7" y1="114.3" x2="22.86" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="114.3" x2="22.86" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="P$4"/>
-<wire x1="22.86" y1="116.84" x2="30.48" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="P$4"/>
-<wire x1="30.48" y1="99.06" x2="22.86" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="99.06" x2="22.86" y2="114.3" width="0.1524" layer="91"/>
-<junction x="22.86" y="114.3"/>
-<pinref part="C10" gate="G$1" pin="2"/>
-<junction x="12.7" y="114.3"/>
-</segment>
-</net>
 <net name="N$26" class="0">
 <segment>
 <pinref part="R13" gate="G$1" pin="1"/>
@@ -22616,7 +22662,7 @@ Source: &lt;a href="https://psearch.en.murata.com/capacitor/product/DE2F3KY103MA
 <pinref part="C8" gate="G$1" pin="1"/>
 <wire x1="60.96" y1="35.56" x2="55.88" y2="35.56" width="0.1524" layer="91"/>
 <junction x="55.88" y="35.56"/>
-<pinref part="R22" gate="G$1" pin="2"/>
+<pinref part="R9B" gate="G$1" pin="2"/>
 <pinref part="R9" gate="G$1" pin="2"/>
 <wire x1="40.64" y1="35.56" x2="35.56" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="T1" gate="G$1" pin="SEC_2"/>
@@ -22633,7 +22679,7 @@ Source: &lt;a href="https://psearch.en.murata.com/capacitor/product/DE2F3KY103MA
 <wire x1="30.48" y1="2.54" x2="30.48" y2="5.08" width="0.1524" layer="91"/>
 <pinref part="R8" gate="G$1" pin="2"/>
 <wire x1="30.48" y1="5.08" x2="35.56" y2="5.08" width="0.1524" layer="91"/>
-<pinref part="R7" gate="G$1" pin="2"/>
+<pinref part="R8B" gate="G$1" pin="2"/>
 <wire x1="35.56" y1="5.08" x2="40.64" y2="5.08" width="0.1524" layer="91"/>
 <junction x="35.56" y="5.08"/>
 <wire x1="40.64" y1="5.08" x2="48.26" y2="5.08" width="0.1524" layer="91"/>
@@ -22653,7 +22699,7 @@ Source: &lt;a href="https://psearch.en.murata.com/capacitor/product/DE2F3KY103MA
 <wire x1="35.56" y1="-30.48" x2="35.56" y2="-27.94" width="0.1524" layer="91"/>
 <pinref part="R21" gate="G$1" pin="2"/>
 <wire x1="35.56" y1="-27.94" x2="40.64" y2="-27.94" width="0.1524" layer="91"/>
-<pinref part="R20" gate="G$1" pin="2"/>
+<pinref part="R21B" gate="G$1" pin="2"/>
 <wire x1="40.64" y1="-27.94" x2="45.72" y2="-27.94" width="0.1524" layer="91"/>
 <junction x="40.64" y="-27.94"/>
 <junction x="58.42" y="-27.94"/>
@@ -22663,6 +22709,69 @@ Source: &lt;a href="https://psearch.en.murata.com/capacitor/product/DE2F3KY103MA
 <wire x1="58.42" y1="-27.94" x2="63.5" y2="-27.94" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="-27.94" x2="58.42" y2="-27.94" width="0.1524" layer="91"/>
 <junction x="45.72" y="-27.94"/>
+</segment>
+</net>
+<net name="N$18" class="0">
+<segment>
+<pinref part="J7" gate="G$1" pin="2"/>
+<wire x1="104.14" y1="0" x2="119.38" y2="0" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="0" x2="119.38" y2="-2.54" width="0.1524" layer="91"/>
+<pinref part="L1" gate="G$1" pin="1"/>
+<wire x1="119.38" y1="-2.54" x2="129.54" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="-2.54" x2="129.54" y2="-5.08" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$27" class="0">
+<segment>
+<pinref part="J7" gate="G$1" pin="1"/>
+<wire x1="104.14" y1="-2.54" x2="116.84" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="-2.54" x2="116.84" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="-5.08" x2="124.46" y2="-5.08" width="0.1524" layer="91"/>
+<pinref part="L1" gate="G$1" pin="3"/>
+<wire x1="124.46" y1="-5.08" x2="124.46" y2="-25.4" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="-25.4" x2="129.54" y2="-25.4" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$28" class="0">
+<segment>
+<pinref part="C10" gate="G$1" pin="1"/>
+<wire x1="17.78" y1="101.6" x2="12.7" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="C4" gate="G$1" pin="1"/>
+<wire x1="12.7" y1="101.6" x2="5.08" y2="101.6" width="0.1524" layer="91"/>
+<junction x="12.7" y="101.6"/>
+<wire x1="5.08" y1="101.6" x2="-22.86" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="-22.86" y1="101.6" x2="-22.86" y2="104.14" width="0.1524" layer="91"/>
+<junction x="5.08" y="101.6"/>
+<pinref part="U$6" gate="G$1" pin="P$1"/>
+<wire x1="-22.86" y1="104.14" x2="-63.5" y2="104.14" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="P$4"/>
+<wire x1="30.48" y1="116.84" x2="17.78" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="116.84" x2="17.78" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="101.6" x2="17.78" y2="99.06" width="0.1524" layer="91"/>
+<junction x="17.78" y="101.6"/>
+<pinref part="U$1B" gate="G$1" pin="P$4"/>
+<wire x1="17.78" y1="99.06" x2="30.48" y2="99.06" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$29" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="P$2"/>
+<pinref part="F1" gate="G$1" pin="P$1"/>
+<wire x1="-25.4" y1="106.68" x2="-2.54" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="-2.54" y1="106.68" x2="-2.54" y2="114.3" width="0.1524" layer="91"/>
+<pinref part="C4" gate="G$1" pin="2"/>
+<wire x1="-2.54" y1="114.3" x2="5.08" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="114.3" x2="12.7" y2="114.3" width="0.1524" layer="91"/>
+<junction x="5.08" y="114.3"/>
+<wire x1="12.7" y1="114.3" x2="22.86" y2="114.3" width="0.1524" layer="91"/>
+<pinref part="C10" gate="G$1" pin="2"/>
+<junction x="12.7" y="114.3"/>
+<wire x1="22.86" y1="109.22" x2="22.86" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="109.22" x2="22.86" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="U$1B" gate="G$1" pin="P$2"/>
+<wire x1="30.48" y1="91.44" x2="22.86" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="91.44" x2="22.86" y2="109.22" width="0.1524" layer="91"/>
+<junction x="22.86" y="109.22"/>
 </segment>
 </net>
 </nets>

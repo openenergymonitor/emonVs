@@ -43,4 +43,6 @@
 
 ## TO DO
 
+- Tent vias 
+- GND > E
 

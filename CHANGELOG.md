@@ -6,16 +6,12 @@
 
 ## V0.2
 
-**BOM V0.2**
-
 - Add 3.3V onboard reg 
 - Change AC-DC PSU, add multiple footprints 
 - Add mounting holes 
 - Add protection varistors 
 
 ## V0.3
-
-**BOM V0.2**
 
 - Move C6 to be closer to input of 3.3V vreg 
 - Fix silkscreen labels, move all text to TNames 
@@ -41,8 +37,18 @@
 - Increase input connection clearance 
 - Add footprint for smaller X2 capacitors 
 
+## V0.6
+
+- Move voltage sense voltage dividers from emonVS to emonTx 
+
+## V0.7
+
+- GND > E
+- Move to using screw terminals for AC connection due to component shortages :-(
+- Tent vias 
+
+
 ## TO DO
 
-- Tent vias 
-- GND > E
+
 

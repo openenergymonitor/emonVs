@@ -21935,7 +21935,7 @@ Source: &lt;a href="https://www.te.com/commerce/DocumentDelivery/DDEController?A
 <attribute name="NAME" x="101.6" y="25.4" size="2.54" layer="95" rot="R180" align="top-left"/>
 </instance>
 <instance part="J9" gate="G$1" x="-66.04" y="104.14" smashed="yes" rot="R180">
-<attribute name="NAME" x="-82.55" y="96.52" size="1.778" layer="95" rot="R180" align="center-left"/>
+<attribute name="NAME" x="-72.39" y="99.06" size="1.778" layer="95" rot="R180" align="center-left"/>
 <attribute name="VALUE" x="-82.55" y="99.06" size="1.778" layer="96" rot="R180" align="center-left"/>
 </instance>
 </instances>

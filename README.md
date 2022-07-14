@@ -2,6 +2,8 @@
 
 Three phase AC Voltage Sensor and Power Supply for emonTx V4 / emonPi V2
 
+![emonVS.jpg](emonVS.jpg)
+
 # RJ11 
 
 The RJ11 connector is used to connect the AC voltage sensor output to the emonTx V4, the emonTx V4 / emonPi V2 are also powered by the RJ11 connector. 

@@ -47,6 +47,11 @@
 - Move to using screw terminals for AC connection due to component shortages :-(
 - Tent vias 
 
+## V1.0
+
+- Tidy up and bump version for production 
+- Silkscreen and clearance improvements
+
 
 ## TO DO
 

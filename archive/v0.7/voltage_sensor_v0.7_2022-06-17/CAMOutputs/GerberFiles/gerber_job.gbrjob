@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2022-06-17T18:50:53Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.6.2"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.67,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "voltage_sensor_v0.7"
+        },
+        "Owner": "Glyn Hudson <glyn.hudson@gmail.com>",
+        "Size": {
+            "X": 73,
+            "Y": 113
+        }
+    }
+}

@@ -53,7 +53,9 @@
 - Silkscreen and clearance improvements
 
 
-## TO DO
+## V1.1
+
+- Fix milling 
 
 
 

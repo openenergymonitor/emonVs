@@ -229,7 +229,7 @@
 Output
 RJ11
 6P6C</text>
-<text x="19.432" y="98.356" size="1.27" layer="25" font="vector" ratio="20" rot="R180">V1.0</text>
+<text x="19.432" y="98.356" size="1.27" layer="25" font="vector" ratio="20" rot="R180">V1.1</text>
 <text x="43.627" y="105.959" size="2.1844" layer="25" font="vector" ratio="20" distance="15">E</text>
 <hole x="56.5" y="6.5" drill="3" locked="yes"/>
 <hole x="56.5" y="113.5" drill="3" locked="yes"/>
@@ -2919,9 +2919,9 @@ power supply</text>
 <wire x1="26.416" y1="20.955" x2="36.83" y2="20.955" width="0.3048" layer="21"/>
 <text x="31.54" y="26.158" size="1.778" layer="25" font="vector" ratio="20">J8</text>
 <wire x1="41.275" y1="109.728" x2="42.164" y2="109.728" width="0.254" layer="46"/>
-<wire x1="42.164" y1="109.728" x2="42.164" y2="87.884" width="0.254" layer="46"/>
-<wire x1="42.164" y1="87.884" x2="41.275" y2="87.884" width="0.254" layer="46"/>
-<wire x1="41.275" y1="87.884" x2="41.275" y2="109.728" width="0.254" layer="46"/>
+<wire x1="42.164" y1="109.728" x2="42.164" y2="91.44" width="0.254" layer="46"/>
+<wire x1="42.164" y1="91.44" x2="41.275" y2="91.44" width="0.254" layer="46"/>
+<wire x1="41.275" y1="91.44" x2="41.275" y2="109.728" width="0.254" layer="46"/>
 </plain>
 <libraries>
 <library name="ZMPT101B">
@@ -6139,11 +6139,11 @@ Created by Upverter.com</description>
 <wire x1="61.976" y1="82.804" x2="65.92" y2="86.748" width="1.27" layer="16"/>
 <wire x1="65.92" y1="86.748" x2="65.92" y2="87.568" width="1.27" layer="16"/>
 <contactref element="J9" pad="2"/>
-<wire x1="39.488" y1="98.566" x2="39.488" y2="92.084" width="1.27" layer="16"/>
-<wire x1="39.488" y1="92.084" x2="40.64" y2="90.932" width="1.27" layer="16"/>
-<wire x1="40.64" y1="90.932" x2="46.228" y2="90.932" width="1.27" layer="16"/>
-<wire x1="46.228" y1="90.932" x2="54.61" y2="99.314" width="1.27" layer="16"/>
-<wire x1="54.61" y1="99.314" x2="62.865" y2="99.314" width="1.27" layer="16"/>
+<wire x1="39.488" y1="98.566" x2="39.488" y2="90.56" width="1.27" layer="16"/>
+<wire x1="39.488" y1="90.56" x2="41.91" y2="88.138" width="1.27" layer="16"/>
+<wire x1="41.91" y1="88.138" x2="44.831" y2="88.138" width="1.27" layer="16"/>
+<wire x1="44.831" y1="88.138" x2="56.007" y2="99.314" width="1.27" layer="16"/>
+<wire x1="56.007" y1="99.314" x2="62.865" y2="99.314" width="1.27" layer="16"/>
 <wire x1="67.26" y1="94.919" x2="67.26" y2="91.298" width="1.27" layer="16"/>
 <wire x1="62.865" y1="99.314" x2="67.26" y2="94.919" width="1.27" layer="16"/>
 </signal>

@@ -56,6 +56,7 @@
 ## V1.1
 
 - Fix milling 
+- V1.1 rev2: minor silkscreen and pad size tweaks for production
 
 
 

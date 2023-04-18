@@ -59,4 +59,13 @@
 - V1.1 rev2: minor silkscreen and pad size tweaks for production
 
 
+## V1.2
 
+- Signal and power output connector changed from RJ11 to RJ45.
+
+
+## V1.3
+
+- General improvements to schematic symbols organization and aesthetics.
+- Phase L1 MOV removed from the output choke (L1) and placed on the input.
+  In this way, protecting the cooke input capacitor and building a classic "common mode surge suppression" topology.

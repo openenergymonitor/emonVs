@@ -27,7 +27,7 @@ An emonBase can be powered using a open-ended USB-C connector wired into the 5V 
 **Max: 5V 2A**
 
 ## Schematic Preview 
-<p align="center"><a href="https://github.com/TiagoPaulaSilva/emonVoltageSense/blob/main/1.3/emonVS.pdf"><img src="https://github.com/TiagoPaulaSilva/emonVoltageSense/blob/main/1.3/assets/schematic_preview.png"  title="Schematic Preview" alt="PDF Download"></a></p>
+<p align="center"><a href="1.3/emonVS.pdf"><img src="1.3/assets/schematic_preview.png"  title="Schematic Preview" alt="PDF Download"></a></p>
 
 ## Bill of Materials
 | Qty | Designator | Description | PN |

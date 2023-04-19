@@ -365,7 +365,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="SCHOTTKY-" urn="urn:adsk.eagle:component:35512100/9" prefix="D" library_version="15">
+<deviceset name="SCHOTTKY-" urn="urn:adsk.eagle:component:35512100/9" locally_modified="yes" prefix="D" library_version="15" library_locally_modified="yes">
 <gates>
 <gate name="G$1" symbol="SCHOTTKY" x="0" y="0"/>
 </gates>
@@ -501,7 +501,10 @@
 <package3dinstance package3d_urn="urn:adsk.eagle:package:35541124/5"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="FAMILY" value="SMBJ7.0A" constant="no"/>
+<attribute name="PN" value="SMBJ7.0A" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -3832,7 +3835,7 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 <schematic_group name="VOLTAGE_MEASUREMENT_PHASE_1" titleSize="2.54" layer="95"/>
 <schematic_group name="VOLTAGE_MEASUREMENT_PHASE_2" titleSize="2.54" layer="95"/>
 <schematic_group name="VOLTAGE_MEASUREMENT_PHASE_3" titleSize="2.54" layer="95"/>
-<schematic_group name="THREE_PHASE_AC_NETWORK_INTERFACE" titleSize="2.54" layer="95"/>
+<schematic_group name="THREE_PHASES_AC_NETWORK_INTERFACE" titleSize="2.54" layer="95"/>
 <schematic_group name="EMBEDDED_POWER_SUPPLY" titleSize="2.54" layer="95"/>
 <schematic_group name="OUTPUT_SIGNALS_AND_SUUPPLY" titleSize="2.54" layer="95"/>
 </groups>
@@ -3901,11 +3904,11 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 <sheet>
 <description>Complete Schematic</description>
 <plain>
-<wire x1="34.29" y1="168.91" x2="34.29" y2="122.555" width="0.1524" layer="137" style="shortdash" grouprefs="THREE_PHASE_AC_NETWORK_INTERFACE"/>
-<wire x1="34.29" y1="122.555" x2="73.025" y2="122.555" width="0.1524" layer="137" style="shortdash" grouprefs="THREE_PHASE_AC_NETWORK_INTERFACE"/>
-<wire x1="73.025" y1="122.555" x2="73.025" y2="168.91" width="0.1524" layer="137" style="shortdash" grouprefs="THREE_PHASE_AC_NETWORK_INTERFACE"/>
-<wire x1="73.025" y1="168.91" x2="34.29" y2="168.91" width="0.1524" layer="137" style="shortdash" grouprefs="THREE_PHASE_AC_NETWORK_INTERFACE"/>
-<text x="53.34" y="170.815" size="1.6764" layer="137" align="center" grouprefs="THREE_PHASE_AC_NETWORK_INTERFACE">common mode surge suppression</text>
+<wire x1="34.29" y1="168.91" x2="34.29" y2="122.555" width="0.1524" layer="137" style="shortdash" grouprefs="THREE_PHASES_AC_NETWORK_INTERFACE"/>
+<wire x1="34.29" y1="122.555" x2="73.025" y2="122.555" width="0.1524" layer="137" style="shortdash" grouprefs="THREE_PHASES_AC_NETWORK_INTERFACE"/>
+<wire x1="73.025" y1="122.555" x2="73.025" y2="168.91" width="0.1524" layer="137" style="shortdash" grouprefs="THREE_PHASES_AC_NETWORK_INTERFACE"/>
+<wire x1="73.025" y1="168.91" x2="34.29" y2="168.91" width="0.1524" layer="137" style="shortdash" grouprefs="THREE_PHASES_AC_NETWORK_INTERFACE"/>
+<text x="53.34" y="170.815" size="1.6764" layer="137" align="center" grouprefs="THREE_PHASES_AC_NETWORK_INTERFACE">common mode surge suppression</text>
 </plain>
 <instances>
 <instance part="T1" gate="G$1" x="67.31" y="88.9" smashed="yes" grouprefs="VOLTAGE_MEASUREMENT_PHASE_1">
@@ -3995,30 +3998,30 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 <attribute name="NAME" x="29.21" y="28.8036" size="1.27" layer="95" rot="MR0" align="center"/>
 <attribute name="VALUE" x="29.21" y="24.765" size="1.27" layer="96" rot="MR0" align="center"/>
 </instance>
-<instance part="F2" gate="G$1" x="26.67" y="151.765" smashed="yes" rot="R180" grouprefs="THREE_PHASE_AC_NETWORK_INTERFACE">
+<instance part="F2" gate="G$1" x="26.67" y="151.765" smashed="yes" rot="R180" grouprefs="THREE_PHASES_AC_NETWORK_INTERFACE">
 <attribute name="NAME" x="26.67" y="153.9875" size="1.27" layer="95" rot="R180" align="center"/>
 <attribute name="FAMILY" x="26.67" y="147.8915" size="1.27" layer="96" rot="R180" align="center"/>
 <attribute name="VALUE" x="26.67" y="149.7965" size="1.27" layer="96" rot="R180" align="center"/>
 </instance>
-<instance part="F1" gate="G$1" x="26.67" y="141.605" smashed="yes" rot="R180" grouprefs="THREE_PHASE_AC_NETWORK_INTERFACE">
+<instance part="F1" gate="G$1" x="26.67" y="141.605" smashed="yes" rot="R180" grouprefs="THREE_PHASES_AC_NETWORK_INTERFACE">
 <attribute name="NAME" x="26.67" y="143.8275" size="1.27" layer="95" rot="R180" align="center"/>
 <attribute name="FAMILY" x="26.67" y="137.7315" size="1.27" layer="96" rot="R180" align="center"/>
 <attribute name="VALUE" x="26.67" y="139.6365" size="1.27" layer="96" rot="R180" align="center"/>
 </instance>
-<instance part="F3" gate="G$1" x="26.67" y="163.195" smashed="yes" rot="R180" grouprefs="THREE_PHASE_AC_NETWORK_INTERFACE">
+<instance part="F3" gate="G$1" x="26.67" y="163.195" smashed="yes" rot="R180" grouprefs="THREE_PHASES_AC_NETWORK_INTERFACE">
 <attribute name="NAME" x="26.67" y="165.4175" size="1.27" layer="95" rot="R180" align="center"/>
 <attribute name="FAMILY" x="26.67" y="159.3215" size="1.27" layer="96" rot="R180" align="center"/>
 <attribute name="VALUE" x="26.67" y="161.2265" size="1.27" layer="96" rot="R180" align="center"/>
 </instance>
-<instance part="RV1" gate="G$1" x="40.64" y="133.35" smashed="yes" rot="MR0" grouprefs="THREE_PHASE_AC_NETWORK_INTERFACE">
+<instance part="RV1" gate="G$1" x="40.64" y="133.35" smashed="yes" rot="MR0" grouprefs="THREE_PHASES_AC_NETWORK_INTERFACE">
 <attribute name="NAME" x="36.576" y="133.35" size="1.27" layer="95" rot="MR90" align="center"/>
 <attribute name="VALUE" x="44.704" y="133.35" size="1.27" layer="96" rot="MR90" align="center"/>
 </instance>
-<instance part="RV2" gate="G$1" x="53.34" y="133.985" smashed="yes" rot="MR0" grouprefs="THREE_PHASE_AC_NETWORK_INTERFACE">
+<instance part="RV2" gate="G$1" x="53.34" y="133.985" smashed="yes" rot="MR0" grouprefs="THREE_PHASES_AC_NETWORK_INTERFACE">
 <attribute name="NAME" x="49.276" y="133.985" size="1.27" layer="95" rot="MR90" align="center"/>
 <attribute name="VALUE" x="57.404" y="133.985" size="1.27" layer="96" rot="MR90" align="center"/>
 </instance>
-<instance part="RV3" gate="G$1" x="66.04" y="133.985" smashed="yes" rot="MR0" grouprefs="THREE_PHASE_AC_NETWORK_INTERFACE">
+<instance part="RV3" gate="G$1" x="66.04" y="133.985" smashed="yes" rot="MR0" grouprefs="THREE_PHASES_AC_NETWORK_INTERFACE">
 <attribute name="NAME" x="61.976" y="133.985" size="1.27" layer="95" rot="MR90" align="center"/>
 <attribute name="VALUE" x="70.104" y="133.985" size="1.27" layer="96" rot="MR90" align="center"/>
 </instance>
@@ -4034,6 +4037,7 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 </instance>
 <instance part="D1" gate="G$1" x="249.555" y="151.13" smashed="yes" rot="R90" grouprefs="EMBEDDED_POWER_SUPPLY">
 <attribute name="NAME" x="247.015" y="151.13" size="1.27" layer="95" rot="R90" align="center"/>
+<attribute name="FAMILY" x="251.714" y="151.13" size="1.27" layer="96" rot="R90" align="center"/>
 </instance>
 <instance part="FD1" gate="G$1" x="149.225" y="3.175" smashed="yes" rot="R90"/>
 <instance part="FD2" gate="G$1" x="154.305" y="3.175" smashed="yes" rot="R90"/>
@@ -4051,26 +4055,26 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 <instance part="SJ3" gate="1" x="187.325" y="86.36" smashed="yes" grouprefs="OUTPUT_SIGNALS_AND_SUUPPLY">
 <attribute name="NAME" x="187.325" y="83.82" size="1.27" layer="95" align="center"/>
 </instance>
-<instance part="CN1" gate="-1" x="15.875" y="114.935" smashed="yes" grouprefs="THREE_PHASE_AC_NETWORK_INTERFACE">
+<instance part="CN1" gate="-1" x="15.875" y="114.935" smashed="yes" grouprefs="THREE_PHASES_AC_NETWORK_INTERFACE">
 <attribute name="NAME" x="12.7" y="114.935" size="1.27" layer="95" rot="R180" align="center-left"/>
 </instance>
-<instance part="CN1" gate="-2" x="15.875" y="125.095" smashed="yes" grouprefs="THREE_PHASE_AC_NETWORK_INTERFACE">
+<instance part="CN1" gate="-2" x="15.875" y="125.095" smashed="yes" grouprefs="THREE_PHASES_AC_NETWORK_INTERFACE">
 <attribute name="NAME" x="12.7" y="125.095" size="1.27" layer="95" rot="R180" align="center-left"/>
 </instance>
-<instance part="CN1" gate="-3" x="15.875" y="141.605" smashed="yes" grouprefs="THREE_PHASE_AC_NETWORK_INTERFACE">
+<instance part="CN1" gate="-3" x="15.875" y="141.605" smashed="yes" grouprefs="THREE_PHASES_AC_NETWORK_INTERFACE">
 <attribute name="NAME" x="12.7" y="141.605" size="1.27" layer="95" rot="R180" align="center-left"/>
 </instance>
-<instance part="CN1" gate="-4" x="15.875" y="151.765" smashed="yes" grouprefs="THREE_PHASE_AC_NETWORK_INTERFACE">
+<instance part="CN1" gate="-4" x="15.875" y="151.765" smashed="yes" grouprefs="THREE_PHASES_AC_NETWORK_INTERFACE">
 <attribute name="NAME" x="12.7" y="151.765" size="1.27" layer="95" rot="R180" align="center-left"/>
 </instance>
-<instance part="CN1" gate="-5" x="15.875" y="163.195" smashed="yes" grouprefs="THREE_PHASE_AC_NETWORK_INTERFACE">
+<instance part="CN1" gate="-5" x="15.875" y="163.195" smashed="yes" grouprefs="THREE_PHASES_AC_NETWORK_INTERFACE">
 <attribute name="NAME" x="12.7" y="163.195" size="1.27" layer="95" rot="R180" align="center-left"/>
 </instance>
-<instance part="C3" gate="G$1" x="80.01" y="134.62" smashed="yes" grouprefs="THREE_PHASE_AC_NETWORK_INTERFACE">
+<instance part="C3" gate="G$1" x="80.01" y="134.62" smashed="yes" grouprefs="THREE_PHASES_AC_NETWORK_INTERFACE">
 <attribute name="NAME" x="76.8985" y="133.2738" size="1.27" layer="95" rot="R90" align="center"/>
 <attribute name="VALUE" x="83.185" y="133.2484" size="1.27" layer="96" rot="R90" align="center"/>
 </instance>
-<instance part="L1" gate="G$1" x="99.695" y="133.35" smashed="yes" grouprefs="THREE_PHASE_AC_NETWORK_INTERFACE">
+<instance part="L1" gate="G$1" x="99.695" y="133.35" smashed="yes" grouprefs="THREE_PHASES_AC_NETWORK_INTERFACE">
 <attribute name="NAME" x="99.695" y="137.5156" size="1.27" layer="95" rot="R180" align="center"/>
 <attribute name="VALUE" x="99.695" y="129.2606" size="1.27" layer="96" rot="R180" align="center"/>
 </instance>
@@ -4110,7 +4114,7 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 <instance part="SUPPLY3" gate="G$1" x="78.105" y="76.2" smashed="yes" grouprefs="VOLTAGE_MEASUREMENT_PHASE_1"/>
 <instance part="SUPPLY4" gate="G$1" x="78.105" y="40.64" smashed="yes" grouprefs="VOLTAGE_MEASUREMENT_PHASE_2"/>
 <instance part="SUPPLY5" gate="G$1" x="78.105" y="6.985" smashed="yes" grouprefs="VOLTAGE_MEASUREMENT_PHASE_3"/>
-<instance part="SUPPLY6" gate="G$1" x="59.69" y="110.49" smashed="yes" grouprefs="THREE_PHASE_AC_NETWORK_INTERFACE"/>
+<instance part="SUPPLY6" gate="G$1" x="59.69" y="110.49" smashed="yes" grouprefs="THREE_PHASES_AC_NETWORK_INTERFACE"/>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
 <instance part="FRAME1" gate="G$2" x="162.56" y="0" smashed="yes">
 <attribute name="LAST_DATE_TIME" x="175.26" y="1.27" size="2.54" layer="94"/>
@@ -4278,11 +4282,11 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 <wire x1="24.13" y1="11.43" x2="21.59" y2="11.43" width="0.1524" layer="91" grouprefs="VOLTAGE_MEASUREMENT_PHASE_3"/>
 </segment>
 <segment>
-<label x="114.3" y="125.095" size="1.27" layer="95" xref="yes" grouprefs="THREE_PHASE_AC_NETWORK_INTERFACE"/>
+<label x="114.3" y="125.095" size="1.27" layer="95" xref="yes" grouprefs="THREE_PHASES_AC_NETWORK_INTERFACE"/>
 <pinref part="L1" gate="G$1" pin="4"/>
-<wire x1="106.045" y1="130.81" x2="109.22" y2="130.81" width="0.1524" layer="91" grouprefs="THREE_PHASE_AC_NETWORK_INTERFACE"/>
-<wire x1="114.3" y1="125.095" x2="109.22" y2="125.095" width="0.1524" layer="91" grouprefs="THREE_PHASE_AC_NETWORK_INTERFACE"/>
-<wire x1="109.22" y1="125.095" x2="109.22" y2="130.81" width="0.1524" layer="91" grouprefs="THREE_PHASE_AC_NETWORK_INTERFACE"/>
+<wire x1="106.045" y1="130.81" x2="109.22" y2="130.81" width="0.1524" layer="91" grouprefs="THREE_PHASES_AC_NETWORK_INTERFACE"/>
+<wire x1="114.3" y1="125.095" x2="109.22" y2="125.095" width="0.1524" layer="91" grouprefs="THREE_PHASES_AC_NETWORK_INTERFACE"/>
+<wire x1="109.22" y1="125.095" x2="109.22" y2="130.81" width="0.1524" layer="91" grouprefs="THREE_PHASES_AC_NETWORK_INTERFACE"/>
 </segment>
 <segment>
 <pinref part="PS1" gate="G$1" pin="AC(N)"/>
@@ -4297,11 +4301,11 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 <label x="21.59" y="96.52" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="VOLTAGE_MEASUREMENT_PHASE_1"/>
 </segment>
 <segment>
-<label x="114.3" y="141.605" size="1.27" layer="95" xref="yes" grouprefs="THREE_PHASE_AC_NETWORK_INTERFACE"/>
+<label x="114.3" y="141.605" size="1.27" layer="95" xref="yes" grouprefs="THREE_PHASES_AC_NETWORK_INTERFACE"/>
 <pinref part="L1" gate="G$1" pin="2"/>
-<wire x1="106.045" y1="135.89" x2="109.22" y2="135.89" width="0.1524" layer="91" grouprefs="THREE_PHASE_AC_NETWORK_INTERFACE"/>
-<wire x1="109.22" y1="135.89" x2="109.22" y2="141.605" width="0.1524" layer="91" grouprefs="THREE_PHASE_AC_NETWORK_INTERFACE"/>
-<wire x1="109.22" y1="141.605" x2="114.3" y2="141.605" width="0.1524" layer="91" grouprefs="THREE_PHASE_AC_NETWORK_INTERFACE"/>
+<wire x1="106.045" y1="135.89" x2="109.22" y2="135.89" width="0.1524" layer="91" grouprefs="THREE_PHASES_AC_NETWORK_INTERFACE"/>
+<wire x1="109.22" y1="135.89" x2="109.22" y2="141.605" width="0.1524" layer="91" grouprefs="THREE_PHASES_AC_NETWORK_INTERFACE"/>
+<wire x1="109.22" y1="141.605" x2="114.3" y2="141.605" width="0.1524" layer="91" grouprefs="THREE_PHASES_AC_NETWORK_INTERFACE"/>
 </segment>
 <segment>
 <pinref part="PS1" gate="G$1" pin="AC(L)"/>
@@ -4317,12 +4321,12 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 </segment>
 <segment>
 <pinref part="F2" gate="G$1" pin="1"/>
-<label x="114.3" y="151.765" size="1.27" layer="95" xref="yes" grouprefs="THREE_PHASE_AC_NETWORK_INTERFACE"/>
-<wire x1="31.75" y1="151.765" x2="53.34" y2="151.765" width="0.1524" layer="91" grouprefs="THREE_PHASE_AC_NETWORK_INTERFACE"/>
+<label x="114.3" y="151.765" size="1.27" layer="95" xref="yes" grouprefs="THREE_PHASES_AC_NETWORK_INTERFACE"/>
+<wire x1="31.75" y1="151.765" x2="53.34" y2="151.765" width="0.1524" layer="91" grouprefs="THREE_PHASES_AC_NETWORK_INTERFACE"/>
 <pinref part="RV2" gate="G$1" pin="2"/>
-<wire x1="53.34" y1="151.765" x2="114.3" y2="151.765" width="0.1524" layer="91" grouprefs="THREE_PHASE_AC_NETWORK_INTERFACE"/>
-<wire x1="53.34" y1="140.335" x2="53.34" y2="151.765" width="0.1524" layer="91" grouprefs="THREE_PHASE_AC_NETWORK_INTERFACE"/>
-<junction x="53.34" y="151.765" grouprefs="THREE_PHASE_AC_NETWORK_INTERFACE"/>
+<wire x1="53.34" y1="151.765" x2="114.3" y2="151.765" width="0.1524" layer="91" grouprefs="THREE_PHASES_AC_NETWORK_INTERFACE"/>
+<wire x1="53.34" y1="140.335" x2="53.34" y2="151.765" width="0.1524" layer="91" grouprefs="THREE_PHASES_AC_NETWORK_INTERFACE"/>
+<junction x="53.34" y="151.765" grouprefs="THREE_PHASES_AC_NETWORK_INTERFACE"/>
 </segment>
 </net>
 <net name="L3_VOLTAGE" class="0">
@@ -4333,75 +4337,75 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 </segment>
 <segment>
 <pinref part="F3" gate="G$1" pin="1"/>
-<label x="114.3" y="163.195" size="1.27" layer="95" xref="yes" grouprefs="THREE_PHASE_AC_NETWORK_INTERFACE"/>
-<wire x1="31.75" y1="163.195" x2="66.04" y2="163.195" width="0.1524" layer="91" grouprefs="THREE_PHASE_AC_NETWORK_INTERFACE"/>
+<label x="114.3" y="163.195" size="1.27" layer="95" xref="yes" grouprefs="THREE_PHASES_AC_NETWORK_INTERFACE"/>
+<wire x1="31.75" y1="163.195" x2="66.04" y2="163.195" width="0.1524" layer="91" grouprefs="THREE_PHASES_AC_NETWORK_INTERFACE"/>
 <pinref part="RV3" gate="G$1" pin="2"/>
-<wire x1="66.04" y1="163.195" x2="114.3" y2="163.195" width="0.1524" layer="91" grouprefs="THREE_PHASE_AC_NETWORK_INTERFACE"/>
-<wire x1="66.04" y1="140.335" x2="66.04" y2="163.195" width="0.1524" layer="91" grouprefs="THREE_PHASE_AC_NETWORK_INTERFACE"/>
-<junction x="66.04" y="163.195" grouprefs="THREE_PHASE_AC_NETWORK_INTERFACE"/>
+<wire x1="66.04" y1="163.195" x2="114.3" y2="163.195" width="0.1524" layer="91" grouprefs="THREE_PHASES_AC_NETWORK_INTERFACE"/>
+<wire x1="66.04" y1="140.335" x2="66.04" y2="163.195" width="0.1524" layer="91" grouprefs="THREE_PHASES_AC_NETWORK_INTERFACE"/>
+<junction x="66.04" y="163.195" grouprefs="THREE_PHASES_AC_NETWORK_INTERFACE"/>
 </segment>
 </net>
 <net name="N$16" class="0">
 <segment>
 <pinref part="F3" gate="G$1" pin="2"/>
-<wire x1="18.415" y1="163.195" x2="21.59" y2="163.195" width="0.1524" layer="91" grouprefs="THREE_PHASE_AC_NETWORK_INTERFACE"/>
+<wire x1="18.415" y1="163.195" x2="21.59" y2="163.195" width="0.1524" layer="91" grouprefs="THREE_PHASES_AC_NETWORK_INTERFACE"/>
 <pinref part="CN1" gate="-5" pin="P$1"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
 <pinref part="F1" gate="G$1" pin="2"/>
-<wire x1="18.415" y1="141.605" x2="21.59" y2="141.605" width="0.1524" layer="91" grouprefs="THREE_PHASE_AC_NETWORK_INTERFACE"/>
+<wire x1="18.415" y1="141.605" x2="21.59" y2="141.605" width="0.1524" layer="91" grouprefs="THREE_PHASES_AC_NETWORK_INTERFACE"/>
 <pinref part="CN1" gate="-3" pin="P$1"/>
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
 <pinref part="F2" gate="G$1" pin="2"/>
-<wire x1="18.415" y1="151.765" x2="21.59" y2="151.765" width="0.1524" layer="91" grouprefs="THREE_PHASE_AC_NETWORK_INTERFACE"/>
+<wire x1="18.415" y1="151.765" x2="21.59" y2="151.765" width="0.1524" layer="91" grouprefs="THREE_PHASES_AC_NETWORK_INTERFACE"/>
 <pinref part="CN1" gate="-4" pin="P$1"/>
 </segment>
 </net>
 <net name="N$28" class="0">
 <segment>
-<wire x1="90.17" y1="125.095" x2="80.01" y2="125.095" width="0.1524" layer="91" grouprefs="THREE_PHASE_AC_NETWORK_INTERFACE"/>
+<wire x1="90.17" y1="125.095" x2="80.01" y2="125.095" width="0.1524" layer="91" grouprefs="THREE_PHASES_AC_NETWORK_INTERFACE"/>
 <pinref part="CN1" gate="-2" pin="P$1"/>
 <pinref part="C3" gate="G$1" pin="2"/>
-<wire x1="80.01" y1="125.095" x2="66.04" y2="125.095" width="0.1524" layer="91" grouprefs="THREE_PHASE_AC_NETWORK_INTERFACE"/>
-<wire x1="66.04" y1="125.095" x2="53.34" y2="125.095" width="0.1524" layer="91" grouprefs="THREE_PHASE_AC_NETWORK_INTERFACE"/>
-<wire x1="53.34" y1="125.095" x2="40.64" y2="125.095" width="0.1524" layer="91" grouprefs="THREE_PHASE_AC_NETWORK_INTERFACE"/>
-<wire x1="40.64" y1="125.095" x2="18.415" y2="125.095" width="0.1524" layer="91" grouprefs="THREE_PHASE_AC_NETWORK_INTERFACE"/>
-<wire x1="80.01" y1="129.54" x2="80.01" y2="125.095" width="0.1524" layer="91" grouprefs="THREE_PHASE_AC_NETWORK_INTERFACE"/>
-<junction x="80.01" y="125.095" grouprefs="THREE_PHASE_AC_NETWORK_INTERFACE"/>
+<wire x1="80.01" y1="125.095" x2="66.04" y2="125.095" width="0.1524" layer="91" grouprefs="THREE_PHASES_AC_NETWORK_INTERFACE"/>
+<wire x1="66.04" y1="125.095" x2="53.34" y2="125.095" width="0.1524" layer="91" grouprefs="THREE_PHASES_AC_NETWORK_INTERFACE"/>
+<wire x1="53.34" y1="125.095" x2="40.64" y2="125.095" width="0.1524" layer="91" grouprefs="THREE_PHASES_AC_NETWORK_INTERFACE"/>
+<wire x1="40.64" y1="125.095" x2="18.415" y2="125.095" width="0.1524" layer="91" grouprefs="THREE_PHASES_AC_NETWORK_INTERFACE"/>
+<wire x1="80.01" y1="129.54" x2="80.01" y2="125.095" width="0.1524" layer="91" grouprefs="THREE_PHASES_AC_NETWORK_INTERFACE"/>
+<junction x="80.01" y="125.095" grouprefs="THREE_PHASES_AC_NETWORK_INTERFACE"/>
 <pinref part="L1" gate="G$1" pin="3"/>
-<wire x1="93.345" y1="130.81" x2="90.17" y2="130.81" width="0.1524" layer="91" grouprefs="THREE_PHASE_AC_NETWORK_INTERFACE"/>
-<wire x1="90.17" y1="130.81" x2="90.17" y2="125.095" width="0.1524" layer="91" grouprefs="THREE_PHASE_AC_NETWORK_INTERFACE"/>
+<wire x1="93.345" y1="130.81" x2="90.17" y2="130.81" width="0.1524" layer="91" grouprefs="THREE_PHASES_AC_NETWORK_INTERFACE"/>
+<wire x1="90.17" y1="130.81" x2="90.17" y2="125.095" width="0.1524" layer="91" grouprefs="THREE_PHASES_AC_NETWORK_INTERFACE"/>
 <pinref part="RV1" gate="G$1" pin="1"/>
-<wire x1="40.64" y1="127" x2="40.64" y2="125.095" width="0.1524" layer="91" grouprefs="THREE_PHASE_AC_NETWORK_INTERFACE"/>
-<junction x="40.64" y="125.095" grouprefs="THREE_PHASE_AC_NETWORK_INTERFACE"/>
+<wire x1="40.64" y1="127" x2="40.64" y2="125.095" width="0.1524" layer="91" grouprefs="THREE_PHASES_AC_NETWORK_INTERFACE"/>
+<junction x="40.64" y="125.095" grouprefs="THREE_PHASES_AC_NETWORK_INTERFACE"/>
 <pinref part="RV2" gate="G$1" pin="1"/>
-<wire x1="53.34" y1="127.635" x2="53.34" y2="125.095" width="0.1524" layer="91" grouprefs="THREE_PHASE_AC_NETWORK_INTERFACE"/>
-<junction x="53.34" y="125.095" grouprefs="THREE_PHASE_AC_NETWORK_INTERFACE"/>
+<wire x1="53.34" y1="127.635" x2="53.34" y2="125.095" width="0.1524" layer="91" grouprefs="THREE_PHASES_AC_NETWORK_INTERFACE"/>
+<junction x="53.34" y="125.095" grouprefs="THREE_PHASES_AC_NETWORK_INTERFACE"/>
 <pinref part="RV3" gate="G$1" pin="1"/>
-<wire x1="66.04" y1="127.635" x2="66.04" y2="125.095" width="0.1524" layer="91" grouprefs="THREE_PHASE_AC_NETWORK_INTERFACE"/>
-<junction x="66.04" y="125.095" grouprefs="THREE_PHASE_AC_NETWORK_INTERFACE"/>
+<wire x1="66.04" y1="127.635" x2="66.04" y2="125.095" width="0.1524" layer="91" grouprefs="THREE_PHASES_AC_NETWORK_INTERFACE"/>
+<junction x="66.04" y="125.095" grouprefs="THREE_PHASES_AC_NETWORK_INTERFACE"/>
 </segment>
 </net>
 <net name="N$29" class="0">
 <segment>
 <pinref part="F1" gate="G$1" pin="1"/>
-<wire x1="31.75" y1="141.605" x2="40.64" y2="141.605" width="0.1524" layer="91" grouprefs="THREE_PHASE_AC_NETWORK_INTERFACE"/>
-<wire x1="40.64" y1="141.605" x2="80.01" y2="141.605" width="0.1524" layer="91" grouprefs="THREE_PHASE_AC_NETWORK_INTERFACE"/>
-<wire x1="80.01" y1="141.605" x2="90.17" y2="141.605" width="0.1524" layer="91" grouprefs="THREE_PHASE_AC_NETWORK_INTERFACE"/>
+<wire x1="31.75" y1="141.605" x2="40.64" y2="141.605" width="0.1524" layer="91" grouprefs="THREE_PHASES_AC_NETWORK_INTERFACE"/>
+<wire x1="40.64" y1="141.605" x2="80.01" y2="141.605" width="0.1524" layer="91" grouprefs="THREE_PHASES_AC_NETWORK_INTERFACE"/>
+<wire x1="80.01" y1="141.605" x2="90.17" y2="141.605" width="0.1524" layer="91" grouprefs="THREE_PHASES_AC_NETWORK_INTERFACE"/>
 <pinref part="C3" gate="G$1" pin="1"/>
-<wire x1="80.01" y1="137.16" x2="80.01" y2="141.605" width="0.1524" layer="91" grouprefs="THREE_PHASE_AC_NETWORK_INTERFACE"/>
-<junction x="80.01" y="141.605" grouprefs="THREE_PHASE_AC_NETWORK_INTERFACE"/>
+<wire x1="80.01" y1="137.16" x2="80.01" y2="141.605" width="0.1524" layer="91" grouprefs="THREE_PHASES_AC_NETWORK_INTERFACE"/>
+<junction x="80.01" y="141.605" grouprefs="THREE_PHASES_AC_NETWORK_INTERFACE"/>
 <pinref part="L1" gate="G$1" pin="1"/>
-<wire x1="93.345" y1="135.89" x2="90.17" y2="135.89" width="0.1524" layer="91" grouprefs="THREE_PHASE_AC_NETWORK_INTERFACE"/>
-<wire x1="90.17" y1="135.89" x2="90.17" y2="141.605" width="0.1524" layer="91" grouprefs="THREE_PHASE_AC_NETWORK_INTERFACE"/>
+<wire x1="93.345" y1="135.89" x2="90.17" y2="135.89" width="0.1524" layer="91" grouprefs="THREE_PHASES_AC_NETWORK_INTERFACE"/>
+<wire x1="90.17" y1="135.89" x2="90.17" y2="141.605" width="0.1524" layer="91" grouprefs="THREE_PHASES_AC_NETWORK_INTERFACE"/>
 <pinref part="RV1" gate="G$1" pin="2"/>
-<wire x1="40.64" y1="139.7" x2="40.64" y2="141.605" width="0.1524" layer="91" grouprefs="THREE_PHASE_AC_NETWORK_INTERFACE"/>
-<junction x="40.64" y="141.605" grouprefs="THREE_PHASE_AC_NETWORK_INTERFACE"/>
+<wire x1="40.64" y1="139.7" x2="40.64" y2="141.605" width="0.1524" layer="91" grouprefs="THREE_PHASES_AC_NETWORK_INTERFACE"/>
+<junction x="40.64" y="141.605" grouprefs="THREE_PHASES_AC_NETWORK_INTERFACE"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -4502,7 +4506,7 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 <wire x1="59.69" y1="11.43" x2="62.23" y2="11.43" width="0.1524" layer="91" grouprefs="VOLTAGE_MEASUREMENT_PHASE_3"/>
 </segment>
 </net>
-<net name="GND" class="0">
+<net name="0V" class="0">
 <segment>
 <pinref part="D1" gate="G$1" pin="A"/>
 <pinref part="C2" gate="G$1" pin="-"/>
@@ -4548,13 +4552,13 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 <junction x="78.105" y="11.43" grouprefs="VOLTAGE_MEASUREMENT_PHASE_3"/>
 </segment>
 <segment>
-<wire x1="18.415" y1="114.935" x2="59.69" y2="114.935" width="0.1524" layer="91" grouprefs="THREE_PHASE_AC_NETWORK_INTERFACE"/>
-<label x="114.3" y="114.935" size="1.27" layer="95" xref="yes" grouprefs="THREE_PHASE_AC_NETWORK_INTERFACE"/>
+<wire x1="18.415" y1="114.935" x2="59.69" y2="114.935" width="0.1524" layer="91" grouprefs="THREE_PHASES_AC_NETWORK_INTERFACE"/>
+<label x="114.3" y="114.935" size="1.27" layer="95" xref="yes" grouprefs="THREE_PHASES_AC_NETWORK_INTERFACE"/>
 <pinref part="CN1" gate="-1" pin="P$1"/>
 <pinref part="SUPPLY6" gate="G$1" pin="0V"/>
-<wire x1="59.69" y1="114.935" x2="114.3" y2="114.935" width="0.1524" layer="91" grouprefs="THREE_PHASE_AC_NETWORK_INTERFACE"/>
-<wire x1="59.69" y1="113.03" x2="59.69" y2="114.935" width="0.1524" layer="91" grouprefs="THREE_PHASE_AC_NETWORK_INTERFACE"/>
-<junction x="59.69" y="114.935" grouprefs="THREE_PHASE_AC_NETWORK_INTERFACE"/>
+<wire x1="59.69" y1="114.935" x2="114.3" y2="114.935" width="0.1524" layer="91" grouprefs="THREE_PHASES_AC_NETWORK_INTERFACE"/>
+<wire x1="59.69" y1="113.03" x2="59.69" y2="114.935" width="0.1524" layer="91" grouprefs="THREE_PHASES_AC_NETWORK_INTERFACE"/>
+<junction x="59.69" y="114.935" grouprefs="THREE_PHASES_AC_NETWORK_INTERFACE"/>
 </segment>
 <segment>
 <pinref part="SJ3" gate="1" pin="1"/>
@@ -4600,12 +4604,6 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 </sheet>
 </sheets>
 <errors>
-<approved hash="102,1,249.555,139.065,0V,GND,,,,"/>
-<approved hash="102,1,78.105,78.74,0V,GND,,,,"/>
-<approved hash="102,1,78.105,43.18,0V,GND,,,,"/>
-<approved hash="102,1,78.105,9.525,0V,GND,,,,"/>
-<approved hash="102,1,59.69,113.03,0V,GND,,,,"/>
-<approved hash="102,1,178.435,73.025,0V,GND,,,,"/>
 <approved hash="113,1,131.976,90.066,FRAME1,,,,,"/>
 </errors>
 </schematic>

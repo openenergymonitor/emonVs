@@ -3602,7 +3602,7 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 <schematic_group name="VOLTAGE_MEASUREMENT_PHASE_3" titleSize="2.54" layer="95"/>
 <schematic_group name="THREE_PHASES_AC_NETWORK_INTERFACE" titleSize="2.54" layer="95"/>
 <schematic_group name="EMBEDDED_POWER_SUPPLY" titleSize="2.54" layer="95"/>
-<schematic_group name="OUTPUT_SIGNALS_AND_SUUPPLY" titleSize="2.54" layer="95"/>
+<schematic_group name="OUTPUT_SIGNALS_AND_SUPPLY" titleSize="2.54" layer="95"/>
 </groups>
 <parts>
 <part name="T1" library="OpenEnergyMonitor" deviceset="ZMPT101B" device=""/>
@@ -3871,17 +3871,17 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 <instance part="FD1" gate="G$1" x="149.225" y="3.175" smashed="yes" rot="R90"/>
 <instance part="FD2" gate="G$1" x="154.305" y="3.175" smashed="yes" rot="R90"/>
 <instance part="FD3" gate="G$1" x="159.385" y="3.175" smashed="yes" rot="R90"/>
-<instance part="CN2" gate="G$1" x="245.11" y="97.79" smashed="yes" grouprefs="OUTPUT_SIGNALS_AND_SUUPPLY">
+<instance part="CN2" gate="G$1" x="245.11" y="97.79" smashed="yes" grouprefs="OUTPUT_SIGNALS_AND_SUPPLY">
 <attribute name="NAME" x="243.332" y="113.284" size="1.778" layer="95" align="center"/>
 <attribute name="VALUE" x="243.332" y="110.998" size="1.778" layer="96" align="center"/>
 </instance>
-<instance part="SJ2" gate="G$1" x="228.6" y="93.98" smashed="yes" grouprefs="OUTPUT_SIGNALS_AND_SUUPPLY">
+<instance part="SJ2" gate="G$1" x="228.6" y="93.98" smashed="yes" grouprefs="OUTPUT_SIGNALS_AND_SUPPLY">
 <attribute name="NAME" x="224.79" y="95.25" size="1.27" layer="95" align="center"/>
 </instance>
-<instance part="SJ1" gate="1" x="187.325" y="101.6" smashed="yes" grouprefs="OUTPUT_SIGNALS_AND_SUUPPLY">
+<instance part="SJ1" gate="1" x="187.325" y="101.6" smashed="yes" grouprefs="OUTPUT_SIGNALS_AND_SUPPLY">
 <attribute name="NAME" x="187.325" y="104.14" size="1.27" layer="95" align="center"/>
 </instance>
-<instance part="SJ3" gate="1" x="187.325" y="86.36" smashed="yes" grouprefs="OUTPUT_SIGNALS_AND_SUUPPLY">
+<instance part="SJ3" gate="1" x="187.325" y="86.36" smashed="yes" grouprefs="OUTPUT_SIGNALS_AND_SUPPLY">
 <attribute name="NAME" x="187.325" y="83.82" size="1.27" layer="95" align="center"/>
 </instance>
 <instance part="CN1" gate="-1" x="15.875" y="114.935" smashed="yes" grouprefs="THREE_PHASES_AC_NETWORK_INTERFACE">
@@ -3931,14 +3931,14 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 <attribute name="DESCRIPTION" x="79.629" y="87.376" size="1.27" layer="96" rot="MR0" align="center-right"/>
 <attribute name="PN" x="78.105" y="88.9" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="L2" gate="G$1" x="186.69" y="93.98" smashed="yes" rot="MR0" grouprefs="OUTPUT_SIGNALS_AND_SUUPPLY">
+<instance part="L2" gate="G$1" x="186.69" y="93.98" smashed="yes" rot="MR0" grouprefs="OUTPUT_SIGNALS_AND_SUPPLY">
 <attribute name="NAME" x="186.69" y="98.1456" size="1.27" layer="95" rot="MR180" align="center"/>
 <attribute name="VALUE" x="186.69" y="89.8906" size="1.27" layer="96" rot="MR180" align="center"/>
 </instance>
-<instance part="CN3" gate="-1" x="234.315" y="78.74" smashed="yes" rot="R180" grouprefs="OUTPUT_SIGNALS_AND_SUUPPLY">
+<instance part="CN3" gate="-1" x="234.315" y="78.74" smashed="yes" rot="R180" grouprefs="OUTPUT_SIGNALS_AND_SUPPLY">
 <attribute name="NAME" x="237.49" y="78.74" size="1.27" layer="95" align="center-left"/>
 </instance>
-<instance part="CN3" gate="-2" x="234.315" y="74.295" smashed="yes" rot="R180" grouprefs="OUTPUT_SIGNALS_AND_SUUPPLY">
+<instance part="CN3" gate="-2" x="234.315" y="74.295" smashed="yes" rot="R180" grouprefs="OUTPUT_SIGNALS_AND_SUPPLY">
 <attribute name="NAME" x="237.49" y="74.295" size="1.27" layer="95" align="center-left"/>
 </instance>
 <instance part="SUPPLY1" gate="G$1" x="249.555" y="136.525" smashed="yes" grouprefs="EMBEDDED_POWER_SUPPLY"/>
@@ -3959,8 +3959,8 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 <attribute name="AUTHOR" x="198.12" y="26.67" size="5.08" layer="94" align="center"/>
 <attribute name="SOURCE" x="198.12" y="19.939" size="2.032" layer="94" align="center"/>
 </instance>
-<instance part="SUPPLY7" gate="G$1" x="178.435" y="70.485" smashed="yes" rot="MR0" grouprefs="OUTPUT_SIGNALS_AND_SUUPPLY"/>
-<instance part="SUPPLY8" gate="G$1" x="178.435" y="115.57" smashed="yes" rot="MR0" grouprefs="OUTPUT_SIGNALS_AND_SUUPPLY">
+<instance part="SUPPLY7" gate="G$1" x="178.435" y="70.485" smashed="yes" rot="MR0" grouprefs="OUTPUT_SIGNALS_AND_SUPPLY"/>
+<instance part="SUPPLY8" gate="G$1" x="178.435" y="115.57" smashed="yes" rot="MR0" grouprefs="OUTPUT_SIGNALS_AND_SUPPLY">
 <attribute name="VALUE" x="178.4096" y="119.38" size="1.27" layer="96" rot="MR0" align="center"/>
 </instance>
 </instances>
@@ -3979,8 +3979,8 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 </segment>
 <segment>
 <pinref part="CN2" gate="G$1" pin="1"/>
-<wire x1="234.95" y1="106.68" x2="230.505" y2="106.68" width="0.1524" layer="91" grouprefs="OUTPUT_SIGNALS_AND_SUUPPLY"/>
-<label x="230.505" y="106.68" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="OUTPUT_SIGNALS_AND_SUUPPLY"/>
+<wire x1="234.95" y1="106.68" x2="230.505" y2="106.68" width="0.1524" layer="91" grouprefs="OUTPUT_SIGNALS_AND_SUPPLY"/>
+<label x="230.505" y="106.68" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="OUTPUT_SIGNALS_AND_SUPPLY"/>
 </segment>
 </net>
 <net name="VS2" class="0">
@@ -3995,8 +3995,8 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 </segment>
 <segment>
 <pinref part="CN2" gate="G$1" pin="2"/>
-<wire x1="234.95" y1="104.14" x2="230.505" y2="104.14" width="0.1524" layer="91" grouprefs="OUTPUT_SIGNALS_AND_SUUPPLY"/>
-<label x="230.505" y="104.14" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="OUTPUT_SIGNALS_AND_SUUPPLY"/>
+<wire x1="234.95" y1="104.14" x2="230.505" y2="104.14" width="0.1524" layer="91" grouprefs="OUTPUT_SIGNALS_AND_SUPPLY"/>
+<label x="230.505" y="104.14" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="OUTPUT_SIGNALS_AND_SUPPLY"/>
 </segment>
 </net>
 <net name="VS3" class="0">
@@ -4011,8 +4011,8 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 </segment>
 <segment>
 <pinref part="CN2" gate="G$1" pin="3"/>
-<wire x1="234.95" y1="101.6" x2="230.505" y2="101.6" width="0.1524" layer="91" grouprefs="OUTPUT_SIGNALS_AND_SUUPPLY"/>
-<label x="230.505" y="101.6" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="OUTPUT_SIGNALS_AND_SUUPPLY"/>
+<wire x1="234.95" y1="101.6" x2="230.505" y2="101.6" width="0.1524" layer="91" grouprefs="OUTPUT_SIGNALS_AND_SUPPLY"/>
+<label x="230.505" y="101.6" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="OUTPUT_SIGNALS_AND_SUPPLY"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -4246,56 +4246,56 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 <segment>
 <pinref part="CN2" gate="G$1" pin="6"/>
 <pinref part="SJ2" gate="G$1" pin="2"/>
-<wire x1="234.95" y1="93.98" x2="232.41" y2="93.98" width="0.1524" layer="91" grouprefs="OUTPUT_SIGNALS_AND_SUUPPLY"/>
+<wire x1="234.95" y1="93.98" x2="232.41" y2="93.98" width="0.1524" layer="91" grouprefs="OUTPUT_SIGNALS_AND_SUPPLY"/>
 </segment>
 </net>
 <net name="GNDF" class="0">
 <segment>
 <pinref part="CN3" gate="-2" pin="P$1"/>
-<wire x1="231.775" y1="74.295" x2="207.01" y2="74.295" width="0.1524" layer="91" grouprefs="OUTPUT_SIGNALS_AND_SUUPPLY"/>
+<wire x1="231.775" y1="74.295" x2="207.01" y2="74.295" width="0.1524" layer="91" grouprefs="OUTPUT_SIGNALS_AND_SUPPLY"/>
 <pinref part="CN2" gate="G$1" pin="7"/>
 <pinref part="CN2" gate="G$1" pin="8"/>
-<wire x1="234.95" y1="88.9" x2="233.045" y2="88.9" width="0.1524" layer="91" grouprefs="OUTPUT_SIGNALS_AND_SUUPPLY"/>
+<wire x1="234.95" y1="88.9" x2="233.045" y2="88.9" width="0.1524" layer="91" grouprefs="OUTPUT_SIGNALS_AND_SUPPLY"/>
 <pinref part="SJ2" gate="G$1" pin="1"/>
 <pinref part="SJ3" gate="1" pin="2"/>
-<wire x1="194.945" y1="86.36" x2="191.135" y2="86.36" width="0.1524" layer="91" grouprefs="OUTPUT_SIGNALS_AND_SUUPPLY"/>
+<wire x1="194.945" y1="86.36" x2="191.135" y2="86.36" width="0.1524" layer="91" grouprefs="OUTPUT_SIGNALS_AND_SUPPLY"/>
 <pinref part="L2" gate="G$1" pin="3"/>
-<wire x1="234.95" y1="91.44" x2="233.045" y2="91.44" width="0.1524" layer="91" grouprefs="OUTPUT_SIGNALS_AND_SUUPPLY"/>
-<wire x1="233.045" y1="91.44" x2="233.045" y2="88.9" width="0.1524" layer="91" grouprefs="OUTPUT_SIGNALS_AND_SUUPPLY"/>
-<wire x1="193.04" y1="91.44" x2="194.945" y2="91.44" width="0.1524" layer="91" grouprefs="OUTPUT_SIGNALS_AND_SUUPPLY"/>
-<junction x="233.045" y="91.44" grouprefs="OUTPUT_SIGNALS_AND_SUUPPLY"/>
-<wire x1="194.945" y1="91.44" x2="207.01" y2="91.44" width="0.1524" layer="91" grouprefs="OUTPUT_SIGNALS_AND_SUUPPLY"/>
-<wire x1="207.01" y1="91.44" x2="222.885" y2="91.44" width="0.1524" layer="91" grouprefs="OUTPUT_SIGNALS_AND_SUUPPLY"/>
-<wire x1="222.885" y1="91.44" x2="233.045" y2="91.44" width="0.1524" layer="91" grouprefs="OUTPUT_SIGNALS_AND_SUUPPLY"/>
-<wire x1="194.945" y1="86.36" x2="194.945" y2="91.44" width="0.1524" layer="91" grouprefs="OUTPUT_SIGNALS_AND_SUUPPLY"/>
-<junction x="194.945" y="91.44" grouprefs="OUTPUT_SIGNALS_AND_SUUPPLY"/>
-<wire x1="224.79" y1="93.98" x2="222.885" y2="93.98" width="0.1524" layer="91" grouprefs="OUTPUT_SIGNALS_AND_SUUPPLY"/>
-<wire x1="222.885" y1="93.98" x2="222.885" y2="91.44" width="0.1524" layer="91" grouprefs="OUTPUT_SIGNALS_AND_SUUPPLY"/>
-<junction x="222.885" y="91.44" grouprefs="OUTPUT_SIGNALS_AND_SUUPPLY"/>
-<wire x1="207.01" y1="74.295" x2="207.01" y2="91.44" width="0.1524" layer="91" grouprefs="OUTPUT_SIGNALS_AND_SUUPPLY"/>
-<junction x="207.01" y="91.44" grouprefs="OUTPUT_SIGNALS_AND_SUUPPLY"/>
+<wire x1="234.95" y1="91.44" x2="233.045" y2="91.44" width="0.1524" layer="91" grouprefs="OUTPUT_SIGNALS_AND_SUPPLY"/>
+<wire x1="233.045" y1="91.44" x2="233.045" y2="88.9" width="0.1524" layer="91" grouprefs="OUTPUT_SIGNALS_AND_SUPPLY"/>
+<wire x1="193.04" y1="91.44" x2="194.945" y2="91.44" width="0.1524" layer="91" grouprefs="OUTPUT_SIGNALS_AND_SUPPLY"/>
+<junction x="233.045" y="91.44" grouprefs="OUTPUT_SIGNALS_AND_SUPPLY"/>
+<wire x1="194.945" y1="91.44" x2="207.01" y2="91.44" width="0.1524" layer="91" grouprefs="OUTPUT_SIGNALS_AND_SUPPLY"/>
+<wire x1="207.01" y1="91.44" x2="222.885" y2="91.44" width="0.1524" layer="91" grouprefs="OUTPUT_SIGNALS_AND_SUPPLY"/>
+<wire x1="222.885" y1="91.44" x2="233.045" y2="91.44" width="0.1524" layer="91" grouprefs="OUTPUT_SIGNALS_AND_SUPPLY"/>
+<wire x1="194.945" y1="86.36" x2="194.945" y2="91.44" width="0.1524" layer="91" grouprefs="OUTPUT_SIGNALS_AND_SUPPLY"/>
+<junction x="194.945" y="91.44" grouprefs="OUTPUT_SIGNALS_AND_SUPPLY"/>
+<wire x1="224.79" y1="93.98" x2="222.885" y2="93.98" width="0.1524" layer="91" grouprefs="OUTPUT_SIGNALS_AND_SUPPLY"/>
+<wire x1="222.885" y1="93.98" x2="222.885" y2="91.44" width="0.1524" layer="91" grouprefs="OUTPUT_SIGNALS_AND_SUPPLY"/>
+<junction x="222.885" y="91.44" grouprefs="OUTPUT_SIGNALS_AND_SUPPLY"/>
+<wire x1="207.01" y1="74.295" x2="207.01" y2="91.44" width="0.1524" layer="91" grouprefs="OUTPUT_SIGNALS_AND_SUPPLY"/>
+<junction x="207.01" y="91.44" grouprefs="OUTPUT_SIGNALS_AND_SUPPLY"/>
 </segment>
 </net>
 <net name="5VF" class="0">
 <segment>
 <pinref part="CN3" gate="-1" pin="P$1"/>
-<wire x1="231.775" y1="78.74" x2="210.185" y2="78.74" width="0.1524" layer="91" grouprefs="OUTPUT_SIGNALS_AND_SUUPPLY"/>
+<wire x1="231.775" y1="78.74" x2="210.185" y2="78.74" width="0.1524" layer="91" grouprefs="OUTPUT_SIGNALS_AND_SUPPLY"/>
 <pinref part="CN2" gate="G$1" pin="4"/>
 <pinref part="CN2" gate="G$1" pin="5"/>
-<wire x1="194.945" y1="101.6" x2="191.135" y2="101.6" width="0.1524" layer="91" grouprefs="OUTPUT_SIGNALS_AND_SUUPPLY"/>
+<wire x1="194.945" y1="101.6" x2="191.135" y2="101.6" width="0.1524" layer="91" grouprefs="OUTPUT_SIGNALS_AND_SUPPLY"/>
 <pinref part="SJ1" gate="1" pin="2"/>
 <pinref part="L2" gate="G$1" pin="1"/>
-<wire x1="194.945" y1="96.52" x2="194.945" y2="101.6" width="0.1524" layer="91" grouprefs="OUTPUT_SIGNALS_AND_SUUPPLY"/>
-<wire x1="234.95" y1="99.06" x2="233.045" y2="99.06" width="0.1524" layer="91" grouprefs="OUTPUT_SIGNALS_AND_SUUPPLY"/>
-<wire x1="234.95" y1="96.52" x2="233.045" y2="96.52" width="0.1524" layer="91" grouprefs="OUTPUT_SIGNALS_AND_SUUPPLY"/>
-<wire x1="233.045" y1="96.52" x2="233.045" y2="99.06" width="0.1524" layer="91" grouprefs="OUTPUT_SIGNALS_AND_SUUPPLY"/>
-<wire x1="193.04" y1="96.52" x2="194.945" y2="96.52" width="0.1524" layer="91" grouprefs="OUTPUT_SIGNALS_AND_SUUPPLY"/>
-<junction x="233.045" y="96.52" grouprefs="OUTPUT_SIGNALS_AND_SUUPPLY"/>
-<wire x1="194.945" y1="96.52" x2="210.185" y2="96.52" width="0.1524" layer="91" grouprefs="OUTPUT_SIGNALS_AND_SUUPPLY"/>
-<junction x="194.945" y="96.52" grouprefs="OUTPUT_SIGNALS_AND_SUUPPLY"/>
-<wire x1="210.185" y1="96.52" x2="233.045" y2="96.52" width="0.1524" layer="91" grouprefs="OUTPUT_SIGNALS_AND_SUUPPLY"/>
-<wire x1="210.185" y1="78.74" x2="210.185" y2="96.52" width="0.1524" layer="91" grouprefs="OUTPUT_SIGNALS_AND_SUUPPLY"/>
-<junction x="210.185" y="96.52" grouprefs="OUTPUT_SIGNALS_AND_SUUPPLY"/>
+<wire x1="194.945" y1="96.52" x2="194.945" y2="101.6" width="0.1524" layer="91" grouprefs="OUTPUT_SIGNALS_AND_SUPPLY"/>
+<wire x1="234.95" y1="99.06" x2="233.045" y2="99.06" width="0.1524" layer="91" grouprefs="OUTPUT_SIGNALS_AND_SUPPLY"/>
+<wire x1="234.95" y1="96.52" x2="233.045" y2="96.52" width="0.1524" layer="91" grouprefs="OUTPUT_SIGNALS_AND_SUPPLY"/>
+<wire x1="233.045" y1="96.52" x2="233.045" y2="99.06" width="0.1524" layer="91" grouprefs="OUTPUT_SIGNALS_AND_SUPPLY"/>
+<wire x1="193.04" y1="96.52" x2="194.945" y2="96.52" width="0.1524" layer="91" grouprefs="OUTPUT_SIGNALS_AND_SUPPLY"/>
+<junction x="233.045" y="96.52" grouprefs="OUTPUT_SIGNALS_AND_SUPPLY"/>
+<wire x1="194.945" y1="96.52" x2="210.185" y2="96.52" width="0.1524" layer="91" grouprefs="OUTPUT_SIGNALS_AND_SUPPLY"/>
+<junction x="194.945" y="96.52" grouprefs="OUTPUT_SIGNALS_AND_SUPPLY"/>
+<wire x1="210.185" y1="96.52" x2="233.045" y2="96.52" width="0.1524" layer="91" grouprefs="OUTPUT_SIGNALS_AND_SUPPLY"/>
+<wire x1="210.185" y1="78.74" x2="210.185" y2="96.52" width="0.1524" layer="91" grouprefs="OUTPUT_SIGNALS_AND_SUPPLY"/>
+<junction x="210.185" y="96.52" grouprefs="OUTPUT_SIGNALS_AND_SUPPLY"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -4397,12 +4397,12 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 <segment>
 <pinref part="SJ3" gate="1" pin="1"/>
 <pinref part="L2" gate="G$1" pin="4"/>
-<wire x1="178.435" y1="86.36" x2="183.515" y2="86.36" width="0.1524" layer="91" grouprefs="OUTPUT_SIGNALS_AND_SUUPPLY"/>
-<wire x1="180.34" y1="91.44" x2="178.435" y2="91.44" width="0.1524" layer="91" grouprefs="OUTPUT_SIGNALS_AND_SUUPPLY"/>
+<wire x1="178.435" y1="86.36" x2="183.515" y2="86.36" width="0.1524" layer="91" grouprefs="OUTPUT_SIGNALS_AND_SUPPLY"/>
+<wire x1="180.34" y1="91.44" x2="178.435" y2="91.44" width="0.1524" layer="91" grouprefs="OUTPUT_SIGNALS_AND_SUPPLY"/>
 <pinref part="SUPPLY7" gate="G$1" pin="0V"/>
-<wire x1="178.435" y1="86.36" x2="178.435" y2="91.44" width="0.1524" layer="91" grouprefs="OUTPUT_SIGNALS_AND_SUUPPLY"/>
-<wire x1="178.435" y1="73.025" x2="178.435" y2="86.36" width="0.1524" layer="91" grouprefs="OUTPUT_SIGNALS_AND_SUUPPLY"/>
-<junction x="178.435" y="86.36" grouprefs="OUTPUT_SIGNALS_AND_SUUPPLY"/>
+<wire x1="178.435" y1="86.36" x2="178.435" y2="91.44" width="0.1524" layer="91" grouprefs="OUTPUT_SIGNALS_AND_SUPPLY"/>
+<wire x1="178.435" y1="73.025" x2="178.435" y2="86.36" width="0.1524" layer="91" grouprefs="OUTPUT_SIGNALS_AND_SUPPLY"/>
+<junction x="178.435" y="86.36" grouprefs="OUTPUT_SIGNALS_AND_SUPPLY"/>
 </segment>
 </net>
 <net name="5.0V" class="0">
@@ -4425,13 +4425,13 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 </segment>
 <segment>
 <pinref part="SJ1" gate="1" pin="1"/>
-<wire x1="183.515" y1="101.6" x2="178.435" y2="101.6" width="0.1524" layer="91" grouprefs="OUTPUT_SIGNALS_AND_SUUPPLY"/>
+<wire x1="183.515" y1="101.6" x2="178.435" y2="101.6" width="0.1524" layer="91" grouprefs="OUTPUT_SIGNALS_AND_SUPPLY"/>
 <pinref part="L2" gate="G$1" pin="2"/>
-<wire x1="178.435" y1="96.52" x2="178.435" y2="101.6" width="0.1524" layer="91" grouprefs="OUTPUT_SIGNALS_AND_SUUPPLY"/>
+<wire x1="178.435" y1="96.52" x2="178.435" y2="101.6" width="0.1524" layer="91" grouprefs="OUTPUT_SIGNALS_AND_SUPPLY"/>
 <pinref part="SUPPLY8" gate="G$1" pin="5.0V"/>
-<wire x1="180.34" y1="96.52" x2="178.435" y2="96.52" width="0.1524" layer="91" grouprefs="OUTPUT_SIGNALS_AND_SUUPPLY"/>
-<wire x1="178.435" y1="113.03" x2="178.435" y2="101.6" width="0.1524" layer="91" grouprefs="OUTPUT_SIGNALS_AND_SUUPPLY"/>
-<junction x="178.435" y="101.6" grouprefs="OUTPUT_SIGNALS_AND_SUUPPLY"/>
+<wire x1="180.34" y1="96.52" x2="178.435" y2="96.52" width="0.1524" layer="91" grouprefs="OUTPUT_SIGNALS_AND_SUPPLY"/>
+<wire x1="178.435" y1="113.03" x2="178.435" y2="101.6" width="0.1524" layer="91" grouprefs="OUTPUT_SIGNALS_AND_SUPPLY"/>
+<junction x="178.435" y="101.6" grouprefs="OUTPUT_SIGNALS_AND_SUPPLY"/>
 </segment>
 </net>
 </nets>

@@ -4041,21 +4041,27 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/MOV-14D431KTR
 </element>
 <element name="R7" library="My-RLC" library_urn="urn:adsk.eagle:library:35509816" package="R0603" package3d_urn="urn:adsk.eagle:package:35509946/1" value="10k (5%)" x="30.48" y="32.004" smashed="yes">
 <attribute name="NAME" x="32.258" y="31.496" size="1.27" layer="25" font="vector" ratio="20"/>
+<attribute name="PN" value="ERJ-H3GJ103V" x="30.48" y="32.004" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R6" library="My-RLC" library_urn="urn:adsk.eagle:library:35509816" package="R0603" package3d_urn="urn:adsk.eagle:package:35509946/1" value="10k (5%)" x="30.48" y="34.544" smashed="yes" rot="R180">
 <attribute name="NAME" x="32.258" y="34.036" size="1.27" layer="25" font="vector" ratio="20"/>
+<attribute name="PN" value="ERJ-H3GJ103V" x="30.48" y="34.544" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R5" library="My-RLC" library_urn="urn:adsk.eagle:library:35509816" package="R0603" package3d_urn="urn:adsk.eagle:package:35509946/1" value="10k (5%)" x="30.48" y="37.084" smashed="yes">
 <attribute name="NAME" x="32.258" y="36.576" size="1.27" layer="25" font="vector" ratio="20"/>
+<attribute name="PN" value="ERJ-H3GJ103V" x="30.48" y="37.084" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R3" library="My-RLC" library_urn="urn:adsk.eagle:library:35509816" package="R0603" package3d_urn="urn:adsk.eagle:package:35509946/1" value="10k (5%)" x="30.48" y="39.624" smashed="yes">
 <attribute name="NAME" x="32.258" y="39.116" size="1.27" layer="25" font="vector" ratio="20"/>
+<attribute name="PN" value="ERJ-H3GJ103V" x="30.48" y="39.624" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R2" library="My-RLC" library_urn="urn:adsk.eagle:library:35509816" package="R0603" package3d_urn="urn:adsk.eagle:package:35509946/1" value="10k (5%)" x="30.48" y="42.164" smashed="yes" rot="R180">
 <attribute name="NAME" x="32.258" y="41.656" size="1.27" layer="25" font="vector" ratio="20"/>
+<attribute name="PN" value="ERJ-H3GJ103V" x="30.48" y="42.164" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R1" library="My-RLC" library_urn="urn:adsk.eagle:library:35509816" package="R0603" package3d_urn="urn:adsk.eagle:package:35509946/1" value="10k (5%)" x="30.48" y="44.704" smashed="yes">
 <attribute name="NAME" x="32.258" y="44.196" size="1.27" layer="25" font="vector" ratio="20"/>
+<attribute name="PN" value="ERJ-H3GJ103V" x="30.48" y="44.704" size="1.778" layer="27" display="off"/>
 </element>
 <element name="T2" library="OpenEnergyMonitor" package="ZMPT101B" value="ZMPT101B" x="23.392" y="48.92" smashed="yes" rot="R180">
 <attribute name="NAME" x="18.886" y="55" size="2.54" layer="25" font="vector" ratio="20" rot="R180" align="center"/>
@@ -4064,21 +4070,27 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/MOV-14D431KTR
 </element>
 <element name="R14" library="My-RLC" library_urn="urn:adsk.eagle:library:35509816" package="R0603" package3d_urn="urn:adsk.eagle:package:35509946/1" value="10k (5%)" x="30.48" y="48.768" smashed="yes">
 <attribute name="NAME" x="32.258" y="48.26" size="1.27" layer="25" font="vector" ratio="20"/>
+<attribute name="PN" value="ERJ-H3GJ103V" x="30.48" y="48.768" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R13" library="My-RLC" library_urn="urn:adsk.eagle:library:35509816" package="R0603" package3d_urn="urn:adsk.eagle:package:35509946/1" value="10k (5%)" x="30.48" y="51.308" smashed="yes" rot="R180">
 <attribute name="NAME" x="32.258" y="50.8" size="1.27" layer="25" font="vector" ratio="20"/>
+<attribute name="PN" value="ERJ-H3GJ103V" x="30.48" y="51.308" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R12" library="My-RLC" library_urn="urn:adsk.eagle:library:35509816" package="R0603" package3d_urn="urn:adsk.eagle:package:35509946/1" value="10k (5%)" x="30.48" y="53.848" smashed="yes">
 <attribute name="NAME" x="32.258" y="53.34" size="1.27" layer="25" font="vector" ratio="20"/>
+<attribute name="PN" value="ERJ-H3GJ103V" x="30.48" y="53.848" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R10" library="My-RLC" library_urn="urn:adsk.eagle:library:35509816" package="R0603" package3d_urn="urn:adsk.eagle:package:35509946/1" value="10k (5%)" x="30.48" y="56.388" smashed="yes">
 <attribute name="NAME" x="32.258" y="55.88" size="1.27" layer="25" font="vector" ratio="20"/>
+<attribute name="PN" value="ERJ-H3GJ103V" x="30.48" y="56.388" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R9" library="My-RLC" library_urn="urn:adsk.eagle:library:35509816" package="R0603" package3d_urn="urn:adsk.eagle:package:35509946/1" value="10k (5%)" x="30.48" y="58.928" smashed="yes" rot="R180">
 <attribute name="NAME" x="32.258" y="58.42" size="1.27" layer="25" font="vector" ratio="20"/>
+<attribute name="PN" value="ERJ-H3GJ103V" x="30.48" y="58.928" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R8" library="My-RLC" library_urn="urn:adsk.eagle:library:35509816" package="R0603" package3d_urn="urn:adsk.eagle:package:35509946/1" value="10k (5%)" x="30.48" y="61.468" smashed="yes">
 <attribute name="NAME" x="32.258" y="60.706" size="1.27" layer="25" font="vector" ratio="20"/>
+<attribute name="PN" value="ERJ-H3GJ103V" x="30.48" y="61.468" size="1.778" layer="27" display="off"/>
 </element>
 <element name="T3" library="OpenEnergyMonitor" package="ZMPT101B" value="ZMPT101B" x="23.392" y="66.732" smashed="yes" rot="R180">
 <attribute name="NAME" x="19.116" y="73.328" size="2.54" layer="25" font="vector" ratio="20" rot="R180" align="center"/>
@@ -4087,21 +4099,27 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/MOV-14D431KTR
 </element>
 <element name="R21" library="My-RLC" library_urn="urn:adsk.eagle:library:35509816" package="R0603" package3d_urn="urn:adsk.eagle:package:35509946/1" value="10k (5%)" x="30.48" y="66.548" smashed="yes">
 <attribute name="NAME" x="32.258" y="66.04" size="1.27" layer="25" font="vector" ratio="20"/>
+<attribute name="PN" value="ERJ-H3GJ103V" x="30.48" y="66.548" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R20" library="My-RLC" library_urn="urn:adsk.eagle:library:35509816" package="R0603" package3d_urn="urn:adsk.eagle:package:35509946/1" value="10k (5%)" x="30.48" y="69.088" smashed="yes" rot="R180">
 <attribute name="NAME" x="32.258" y="68.58" size="1.27" layer="25" font="vector" ratio="20"/>
+<attribute name="PN" value="ERJ-H3GJ103V" x="30.48" y="69.088" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R19" library="My-RLC" library_urn="urn:adsk.eagle:library:35509816" package="R0603" package3d_urn="urn:adsk.eagle:package:35509946/1" value="10k (5%)" x="30.48" y="71.628" smashed="yes">
 <attribute name="NAME" x="32.258" y="71.12" size="1.27" layer="25" font="vector" ratio="20"/>
+<attribute name="PN" value="ERJ-H3GJ103V" x="30.48" y="71.628" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R17" library="My-RLC" library_urn="urn:adsk.eagle:library:35509816" package="R0603" package3d_urn="urn:adsk.eagle:package:35509946/1" value="10k (5%)" x="30.48" y="74.168" smashed="yes">
 <attribute name="NAME" x="32.258" y="73.66" size="1.27" layer="25" font="vector" ratio="20"/>
+<attribute name="PN" value="ERJ-H3GJ103V" x="30.48" y="74.168" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R16" library="My-RLC" library_urn="urn:adsk.eagle:library:35509816" package="R0603" package3d_urn="urn:adsk.eagle:package:35509946/1" value="10k (5%)" x="30.48" y="76.708" smashed="yes" rot="R180">
 <attribute name="NAME" x="32.258" y="75.946" size="1.27" layer="25" font="vector" ratio="20"/>
+<attribute name="PN" value="ERJ-H3GJ103V" x="30.48" y="76.708" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R15" library="My-RLC" library_urn="urn:adsk.eagle:library:35509816" package="R0603" package3d_urn="urn:adsk.eagle:package:35509946/1" value="10k (5%)" x="30.48" y="79.248" smashed="yes">
 <attribute name="NAME" x="32.258" y="78.486" size="1.27" layer="25" font="vector" ratio="20"/>
+<attribute name="PN" value="ERJ-H3GJ103V" x="30.48" y="79.248" size="1.778" layer="27" display="off"/>
 </element>
 <element name="F2" library="OpenEnergyMonitor" package="FUSE" value="1A x 250V" x="31.674" y="93.112" smashed="yes" rot="R180">
 <attribute name="1" value="F2" x="30.566" y="84.136" size="1.27" layer="25" font="vector" ratio="20" rot="R180"/>
@@ -4171,6 +4189,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/MOV-14D431KTR
 </element>
 <element name="C3" library="OpenEnergyMonitor" package="C_PTH" value="1uF x 310VAC" x="42.873" y="57.687" smashed="yes">
 <attribute name="NAME" x="42.8208" y="84.3258" size="1.27" layer="25" font="vector" ratio="20" rot="R180" align="center"/>
+<attribute name="PN" value="B32923C3105M000" x="42.873" y="57.687" size="1.778" layer="27" display="off"/>
 <attribute name="PN1" value="B32923C3105M" x="42.873" y="57.687" size="1.778" layer="27" display="off"/>
 <attribute name="PN2" value="DE2F3KY103MA3BM02F" x="42.873" y="57.687" size="1.778" layer="27" display="off"/>
 </element>
@@ -4180,19 +4199,23 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/MOV-14D431KTR
 </element>
 <element name="PS1" library="OpenEnergyMonitor" package="MULTICOMP-AC/DC" value="MULTICOMP-AC/DC" x="62.5" y="32.5" smashed="yes">
 <attribute name="NAME" x="45.0248" y="43.0664" size="1.27" layer="25" font="vector" ratio="20" rot="R90" align="center"/>
+<attribute name="PN" value="MP-LD05-23B05R2" x="62.5" y="32.5" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="45.355" y="49.264" size="1.27" layer="27" font="vector" ratio="20" rot="R90" align="center"/>
 </element>
 <element name="R4" library="OpenEnergyMonitor" package="R_PTH_SMD" value="75R (1%)" x="7.06" y="72.632" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="Burden Resistor" x="7.06" y="72.632" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="5.461" y="71.616" size="1.27" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="PN" value="ERJ-H3EF75R0V" x="7.06" y="72.632" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R11" library="OpenEnergyMonitor" package="R_PTH_SMD" value="75R (1%)" x="7.123" y="54.852" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="Burden Resistor" x="7.123" y="54.852" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="5.461" y="53.2772" size="1.27" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="PN" value="ERJ-H3EF75R0V" x="7.123" y="54.852" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R18" library="OpenEnergyMonitor" package="R_PTH_SMD" value="75R (1%)" x="7.059" y="39.104" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="Burden Resistor" x="7.059" y="39.104" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="5.461" y="37.5292" size="1.27" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="PN" value="ERJ-H3EF75R0V" x="7.059" y="39.104" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="L2" library="OpenEnergyMonitor" package="CHOKE_WURTH" value="100uH" x="42.15" y="25.3875" smashed="yes" rot="R270">
 <attribute name="NAME" x="35.8265" y="25.4622" size="1.27" layer="25" font="vector" ratio="20" align="center"/>

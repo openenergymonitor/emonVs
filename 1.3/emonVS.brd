@@ -4162,7 +4162,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/MOV-14D431KTR
 <attribute name="NAME" x="39.5165" y="6.3708" size="1.27" layer="25" font="vector" ratio="20"/>
 <attribute name="PN" value="6SVPE180M" x="40.3035" y="11.563" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="D1" library="My-Diodes" library_urn="urn:adsk.eagle:library:35512051" package="DO-214AA" package3d_urn="urn:adsk.eagle:package:35541124/5" value="SCHOTTKY-SMBJ7.0A" x="41.808" y="17.004" smashed="yes" rot="R180">
+<element name="D1" library="My-Diodes" library_urn="urn:adsk.eagle:library:35512051" package="DO-214AA" package3d_urn="urn:adsk.eagle:package:35541124/5" value="TVS" x="41.808" y="17.004" smashed="yes" rot="R180">
 <attribute name="FAMILY" value="SMBJ7.0A" x="41.808" y="17.004" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="38.0396" y="20.1048" size="1.27" layer="25" font="vector" ratio="20" align="center"/>
 <attribute name="PN" value="SMBJ7.0A" x="41.808" y="17.004" size="1.778" layer="27" rot="R180" display="off"/>

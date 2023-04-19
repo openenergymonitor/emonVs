@@ -221,90 +221,6 @@
 <wire x1="2.69875" y1="-1.74625" x2="2.69875" y2="-1.11125" width="0.1524" layer="21"/>
 <wire x1="-2.69875" y1="-1.74625" x2="-2.69875" y2="-1.11125" width="0.1524" layer="21"/>
 </package>
-<package name="DSN2" urn="urn:adsk.eagle:footprint:35512063/1" library_version="13" library_locally_modified="yes">
-<smd name="1" x="-0.34798125" y="0" dx="0.599440625" dy="0.4572" layer="1" rot="R90"/>
-<smd name="2" x="0.340359375" y="0" dx="0.5842" dy="0.599440625" layer="1"/>
-<text x="-0.039" y="1.143" size="1.27" layer="25" align="center">&gt;NAME</text>
-<wire x1="-0.465" y1="0.3" x2="0.53" y2="0.3" width="0.2" layer="51"/>
-<wire x1="0.53" y1="0.3" x2="0.53" y2="-0.3" width="0.2" layer="51"/>
-<wire x1="0.53" y1="-0.3" x2="-0.465" y2="-0.3" width="0.2" layer="51"/>
-<wire x1="-0.465" y1="-0.3" x2="-0.465" y2="0.3" width="0.2" layer="51"/>
-<wire x1="-0.8382" y1="0.3556" x2="-0.8382" y2="-0.3556" width="0.127" layer="21"/>
-</package>
-<package name="CFP-15-3" urn="urn:adsk.eagle:footprint:35512061/1" library_version="13" library_locally_modified="yes">
-<smd name="1" x="1.065" y="-2.78" dx="1.6" dy="1.44" layer="1"/>
-<smd name="2" x="-1.065" y="-2.78" dx="1.6" dy="1.44" layer="1"/>
-<smd name="3" x="0" y="1.02" dx="4.96" dy="3.8" layer="1" rot="R90"/>
-<text x="0" y="5.334" size="1.27" layer="25" align="center">&gt;NAME</text>
-<wire x1="-2.15" y1="2.9" x2="2.15" y2="2.9" width="0.1" layer="21"/>
-<wire x1="2.15" y1="2.9" x2="2.15" y2="-2.9" width="0.1" layer="21"/>
-<wire x1="2.15" y1="-2.9" x2="-2.15" y2="-2.9" width="0.1" layer="21"/>
-<wire x1="-2.15" y1="-2.9" x2="-2.15" y2="2.9" width="0.1" layer="21"/>
-<wire x1="-3.15" y1="-4.5" x2="3.15" y2="-4.5" width="0.1" layer="51"/>
-<wire x1="3.15" y1="-4.5" x2="3.15" y2="4.5" width="0.1" layer="51"/>
-<wire x1="3.15" y1="4.5" x2="-3.15" y2="4.5" width="0.1" layer="51"/>
-<wire x1="-3.15" y1="4.5" x2="-3.15" y2="-4.5" width="0.1" layer="51"/>
-<wire x1="1.388" y1="-3.789" x2="-1.261" y2="-3.789" width="0.1" layer="21"/>
-</package>
-<package name="SOD128-2" urn="urn:adsk.eagle:footprint:35512056/1" library_version="13" library_locally_modified="yes">
-<smd name="1" x="-2.075" y="0" dx="1.72" dy="1.12" layer="1" rot="R90"/>
-<smd name="2" x="2.075" y="0" dx="1.72" dy="1.12" layer="1" rot="R90"/>
-<text x="0" y="2.286" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="-2.286" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-2.785" y1="1.5" x2="2.785" y2="1.5" width="0.05" layer="51"/>
-<wire x1="2.785" y1="1.5" x2="2.785" y2="-1.5" width="0.05" layer="51"/>
-<wire x1="2.785" y1="-1.5" x2="-2.785" y2="-1.5" width="0.05" layer="51"/>
-<wire x1="-2.785" y1="-1.5" x2="-2.785" y2="1.5" width="0.05" layer="51"/>
-<wire x1="-1.85" y1="1.25" x2="1.85" y2="1.25" width="0.1" layer="21"/>
-<wire x1="1.85" y1="-1.25" x2="-1.85" y2="-1.25" width="0.1" layer="21"/>
-<wire x1="-3.068" y1="-0.961" x2="-3.068" y2="0.834" width="0.2" layer="21"/>
-</package>
-<package name="SOD-123-2" urn="urn:adsk.eagle:footprint:35512064/1" library_version="13" library_locally_modified="yes">
-<description>Package / Case: SOD-123-2</description>
-<smd name="1" x="-1.635" y="0" dx="1.22" dy="0.91" layer="1" rot="R90"/>
-<smd name="2" x="1.635" y="0" dx="1.22" dy="0.91" layer="1" rot="R90"/>
-<text x="-0.327" y="2.007" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="-0.327" y="-1.803" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-1.3375" y1="0.85" x2="1.3375" y2="0.85" width="0.2" layer="21"/>
-<wire x1="1.3375" y1="-0.85" x2="-1.3375" y2="-0.85" width="0.2" layer="21"/>
-<wire x1="-2.4375" y1="-0.8" x2="-2.4375" y2="0.8" width="0.2" layer="21"/>
-</package>
-<package name="US2H-2" urn="urn:adsk.eagle:footprint:35512065/2" library_version="13" library_locally_modified="yes">
-<smd name="1" x="-0.95" y="0" dx="2" dy="1.1" layer="1"/>
-<smd name="2" x="0.95" y="0" dx="1.1" dy="0.8" layer="1" rot="R90"/>
-<text x="-0.475" y="2.54" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="-0.475" y="-2.54" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-1" y1="0.7" x2="1" y2="0.7" width="0.2" layer="51"/>
-<wire x1="1" y1="0.7" x2="1" y2="-0.7" width="0.2" layer="51"/>
-<wire x1="1" y1="-0.7" x2="-1" y2="-0.7" width="0.2" layer="51"/>
-<wire x1="-1" y1="-0.7" x2="-1" y2="0.7" width="0.2" layer="51"/>
-<wire x1="-3.3" y1="1.7" x2="2.35" y2="1.7" width="0.1" layer="51"/>
-<wire x1="2.35" y1="1.7" x2="2.35" y2="-1.7" width="0.1" layer="51"/>
-<wire x1="2.35" y1="-1.7" x2="-3.3" y2="-1.7" width="0.1" layer="51"/>
-<wire x1="-3.3" y1="-1.7" x2="-3.3" y2="1.7" width="0.1" layer="51"/>
-<wire x1="-0.95" y1="0.7" x2="1" y2="0.7" width="0.1" layer="21"/>
-<wire x1="-0.9" y1="-0.7" x2="0.9" y2="-0.7" width="0.1" layer="21"/>
-<wire x1="-2.286" y1="0.508" x2="-2.286" y2="-0.508" width="0.1524" layer="21"/>
-</package>
-<package name="DO-214AC" urn="urn:adsk.eagle:footprint:35801976/4" library_version="13" library_locally_modified="yes">
-<description>DO-214AC, also known as SMA, is the smallest size.</description>
-<smd name="1" x="-2" y="0" dx="2.25" dy="1.6" layer="1"/>
-<smd name="2" x="2" y="0" dx="2.25" dy="1.6" layer="1"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-3.375" y1="1.65" x2="3.375" y2="1.65" width="0.05" layer="51"/>
-<wire x1="3.375" y1="1.65" x2="3.375" y2="-1.65" width="0.05" layer="51"/>
-<wire x1="3.375" y1="-1.65" x2="-3.375" y2="-1.65" width="0.05" layer="51"/>
-<wire x1="-3.375" y1="-1.65" x2="-3.375" y2="1.65" width="0.05" layer="51"/>
-<wire x1="-2.5" y1="1.3" x2="2.5" y2="1.3" width="0.1" layer="51"/>
-<wire x1="2.5" y1="1.3" x2="2.5" y2="-1.3" width="0.1" layer="51"/>
-<wire x1="2.5" y1="-1.3" x2="-2.5" y2="-1.3" width="0.1" layer="51"/>
-<wire x1="-2.5" y1="-1.3" x2="-2.5" y2="1.3" width="0.1" layer="51"/>
-<wire x1="-2.5" y1="0.5" x2="-1.7" y2="1.3" width="0.1" layer="51"/>
-<wire x1="2.5" y1="1.3" x2="-2.546" y2="1.3" width="0.2" layer="21"/>
-<wire x1="-2.5" y1="-1.3" x2="2.5" y2="-1.3" width="0.2" layer="21"/>
-<wire x1="-3.556" y1="0.889" x2="-3.556" y2="-1.016" width="0.1524" layer="21"/>
-</package>
 </packages>
 <packages3d>
 <package3d name="DO-214AA-2" urn="urn:adsk.eagle:package:35541124/5" type="model" library_version="13" library_locally_modified="yes">
@@ -313,186 +229,35 @@
 <packageinstance name="DO-214AA"/>
 </packageinstances>
 </package3d>
-<package3d name="DSN2" urn="urn:adsk.eagle:package:35512091/1" type="model" library_version="13" library_locally_modified="yes">
-<packageinstances>
-<packageinstance name="DSN2"/>
-</packageinstances>
-</package3d>
-<package3d name="CFP-15-3" urn="urn:adsk.eagle:package:35512092/1" type="model" library_version="13" library_locally_modified="yes">
-<packageinstances>
-<packageinstance name="CFP-15-3"/>
-</packageinstances>
-</package3d>
-<package3d name="SOD128-2" urn="urn:adsk.eagle:package:35512086/1" type="model" library_version="13" library_locally_modified="yes">
-<packageinstances>
-<packageinstance name="SOD128-2"/>
-</packageinstances>
-</package3d>
-<package3d name="SOD-123-2" urn="urn:adsk.eagle:package:35512090/1" type="model" library_version="13" library_locally_modified="yes">
-<description>Package / Case: SOD-123-2</description>
-<packageinstances>
-<packageinstance name="SOD-123-2"/>
-</packageinstances>
-</package3d>
-<package3d name="US2H-2" urn="urn:adsk.eagle:package:35512084/2" type="model" library_version="13" library_locally_modified="yes">
-<packageinstances>
-<packageinstance name="US2H-2"/>
-</packageinstances>
-</package3d>
-<package3d name="DO-214AC" urn="urn:adsk.eagle:package:35801984/2" type="model" library_version="13" library_locally_modified="yes">
-<description>DO-214AC, also known as SMA, is the smallest size.</description>
-<packageinstances>
-<packageinstance name="DO-214AC"/>
-</packageinstances>
-</package3d>
 </packages3d>
 <symbols>
-<symbol name="SCHOTTKY" urn="urn:adsk.eagle:symbol:35512052/2" library_version="13" library_locally_modified="yes">
-<description>Diode Schottky</description>
-<text x="0" y="2.54" size="1.27" layer="95" align="center">&gt;NAME</text>
-<text x="0" y="-2.159" size="1.27" layer="96" align="center">&gt;FAMILY</text>
-<wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.1524" layer="94"/>
-<wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.1524" layer="94"/>
-<wire x1="1.905" y1="1.27" x2="1.27" y2="1.27" width="0.1524" layer="94"/>
-<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.1524" layer="94"/>
-<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.1524" layer="94"/>
-<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.1524" layer="94"/>
-<wire x1="1.905" y1="1.27" x2="1.905" y2="1.016" width="0.1524" layer="94"/>
-<wire x1="1.27" y1="-1.27" x2="0.635" y2="-1.27" width="0.1524" layer="94"/>
-<wire x1="0.635" y1="-1.016" x2="0.635" y2="-1.27" width="0.1524" layer="94"/>
+<symbol name="TVS" urn="urn:adsk.eagle:symbol:40098574/1" library_version="17">
+<text x="0" y="2.794" size="1.27" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="-2.667" size="1.27" layer="96" align="center">&gt;FAMILY</text>
 <pin name="K" x="3.81" y="0" visible="off" length="short" direction="pas" rot="R180"/>
 <pin name="A" x="-3.81" y="0" visible="off" length="short" direction="pas"/>
+<wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-1.27" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0" x2="1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="1.524" y2="1.524" width="0.1524" layer="94"/>
+<wire x1="1.524" y1="1.524" x2="1.778" y2="1.778" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-1.27" x2="0.762" y2="-1.778" width="0.1524" layer="94"/>
+<wire x1="1.524" y1="1.524" x2="1.524" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="1.524" y1="-1.016" x2="1.27" y2="-1.27" width="0.1524" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="SCHOTTKY-" urn="urn:adsk.eagle:component:35512100/9" locally_modified="yes" prefix="D" library_version="15" library_locally_modified="yes">
+<deviceset name="TVS" urn="urn:adsk.eagle:component:40098575/1" prefix="D" library_version="17">
 <gates>
-<gate name="G$1" symbol="SCHOTTKY" x="0" y="0"/>
+<gate name="G$1" symbol="TVS" x="0" y="0"/>
 </gates>
 <devices>
-<device name="NSR05F30" package="DSN2">
-<connects>
-<connect gate="G$1" pin="A" pad="2"/>
-<connect gate="G$1" pin="K" pad="1"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:35512091/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="FAMILY" value="NSR05F30" constant="no"/>
-<attribute name="PN" value="NSR05F30NXT5G" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="NSR20F20" package="DSN2">
-<connects>
-<connect gate="G$1" pin="A" pad="2"/>
-<connect gate="G$1" pin="K" pad="1"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:35512091/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="FAMILY" value="NSR20F20" constant="no"/>
-<attribute name="PN" value="NSR20F20NXT5G" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="PMEG045V100EPDZ" package="CFP-15-3">
-<connects>
-<connect gate="G$1" pin="A" pad="1 2"/>
-<connect gate="G$1" pin="K" pad="3"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:35512092/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="FAMILY" value="PMEG045V100EPDZ" constant="no"/>
-<attribute name="IF" value="14A" constant="no"/>
-<attribute name="PN" value=" PMEG045V100EPDZ" constant="no"/>
-<attribute name="VF" value="420mV" constant="no"/>
-<attribute name="VR" value="45V" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="RB050LAM" package="SOD128-2">
-<connects>
-<connect gate="G$1" pin="A" pad="2"/>
-<connect gate="G$1" pin="K" pad="1"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:35512086/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="FAMILY" value="RB050LAM" constant="no"/>
-<attribute name="IF" value="3A" constant="no"/>
-<attribute name="IFSM" value="80A" constant="no"/>
-<attribute name="PN" value="RB050LAM-60TR" constant="no"/>
-<attribute name="VR" value="60V" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="CD123D" package="SOD-123-2">
-<connects>
-<connect gate="G$1" pin="A" pad="2"/>
-<connect gate="G$1" pin="K" pad="1"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:35512090/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="FAMILY" value="CD123D" constant="no"/>
-<attribute name="IF" value="1A" constant="no"/>
-<attribute name="IFSM" value="20A" constant="no"/>
-<attribute name="PN" value="CD123D-B140LR" constant="no"/>
-<attribute name="VF" value="380 mV" constant="no"/>
-<attribute name="VR" value="40V" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="CUHS20S30" package="US2H-2">
-<connects>
-<connect gate="G$1" pin="A" pad="2"/>
-<connect gate="G$1" pin="K" pad="1"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:35512084/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value="Schottky Diode" constant="no"/>
-<attribute name="FAMILY" value="CUHS20S30" constant="no"/>
-<attribute name="IF" value="2 A" constant="no"/>
-<attribute name="PN" value="CUHS20S30,H3F" constant="no"/>
-<attribute name="VF" value="280 mV" constant="no"/>
-<attribute name="VR" value="30V" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="SS16" package="DO-214AC">
-<connects>
-<connect gate="G$1" pin="A" pad="2"/>
-<connect gate="G$1" pin="K" pad="1"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:35801984/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="FAMILY" value="SS16" constant="no"/>
-<attribute name="IF" value="1A" constant="no"/>
-<attribute name="PN" value="SS16" constant="no"/>
-<attribute name="VF" value="750mV" constant="no"/>
-<attribute name="VR" value="60V" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="SMBJ7.0A" package="DO-214AA">
+<device name="" package="DO-214AA">
 <connects>
 <connect gate="G$1" pin="A" pad="2"/>
 <connect gate="G$1" pin="K" pad="1"/>
@@ -3909,7 +3674,7 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 <part name="C2" library="My-RLC" library_urn="urn:adsk.eagle:library:35509816" deviceset="CP_" device="SV-C" package3d_urn="urn:adsk.eagle:package:35509926/1" value="180uF x 6.3V">
 <attribute name="PN" value="6SVPE180M"/>
 </part>
-<part name="D1" library="My-Diodes" library_urn="urn:adsk.eagle:library:35512051" deviceset="SCHOTTKY-" device="SMBJ7.0A" package3d_urn="urn:adsk.eagle:package:35541124/5"/>
+<part name="D1" library="My-Diodes" library_urn="urn:adsk.eagle:library:35512051" deviceset="TVS" device="" package3d_urn="urn:adsk.eagle:package:35541124/5"/>
 <part name="FD1" library="OpenEnergyMonitor" deviceset="FIDUCIAL" device="1X2"/>
 <part name="FD2" library="OpenEnergyMonitor" deviceset="FIDUCIAL" device="1X2"/>
 <part name="FD3" library="OpenEnergyMonitor" deviceset="FIDUCIAL" device="1X2"/>
@@ -4100,8 +3865,8 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 <attribute name="PN" x="238.125" y="152.4" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D1" gate="G$1" x="249.555" y="151.13" smashed="yes" rot="R90" grouprefs="EMBEDDED_POWER_SUPPLY">
-<attribute name="NAME" x="247.015" y="151.13" size="1.27" layer="95" rot="R90" align="center"/>
-<attribute name="FAMILY" x="251.714" y="151.13" size="1.27" layer="96" rot="R90" align="center"/>
+<attribute name="NAME" x="246.761" y="151.13" size="1.27" layer="95" rot="R90" align="center"/>
+<attribute name="FAMILY" x="252.222" y="151.13" size="1.27" layer="96" rot="R90" align="center"/>
 </instance>
 <instance part="FD1" gate="G$1" x="149.225" y="3.175" smashed="yes" rot="R90"/>
 <instance part="FD2" gate="G$1" x="154.305" y="3.175" smashed="yes" rot="R90"/>

@@ -42,7 +42,7 @@ An emonBase can be powered using a open-ended USB-C connector wired into the 5V 
 3	|F1, F2, F3|	Slow blow fuse, 1A X 250V|	MST 1A 250V|
 1	|L1|	Common Mode Choke, 47mH|	RN214-0.3-02-47M|
 1	|L2|	Common Mode Choke, 100uH|	744252101|
-1	|PS1|	AC-DC converter, 5W / 5V|	MP-LD05-23B05R2|
+1	|PS1|	AC-DC converter, 5W / 5V|	MP-LD10-23B05R2|
 18	|R1, R2, R3, R5, R6, R7, R8, R9, R10, R12, R13, R14, R15, R16, R17, R19, R20, R21|	10k (5%)|	ERJ-H3GJ103V|
 3	|R4, R11, R18|	75R (1%)|	ERJ-H3EF75R0V|
 3	|RV1, RV2, RV3|	Varistor, 275VAC|	MOV-14D431KTR|

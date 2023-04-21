@@ -48,4 +48,8 @@ An emonBase can be powered using a open-ended USB-C connector wired into the 5V 
 3	|RV1, RV2, RV3|	Varistor, 275VAC|	MOV-14D431KTR|
 3	|T1, T2, T3|	Micro-transformer, 1000:1000 ratio|	ZMPT101B|
 
+3D Model Preview
+<p align="center"><a href="1.3/assets/emonVS%20v1.3.step"><img src="1.3/assets/3d_model_preview.PNG"  title="3D model file" alt=".STEP Download"></a></p>
+
+
 

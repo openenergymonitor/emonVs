@@ -23,16 +23,16 @@
 <layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
 <layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
 <layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
@@ -59,7 +59,7 @@
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="yes"/>
@@ -4197,9 +4197,9 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/MOV-14D431KTR
 <attribute name="NAME" x="62.9732" y="94.2762" size="1.27" layer="21" font="vector" ratio="20" rot="R180"/>
 <attribute name="PN" value="RN214-0.3-02-47M" x="61.5" y="81.5" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="PS1" library="OpenEnergyMonitor" package="MULTICOMP-AC/DC" value="MULTICOMP-AC/DC" x="62.5" y="32.5" smashed="yes">
+<element name="PS1" library="OpenEnergyMonitor" package="MULTICOMP-AC/DC" value="AC-DC converter (10W / 5V)" x="62.5" y="32.5" smashed="yes">
 <attribute name="NAME" x="45.0248" y="43.0664" size="1.27" layer="25" font="vector" ratio="20" rot="R90" align="center"/>
-<attribute name="PN" value="MP-LD05-23B05R2" x="62.5" y="32.5" size="1.778" layer="27" display="off"/>
+<attribute name="PN" value="MP-LD10-23B05R2" x="62.5" y="32.5" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="45.355" y="49.264" size="1.27" layer="27" font="vector" ratio="20" rot="R90" align="center"/>
 </element>
 <element name="R4" library="OpenEnergyMonitor" package="R_PTH_SMD" value="75R (1%)" x="7.06" y="72.632" smashed="yes" rot="R90">
@@ -4591,7 +4591,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/MOV-14D431KTR
 <wire x1="29.718" y1="66.548" x2="23.576" y2="66.548" width="0.508" layer="1"/>
 <wire x1="23.576" y1="66.548" x2="23.392" y2="66.732" width="0.508" layer="1"/>
 </signal>
-<signal name="0V">
+<signal name="GND">
 <contactref element="C1" pad="2"/>
 <contactref element="C2" pad="-"/>
 <contactref element="D1" pad="2"/>

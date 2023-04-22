@@ -2,7 +2,10 @@
 
 AC voltage sensor and power supply for [emonTx V4](https://github.com/openenergymonitor/emontx4) and [emonPi V2](https://github.com/openenergymonitor/emonpi2).
 
-<p align="center"><img src="emonVS.jpg" width="50%" height="50%"></p>
+
+
+![emonVS_device.png](emonVS_device.png) |![emonVS_pcb.png](emonVS_pcb.png) |
+--- | ---
 
 ## Outputs
 - The **RJ45 connector** is used to provide power supply and AC voltage sample to [emonTx V4](https://github.com/openenergymonitor/emontx4) and [emonPi V2](https://github.com/openenergymonitor/emonpi2).

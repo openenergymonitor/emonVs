@@ -4,7 +4,7 @@ AC voltage sensor and power supply for [emonTx V4](https://github.com/openenergy
 
 
 
-![emonVS_device.png](emonVS_device.png) |![emonVS_pcb.png](emonVS_pcb.png) |
+![emonVS_device](assets/emonVS_device.png) |![emonVS_pcb](assets/emonVS_pcb.png) |
 --- | ---
 
 ## Outputs

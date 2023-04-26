@@ -58,10 +58,6 @@
 - Fix milling 
 - V1.1 rev2: minor silkscreen and pad size tweaks for production
 
-## V1.2
-
-- Change RJ11 to RJ45 connector
-
 
 ## V1.2
 

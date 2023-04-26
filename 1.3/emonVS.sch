@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.0125" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -3581,7 +3581,7 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 <attribute name="AUTHOR" value="OpenEnergyMonitor"/>
 <attribute name="IGNORE_RENUMBER" value="F;RV"/>
 <attribute name="SOURCE" value="github.com/openenergymonitor/emonVoltageSense"/>
-<attribute name="VERSION" value="1.3"/>
+<attribute name="VERSION" value="1.3.1"/>
 </attributes>
 <variantdefs>
 </variantdefs>
@@ -3606,60 +3606,60 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 </groups>
 <parts>
 <part name="T1" library="OpenEnergyMonitor" deviceset="ZMPT101B" device=""/>
-<part name="R7" library="My-RLC" library_urn="urn:adsk.eagle:library:35509816" deviceset="R_" device="0603" package3d_urn="urn:adsk.eagle:package:35509946/1" value="10k (5%)">
-<attribute name="PN" value="ERJ-H3GJ103V"/>
-</part>
-<part name="R6" library="My-RLC" library_urn="urn:adsk.eagle:library:35509816" deviceset="R_" device="0603" package3d_urn="urn:adsk.eagle:package:35509946/1" value="10k (5%)">
-<attribute name="PN" value="ERJ-H3GJ103V"/>
-</part>
-<part name="R5" library="My-RLC" library_urn="urn:adsk.eagle:library:35509816" deviceset="R_" device="0603" package3d_urn="urn:adsk.eagle:package:35509946/1" value="10k (5%)">
-<attribute name="PN" value="ERJ-H3GJ103V"/>
-</part>
-<part name="R3" library="My-RLC" library_urn="urn:adsk.eagle:library:35509816" deviceset="R_" device="0603" package3d_urn="urn:adsk.eagle:package:35509946/1" value="10k (5%)">
+<part name="R1" library="My-RLC" library_urn="urn:adsk.eagle:library:35509816" deviceset="R_" device="0603" package3d_urn="urn:adsk.eagle:package:35509946/1" value="10k (5%)">
 <attribute name="PN" value="ERJ-H3GJ103V"/>
 </part>
 <part name="R2" library="My-RLC" library_urn="urn:adsk.eagle:library:35509816" deviceset="R_" device="0603" package3d_urn="urn:adsk.eagle:package:35509946/1" value="10k (5%)">
 <attribute name="PN" value="ERJ-H3GJ103V"/>
 </part>
-<part name="R1" library="My-RLC" library_urn="urn:adsk.eagle:library:35509816" deviceset="R_" device="0603" package3d_urn="urn:adsk.eagle:package:35509946/1" value="10k (5%)">
+<part name="R3" library="My-RLC" library_urn="urn:adsk.eagle:library:35509816" deviceset="R_" device="0603" package3d_urn="urn:adsk.eagle:package:35509946/1" value="10k (5%)">
+<attribute name="PN" value="ERJ-H3GJ103V"/>
+</part>
+<part name="R4" library="My-RLC" library_urn="urn:adsk.eagle:library:35509816" deviceset="R_" device="0603" package3d_urn="urn:adsk.eagle:package:35509946/1" value="10k (5%)">
+<attribute name="PN" value="ERJ-H3GJ103V"/>
+</part>
+<part name="R5" library="My-RLC" library_urn="urn:adsk.eagle:library:35509816" deviceset="R_" device="0603" package3d_urn="urn:adsk.eagle:package:35509946/1" value="10k (5%)">
+<attribute name="PN" value="ERJ-H3GJ103V"/>
+</part>
+<part name="R6" library="My-RLC" library_urn="urn:adsk.eagle:library:35509816" deviceset="R_" device="0603" package3d_urn="urn:adsk.eagle:package:35509946/1" value="10k (5%)">
 <attribute name="PN" value="ERJ-H3GJ103V"/>
 </part>
 <part name="T2" library="OpenEnergyMonitor" deviceset="ZMPT101B" device=""/>
-<part name="R14" library="My-RLC" library_urn="urn:adsk.eagle:library:35509816" deviceset="R_" device="0603" package3d_urn="urn:adsk.eagle:package:35509946/1" value="10k (5%)">
-<attribute name="PN" value="ERJ-H3GJ103V"/>
-</part>
-<part name="R13" library="My-RLC" library_urn="urn:adsk.eagle:library:35509816" deviceset="R_" device="0603" package3d_urn="urn:adsk.eagle:package:35509946/1" value="10k (5%)">
-<attribute name="PN" value="ERJ-H3GJ103V"/>
-</part>
 <part name="R12" library="My-RLC" library_urn="urn:adsk.eagle:library:35509816" deviceset="R_" device="0603" package3d_urn="urn:adsk.eagle:package:35509946/1" value="10k (5%)">
 <attribute name="PN" value="ERJ-H3GJ103V"/>
 </part>
-<part name="R10" library="My-RLC" library_urn="urn:adsk.eagle:library:35509816" deviceset="R_" device="0603" package3d_urn="urn:adsk.eagle:package:35509946/1" value="10k (5%)">
-<attribute name="PN" value="ERJ-H3GJ103V"/>
-</part>
-<part name="R9" library="My-RLC" library_urn="urn:adsk.eagle:library:35509816" deviceset="R_" device="0603" package3d_urn="urn:adsk.eagle:package:35509946/1" value="10k (5%)">
-<attribute name="PN" value="ERJ-H3GJ103V"/>
-</part>
-<part name="R8" library="My-RLC" library_urn="urn:adsk.eagle:library:35509816" deviceset="R_" device="0603" package3d_urn="urn:adsk.eagle:package:35509946/1" value="10k (5%)">
-<attribute name="PN" value="ERJ-H3GJ103V"/>
-</part>
-<part name="T3" library="OpenEnergyMonitor" deviceset="ZMPT101B" device=""/>
-<part name="R21" library="My-RLC" library_urn="urn:adsk.eagle:library:35509816" deviceset="R_" device="0603" package3d_urn="urn:adsk.eagle:package:35509946/1" value="10k (5%)">
-<attribute name="PN" value="ERJ-H3GJ103V"/>
-</part>
-<part name="R20" library="My-RLC" library_urn="urn:adsk.eagle:library:35509816" deviceset="R_" device="0603" package3d_urn="urn:adsk.eagle:package:35509946/1" value="10k (5%)">
-<attribute name="PN" value="ERJ-H3GJ103V"/>
-</part>
-<part name="R19" library="My-RLC" library_urn="urn:adsk.eagle:library:35509816" deviceset="R_" device="0603" package3d_urn="urn:adsk.eagle:package:35509946/1" value="10k (5%)">
-<attribute name="PN" value="ERJ-H3GJ103V"/>
-</part>
-<part name="R17" library="My-RLC" library_urn="urn:adsk.eagle:library:35509816" deviceset="R_" device="0603" package3d_urn="urn:adsk.eagle:package:35509946/1" value="10k (5%)">
+<part name="R15" library="My-RLC" library_urn="urn:adsk.eagle:library:35509816" deviceset="R_" device="0603" package3d_urn="urn:adsk.eagle:package:35509946/1" value="10k (5%)">
 <attribute name="PN" value="ERJ-H3GJ103V"/>
 </part>
 <part name="R16" library="My-RLC" library_urn="urn:adsk.eagle:library:35509816" deviceset="R_" device="0603" package3d_urn="urn:adsk.eagle:package:35509946/1" value="10k (5%)">
 <attribute name="PN" value="ERJ-H3GJ103V"/>
 </part>
-<part name="R15" library="My-RLC" library_urn="urn:adsk.eagle:library:35509816" deviceset="R_" device="0603" package3d_urn="urn:adsk.eagle:package:35509946/1" value="10k (5%)">
+<part name="R17" library="My-RLC" library_urn="urn:adsk.eagle:library:35509816" deviceset="R_" device="0603" package3d_urn="urn:adsk.eagle:package:35509946/1" value="10k (5%)">
+<attribute name="PN" value="ERJ-H3GJ103V"/>
+</part>
+<part name="R18" library="My-RLC" library_urn="urn:adsk.eagle:library:35509816" deviceset="R_" device="0603" package3d_urn="urn:adsk.eagle:package:35509946/1" value="10k (5%)">
+<attribute name="PN" value="ERJ-H3GJ103V"/>
+</part>
+<part name="R19" library="My-RLC" library_urn="urn:adsk.eagle:library:35509816" deviceset="R_" device="0603" package3d_urn="urn:adsk.eagle:package:35509946/1" value="10k (5%)">
+<attribute name="PN" value="ERJ-H3GJ103V"/>
+</part>
+<part name="T3" library="OpenEnergyMonitor" deviceset="ZMPT101B" device=""/>
+<part name="R25" library="My-RLC" library_urn="urn:adsk.eagle:library:35509816" deviceset="R_" device="0603" package3d_urn="urn:adsk.eagle:package:35509946/1" value="10k (5%)">
+<attribute name="PN" value="ERJ-H3GJ103V"/>
+</part>
+<part name="R26" library="My-RLC" library_urn="urn:adsk.eagle:library:35509816" deviceset="R_" device="0603" package3d_urn="urn:adsk.eagle:package:35509946/1" value="10k (5%)">
+<attribute name="PN" value="ERJ-H3GJ103V"/>
+</part>
+<part name="R27" library="My-RLC" library_urn="urn:adsk.eagle:library:35509816" deviceset="R_" device="0603" package3d_urn="urn:adsk.eagle:package:35509946/1" value="10k (5%)">
+<attribute name="PN" value="ERJ-H3GJ103V"/>
+</part>
+<part name="R28" library="My-RLC" library_urn="urn:adsk.eagle:library:35509816" deviceset="R_" device="0603" package3d_urn="urn:adsk.eagle:package:35509946/1" value="10k (5%)">
+<attribute name="PN" value="ERJ-H3GJ103V"/>
+</part>
+<part name="R29" library="My-RLC" library_urn="urn:adsk.eagle:library:35509816" deviceset="R_" device="0603" package3d_urn="urn:adsk.eagle:package:35509946/1" value="10k (5%)">
+<attribute name="PN" value="ERJ-H3GJ103V"/>
+</part>
+<part name="R30" library="My-RLC" library_urn="urn:adsk.eagle:library:35509816" deviceset="R_" device="0603" package3d_urn="urn:adsk.eagle:package:35509946/1" value="10k (5%)">
 <attribute name="PN" value="ERJ-H3GJ103V"/>
 </part>
 <part name="F2" library="OpenEnergyMonitor" deviceset="FUSE" device="" value="1A x 250V"/>
@@ -3690,13 +3690,13 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 <part name="PS1" library="OpenEnergyMonitor" deviceset="MULTICOMP-AC/DC" device="" value="AC-DC converter (10W / 5V)">
 <attribute name="PN" value="MP-LD10-23B05R2"/>
 </part>
-<part name="R4" library="OpenEnergyMonitor" deviceset="R_" device="" value="75R (1%)">
+<part name="R21" library="OpenEnergyMonitor" deviceset="R_" device="" value="75R (1%)">
 <attribute name="PN" value="ERJ-H3EF75R0V"/>
 </part>
-<part name="R11" library="OpenEnergyMonitor" deviceset="R_" device="" value="75R (1%)">
+<part name="R8" library="OpenEnergyMonitor" deviceset="R_" device="" value="75R (1%)">
 <attribute name="PN" value="ERJ-H3EF75R0V"/>
 </part>
-<part name="R18" library="OpenEnergyMonitor" deviceset="R_" device="" value="75R (1%)">
+<part name="R9" library="OpenEnergyMonitor" deviceset="R_" device="" value="75R (1%)">
 <attribute name="PN" value="ERJ-H3EF75R0V"/>
 </part>
 <part name="L2" library="OpenEnergyMonitor" deviceset="CHOKES" device="-WE-SL3" value="100uH"/>
@@ -3731,105 +3731,105 @@ the SJ1 and SJ3.</text>
 <attribute name="VALUE" x="67.31" y="98.2726" size="1.27" layer="96" rot="R180" align="center"/>
 <attribute name="RATIO" x="67.31" y="80.01" size="1.27" layer="97" align="center"/>
 </instance>
-<instance part="R7" gate="G$1" x="54.61" y="81.28" smashed="yes" rot="MR0" grouprefs="VOLTAGE_MEASUREMENT_PHASE_1">
+<instance part="R1" gate="G$1" x="54.61" y="81.28" smashed="yes" rot="MR0" grouprefs="VOLTAGE_MEASUREMENT_PHASE_1">
+<attribute name="PN" x="54.61" y="81.28" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="54.61" y="83.4136" size="1.27" layer="95" rot="MR0" align="center"/>
 <attribute name="VALUE" x="54.61" y="79.375" size="1.27" layer="96" rot="MR0" align="center"/>
-<attribute name="PN" x="54.61" y="81.28" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R6" gate="G$1" x="41.91" y="81.28" smashed="yes" rot="MR0" grouprefs="VOLTAGE_MEASUREMENT_PHASE_1">
+<instance part="R2" gate="G$1" x="41.91" y="81.28" smashed="yes" rot="MR0" grouprefs="VOLTAGE_MEASUREMENT_PHASE_1">
+<attribute name="PN" x="41.91" y="81.28" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="41.91" y="83.4136" size="1.27" layer="95" rot="MR0" align="center"/>
 <attribute name="VALUE" x="41.91" y="79.375" size="1.27" layer="96" rot="MR0" align="center"/>
-<attribute name="PN" x="41.91" y="81.28" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R5" gate="G$1" x="29.21" y="81.28" smashed="yes" rot="MR0" grouprefs="VOLTAGE_MEASUREMENT_PHASE_1">
+<instance part="R3" gate="G$1" x="29.21" y="81.28" smashed="yes" rot="MR0" grouprefs="VOLTAGE_MEASUREMENT_PHASE_1">
+<attribute name="PN" x="29.21" y="81.28" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="29.21" y="83.4136" size="1.27" layer="95" rot="MR0" align="center"/>
 <attribute name="VALUE" x="29.21" y="79.375" size="1.27" layer="96" rot="MR0" align="center"/>
-<attribute name="PN" x="29.21" y="81.28" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R3" gate="G$1" x="54.61" y="96.52" smashed="yes" rot="MR0" grouprefs="VOLTAGE_MEASUREMENT_PHASE_1">
+<instance part="R4" gate="G$1" x="54.61" y="96.52" smashed="yes" rot="MR0" grouprefs="VOLTAGE_MEASUREMENT_PHASE_1">
+<attribute name="PN" x="54.61" y="96.52" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="54.61" y="98.6536" size="1.27" layer="95" rot="MR0" align="center"/>
 <attribute name="VALUE" x="54.61" y="94.615" size="1.27" layer="96" rot="MR0" align="center"/>
-<attribute name="PN" x="54.61" y="96.52" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R2" gate="G$1" x="41.91" y="96.52" smashed="yes" rot="MR0" grouprefs="VOLTAGE_MEASUREMENT_PHASE_1">
+<instance part="R5" gate="G$1" x="41.91" y="96.52" smashed="yes" rot="MR0" grouprefs="VOLTAGE_MEASUREMENT_PHASE_1">
+<attribute name="PN" x="41.91" y="96.52" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="41.91" y="98.6536" size="1.27" layer="95" rot="MR0" align="center"/>
 <attribute name="VALUE" x="41.91" y="94.615" size="1.27" layer="96" rot="MR0" align="center"/>
-<attribute name="PN" x="41.91" y="96.52" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R1" gate="G$1" x="29.21" y="96.52" smashed="yes" rot="MR0" grouprefs="VOLTAGE_MEASUREMENT_PHASE_1">
+<instance part="R6" gate="G$1" x="29.21" y="96.52" smashed="yes" rot="MR0" grouprefs="VOLTAGE_MEASUREMENT_PHASE_1">
+<attribute name="PN" x="29.21" y="96.52" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="29.21" y="98.6536" size="1.27" layer="95" rot="MR0" align="center"/>
 <attribute name="VALUE" x="29.21" y="94.615" size="1.27" layer="96" rot="MR0" align="center"/>
-<attribute name="PN" x="29.21" y="96.52" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="T2" gate="G$1" x="66.675" y="55.245" smashed="yes" grouprefs="VOLTAGE_MEASUREMENT_PHASE_2">
 <attribute name="NAME" x="66.675" y="66.5226" size="1.27" layer="95" rot="R180" align="center"/>
 <attribute name="VALUE" x="66.675" y="64.6176" size="1.27" layer="96" rot="R180" align="center"/>
 <attribute name="RATIO" x="66.675" y="46.355" size="1.27" layer="97" align="center"/>
 </instance>
-<instance part="R14" gate="G$1" x="53.975" y="47.625" smashed="yes" rot="MR0" grouprefs="VOLTAGE_MEASUREMENT_PHASE_2">
+<instance part="R12" gate="G$1" x="53.975" y="47.625" smashed="yes" rot="MR0" grouprefs="VOLTAGE_MEASUREMENT_PHASE_2">
+<attribute name="PN" x="53.975" y="47.625" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="53.975" y="49.7586" size="1.27" layer="95" rot="MR0" align="center"/>
 <attribute name="VALUE" x="53.975" y="45.72" size="1.27" layer="96" rot="MR0" align="center"/>
-<attribute name="PN" x="53.975" y="47.625" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R13" gate="G$1" x="41.275" y="47.625" smashed="yes" rot="MR0" grouprefs="VOLTAGE_MEASUREMENT_PHASE_2">
+<instance part="R15" gate="G$1" x="41.275" y="47.625" smashed="yes" rot="MR0" grouprefs="VOLTAGE_MEASUREMENT_PHASE_2">
+<attribute name="PN" x="41.275" y="47.625" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="41.275" y="49.7586" size="1.27" layer="95" rot="MR0" align="center"/>
 <attribute name="VALUE" x="41.275" y="45.72" size="1.27" layer="96" rot="MR0" align="center"/>
-<attribute name="PN" x="41.275" y="47.625" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R12" gate="G$1" x="28.575" y="47.625" smashed="yes" rot="MR0" grouprefs="VOLTAGE_MEASUREMENT_PHASE_2">
+<instance part="R16" gate="G$1" x="28.575" y="47.625" smashed="yes" rot="MR0" grouprefs="VOLTAGE_MEASUREMENT_PHASE_2">
+<attribute name="PN" x="28.575" y="47.625" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="28.575" y="49.7586" size="1.27" layer="95" rot="MR0" align="center"/>
 <attribute name="VALUE" x="28.575" y="45.72" size="1.27" layer="96" rot="MR0" align="center"/>
-<attribute name="PN" x="28.575" y="47.625" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R10" gate="G$1" x="53.975" y="62.865" smashed="yes" rot="MR0" grouprefs="VOLTAGE_MEASUREMENT_PHASE_2">
+<instance part="R17" gate="G$1" x="53.975" y="62.865" smashed="yes" rot="MR0" grouprefs="VOLTAGE_MEASUREMENT_PHASE_2">
+<attribute name="PN" x="53.975" y="62.865" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="53.975" y="64.9986" size="1.27" layer="95" rot="MR0" align="center"/>
 <attribute name="VALUE" x="53.975" y="60.96" size="1.27" layer="96" rot="MR0" align="center"/>
-<attribute name="PN" x="53.975" y="62.865" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R9" gate="G$1" x="41.275" y="62.865" smashed="yes" rot="MR0" grouprefs="VOLTAGE_MEASUREMENT_PHASE_2">
+<instance part="R18" gate="G$1" x="41.275" y="62.865" smashed="yes" rot="MR0" grouprefs="VOLTAGE_MEASUREMENT_PHASE_2">
+<attribute name="PN" x="41.275" y="62.865" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="41.275" y="64.9986" size="1.27" layer="95" rot="MR0" align="center"/>
 <attribute name="VALUE" x="41.275" y="60.96" size="1.27" layer="96" rot="MR0" align="center"/>
-<attribute name="PN" x="41.275" y="62.865" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R8" gate="G$1" x="28.575" y="62.865" smashed="yes" rot="MR0" grouprefs="VOLTAGE_MEASUREMENT_PHASE_2">
+<instance part="R19" gate="G$1" x="28.575" y="62.865" smashed="yes" rot="MR0" grouprefs="VOLTAGE_MEASUREMENT_PHASE_2">
+<attribute name="PN" x="28.575" y="62.865" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="28.575" y="64.9986" size="1.27" layer="95" rot="MR0" align="center"/>
 <attribute name="VALUE" x="28.575" y="60.96" size="1.27" layer="96" rot="MR0" align="center"/>
-<attribute name="PN" x="28.575" y="62.865" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="T3" gate="G$1" x="67.31" y="19.05" smashed="yes" grouprefs="VOLTAGE_MEASUREMENT_PHASE_3">
 <attribute name="NAME" x="67.31" y="30.3276" size="1.27" layer="95" rot="R180" align="center"/>
 <attribute name="VALUE" x="67.31" y="28.4226" size="1.27" layer="96" rot="R180" align="center"/>
 <attribute name="RATIO" x="67.31" y="10.16" size="1.27" layer="97" align="center"/>
 </instance>
-<instance part="R21" gate="G$1" x="54.61" y="11.43" smashed="yes" rot="MR0" grouprefs="VOLTAGE_MEASUREMENT_PHASE_3">
+<instance part="R25" gate="G$1" x="54.61" y="11.43" smashed="yes" rot="MR0" grouprefs="VOLTAGE_MEASUREMENT_PHASE_3">
+<attribute name="PN" x="54.61" y="11.43" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="54.61" y="13.5636" size="1.27" layer="95" rot="MR0" align="center"/>
 <attribute name="VALUE" x="54.61" y="9.525" size="1.27" layer="96" rot="MR0" align="center"/>
-<attribute name="PN" x="54.61" y="11.43" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R20" gate="G$1" x="41.91" y="11.43" smashed="yes" rot="MR0" grouprefs="VOLTAGE_MEASUREMENT_PHASE_3">
+<instance part="R26" gate="G$1" x="41.91" y="11.43" smashed="yes" rot="MR0" grouprefs="VOLTAGE_MEASUREMENT_PHASE_3">
+<attribute name="PN" x="41.91" y="11.43" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="41.91" y="13.5636" size="1.27" layer="95" rot="MR0" align="center"/>
 <attribute name="VALUE" x="41.91" y="9.525" size="1.27" layer="96" rot="MR0" align="center"/>
-<attribute name="PN" x="41.91" y="11.43" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R19" gate="G$1" x="29.21" y="11.43" smashed="yes" rot="MR0" grouprefs="VOLTAGE_MEASUREMENT_PHASE_3">
+<instance part="R27" gate="G$1" x="29.21" y="11.43" smashed="yes" rot="MR0" grouprefs="VOLTAGE_MEASUREMENT_PHASE_3">
+<attribute name="PN" x="29.21" y="11.43" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="29.21" y="13.5636" size="1.27" layer="95" rot="MR0" align="center"/>
 <attribute name="VALUE" x="29.21" y="9.525" size="1.27" layer="96" rot="MR0" align="center"/>
-<attribute name="PN" x="29.21" y="11.43" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R17" gate="G$1" x="54.61" y="26.67" smashed="yes" rot="MR0" grouprefs="VOLTAGE_MEASUREMENT_PHASE_3">
+<instance part="R28" gate="G$1" x="54.61" y="26.67" smashed="yes" rot="MR0" grouprefs="VOLTAGE_MEASUREMENT_PHASE_3">
+<attribute name="PN" x="54.61" y="26.67" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="54.61" y="28.8036" size="1.27" layer="95" rot="MR0" align="center"/>
 <attribute name="VALUE" x="54.61" y="24.765" size="1.27" layer="96" rot="MR0" align="center"/>
-<attribute name="PN" x="54.61" y="26.67" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R16" gate="G$1" x="41.91" y="26.67" smashed="yes" rot="MR0" grouprefs="VOLTAGE_MEASUREMENT_PHASE_3">
+<instance part="R29" gate="G$1" x="41.91" y="26.67" smashed="yes" rot="MR0" grouprefs="VOLTAGE_MEASUREMENT_PHASE_3">
+<attribute name="PN" x="41.91" y="26.67" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="41.91" y="28.8036" size="1.27" layer="95" rot="MR0" align="center"/>
 <attribute name="VALUE" x="41.91" y="24.765" size="1.27" layer="96" rot="MR0" align="center"/>
-<attribute name="PN" x="41.91" y="26.67" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R15" gate="G$1" x="29.21" y="26.67" smashed="yes" rot="MR0" grouprefs="VOLTAGE_MEASUREMENT_PHASE_3">
+<instance part="R30" gate="G$1" x="29.21" y="26.67" smashed="yes" rot="MR0" grouprefs="VOLTAGE_MEASUREMENT_PHASE_3">
+<attribute name="PN" x="29.21" y="26.67" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="29.21" y="28.8036" size="1.27" layer="95" rot="MR0" align="center"/>
 <attribute name="VALUE" x="29.21" y="24.765" size="1.27" layer="96" rot="MR0" align="center"/>
-<attribute name="PN" x="29.21" y="26.67" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="F2" gate="G$1" x="26.67" y="151.765" smashed="yes" rot="R180" grouprefs="THREE-PHASE_AC_NETWORK_INTERFACE">
 <attribute name="NAME" x="26.67" y="153.9875" size="1.27" layer="95" rot="R180" align="center"/>
@@ -3917,19 +3917,19 @@ the SJ1 and SJ3.</text>
 <attribute name="VALUE" x="207.645" y="165.989" size="1.27" layer="96" align="center"/>
 <attribute name="PN" x="207.645" y="154.305" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R4" gate="G$1" x="78.105" y="19.05" smashed="yes" rot="MR180" grouprefs="VOLTAGE_MEASUREMENT_PHASE_3">
+<instance part="R21" gate="G$1" x="78.105" y="19.05" smashed="yes" rot="MR180" grouprefs="VOLTAGE_MEASUREMENT_PHASE_3">
+<attribute name="PN" x="78.105" y="19.05" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="79.629" y="20.6756" size="1.27" layer="95" rot="MR0" align="center-right"/>
 <attribute name="VALUE" x="79.629" y="19.05" size="1.27" layer="96" rot="MR0" align="center-right"/>
 <attribute name="DESCRIPTION" x="79.629" y="17.526" size="1.27" layer="96" rot="MR0" align="center-right"/>
-<attribute name="PN" x="78.105" y="19.05" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R11" gate="G$1" x="78.105" y="55.245" smashed="yes" rot="MR180" grouprefs="VOLTAGE_MEASUREMENT_PHASE_2">
+<instance part="R8" gate="G$1" x="78.105" y="55.245" smashed="yes" rot="MR180" grouprefs="VOLTAGE_MEASUREMENT_PHASE_2">
+<attribute name="PN" x="78.105" y="55.245" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="79.629" y="56.8706" size="1.27" layer="95" rot="MR0" align="center-right"/>
 <attribute name="VALUE" x="79.629" y="55.245" size="1.27" layer="96" rot="MR0" align="center-right"/>
 <attribute name="DESCRIPTION" x="79.629" y="53.721" size="1.27" layer="96" rot="MR0" align="center-right"/>
-<attribute name="PN" x="78.105" y="55.245" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R18" gate="G$1" x="78.105" y="88.9" smashed="yes" rot="MR180" grouprefs="VOLTAGE_MEASUREMENT_PHASE_1">
+<instance part="R9" gate="G$1" x="78.105" y="88.9" smashed="yes" rot="MR180" grouprefs="VOLTAGE_MEASUREMENT_PHASE_1">
 <attribute name="NAME" x="79.629" y="90.5256" size="1.27" layer="95" rot="MR0" align="center-right"/>
 <attribute name="VALUE" x="79.629" y="88.9" size="1.27" layer="96" rot="MR0" align="center-right"/>
 <attribute name="DESCRIPTION" x="79.629" y="87.376" size="1.27" layer="96" rot="MR0" align="center-right"/>
@@ -3976,7 +3976,7 @@ the SJ1 and SJ3.</text>
 <wire x1="72.39" y1="96.52" x2="78.105" y2="96.52" width="0.1524" layer="91" grouprefs="VOLTAGE_MEASUREMENT_PHASE_1"/>
 <label x="84.455" y="96.52" size="1.27" layer="95" rot="MR180" xref="yes" grouprefs="VOLTAGE_MEASUREMENT_PHASE_1"/>
 <pinref part="T1" gate="G$1" pin="SEC_2"/>
-<pinref part="R18" gate="G$1" pin="1"/>
+<pinref part="R9" gate="G$1" pin="1"/>
 <wire x1="78.105" y1="96.52" x2="84.455" y2="96.52" width="0.1524" layer="91" grouprefs="VOLTAGE_MEASUREMENT_PHASE_1"/>
 <wire x1="78.105" y1="93.98" x2="78.105" y2="96.52" width="0.1524" layer="91" grouprefs="VOLTAGE_MEASUREMENT_PHASE_1"/>
 <junction x="78.105" y="96.52" grouprefs="VOLTAGE_MEASUREMENT_PHASE_1"/>
@@ -3991,7 +3991,7 @@ the SJ1 and SJ3.</text>
 <segment>
 <wire x1="83.82" y1="62.865" x2="78.105" y2="62.865" width="0.1524" layer="91" grouprefs="VOLTAGE_MEASUREMENT_PHASE_2"/>
 <label x="83.82" y="62.865" size="1.27" layer="95" rot="MR180" xref="yes" grouprefs="VOLTAGE_MEASUREMENT_PHASE_2"/>
-<pinref part="R11" gate="G$1" pin="1"/>
+<pinref part="R8" gate="G$1" pin="1"/>
 <wire x1="78.105" y1="60.325" x2="78.105" y2="62.865" width="0.1524" layer="91" grouprefs="VOLTAGE_MEASUREMENT_PHASE_2"/>
 <pinref part="T2" gate="G$1" pin="SEC_2"/>
 <wire x1="71.755" y1="62.865" x2="78.105" y2="62.865" width="0.1524" layer="91" grouprefs="VOLTAGE_MEASUREMENT_PHASE_2"/>
@@ -4008,7 +4008,7 @@ the SJ1 and SJ3.</text>
 <wire x1="72.39" y1="26.67" x2="78.105" y2="26.67" width="0.1524" layer="91" grouprefs="VOLTAGE_MEASUREMENT_PHASE_3"/>
 <label x="84.455" y="26.67" size="1.27" layer="95" rot="MR180" xref="yes" grouprefs="VOLTAGE_MEASUREMENT_PHASE_3"/>
 <pinref part="T3" gate="G$1" pin="SEC_2"/>
-<pinref part="R4" gate="G$1" pin="1"/>
+<pinref part="R21" gate="G$1" pin="1"/>
 <wire x1="78.105" y1="26.67" x2="84.455" y2="26.67" width="0.1524" layer="91" grouprefs="VOLTAGE_MEASUREMENT_PHASE_3"/>
 <wire x1="78.105" y1="24.13" x2="78.105" y2="26.67" width="0.1524" layer="91" grouprefs="VOLTAGE_MEASUREMENT_PHASE_3"/>
 <junction x="78.105" y="26.67" grouprefs="VOLTAGE_MEASUREMENT_PHASE_3"/>
@@ -4021,101 +4021,101 @@ the SJ1 and SJ3.</text>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="R7" gate="G$1" pin="2"/>
-<pinref part="R6" gate="G$1" pin="1"/>
+<pinref part="R1" gate="G$1" pin="2"/>
+<pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="49.53" y1="81.28" x2="46.99" y2="81.28" width="0.1524" layer="91" grouprefs="VOLTAGE_MEASUREMENT_PHASE_1"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="R2" gate="G$1" pin="1"/>
-<pinref part="R3" gate="G$1" pin="2"/>
+<pinref part="R5" gate="G$1" pin="1"/>
+<pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="46.99" y1="96.52" x2="49.53" y2="96.52" width="0.1524" layer="91" grouprefs="VOLTAGE_MEASUREMENT_PHASE_1"/>
 </segment>
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="R2" gate="G$1" pin="2"/>
-<pinref part="R1" gate="G$1" pin="1"/>
+<pinref part="R5" gate="G$1" pin="2"/>
+<pinref part="R6" gate="G$1" pin="1"/>
 <wire x1="36.83" y1="96.52" x2="34.29" y2="96.52" width="0.1524" layer="91" grouprefs="VOLTAGE_MEASUREMENT_PHASE_1"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
-<pinref part="R5" gate="G$1" pin="1"/>
-<pinref part="R6" gate="G$1" pin="2"/>
+<pinref part="R3" gate="G$1" pin="1"/>
+<pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="34.29" y1="81.28" x2="36.83" y2="81.28" width="0.1524" layer="91" grouprefs="VOLTAGE_MEASUREMENT_PHASE_1"/>
 </segment>
 </net>
 <net name="N$12" class="0">
 <segment>
-<pinref part="R14" gate="G$1" pin="2"/>
-<pinref part="R13" gate="G$1" pin="1"/>
+<pinref part="R12" gate="G$1" pin="2"/>
+<pinref part="R15" gate="G$1" pin="1"/>
 <wire x1="48.895" y1="47.625" x2="46.355" y2="47.625" width="0.1524" layer="91" grouprefs="VOLTAGE_MEASUREMENT_PHASE_2"/>
 </segment>
 </net>
 <net name="N$13" class="0">
 <segment>
-<pinref part="R9" gate="G$1" pin="1"/>
-<pinref part="R10" gate="G$1" pin="2"/>
+<pinref part="R18" gate="G$1" pin="1"/>
+<pinref part="R17" gate="G$1" pin="2"/>
 <wire x1="46.355" y1="62.865" x2="48.895" y2="62.865" width="0.1524" layer="91" grouprefs="VOLTAGE_MEASUREMENT_PHASE_2"/>
 </segment>
 </net>
 <net name="N$14" class="0">
 <segment>
-<pinref part="R9" gate="G$1" pin="2"/>
-<pinref part="R8" gate="G$1" pin="1"/>
+<pinref part="R18" gate="G$1" pin="2"/>
+<pinref part="R19" gate="G$1" pin="1"/>
 <wire x1="36.195" y1="62.865" x2="33.655" y2="62.865" width="0.1524" layer="91" grouprefs="VOLTAGE_MEASUREMENT_PHASE_2"/>
 </segment>
 </net>
 <net name="N$15" class="0">
 <segment>
-<pinref part="R12" gate="G$1" pin="1"/>
-<pinref part="R13" gate="G$1" pin="2"/>
+<pinref part="R16" gate="G$1" pin="1"/>
+<pinref part="R15" gate="G$1" pin="2"/>
 <wire x1="33.655" y1="47.625" x2="36.195" y2="47.625" width="0.1524" layer="91" grouprefs="VOLTAGE_MEASUREMENT_PHASE_2"/>
 </segment>
 </net>
 <net name="N$21" class="0">
 <segment>
-<pinref part="R21" gate="G$1" pin="2"/>
-<pinref part="R20" gate="G$1" pin="1"/>
+<pinref part="R25" gate="G$1" pin="2"/>
+<pinref part="R26" gate="G$1" pin="1"/>
 <wire x1="49.53" y1="11.43" x2="46.99" y2="11.43" width="0.1524" layer="91" grouprefs="VOLTAGE_MEASUREMENT_PHASE_3"/>
 </segment>
 </net>
 <net name="N$22" class="0">
 <segment>
-<pinref part="R16" gate="G$1" pin="1"/>
-<pinref part="R17" gate="G$1" pin="2"/>
+<pinref part="R29" gate="G$1" pin="1"/>
+<pinref part="R28" gate="G$1" pin="2"/>
 <wire x1="46.99" y1="26.67" x2="49.53" y2="26.67" width="0.1524" layer="91" grouprefs="VOLTAGE_MEASUREMENT_PHASE_3"/>
 </segment>
 </net>
 <net name="N$23" class="0">
 <segment>
-<pinref part="R16" gate="G$1" pin="2"/>
-<pinref part="R15" gate="G$1" pin="1"/>
+<pinref part="R29" gate="G$1" pin="2"/>
+<pinref part="R30" gate="G$1" pin="1"/>
 <wire x1="36.83" y1="26.67" x2="34.29" y2="26.67" width="0.1524" layer="91" grouprefs="VOLTAGE_MEASUREMENT_PHASE_3"/>
 </segment>
 </net>
 <net name="N$24" class="0">
 <segment>
-<pinref part="R19" gate="G$1" pin="1"/>
-<pinref part="R20" gate="G$1" pin="2"/>
+<pinref part="R27" gate="G$1" pin="1"/>
+<pinref part="R26" gate="G$1" pin="2"/>
 <wire x1="34.29" y1="11.43" x2="36.83" y2="11.43" width="0.1524" layer="91" grouprefs="VOLTAGE_MEASUREMENT_PHASE_3"/>
 </segment>
 </net>
 <net name="NEUTRAL" class="0">
 <segment>
-<pinref part="R5" gate="G$1" pin="2"/>
+<pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="24.13" y1="81.28" x2="21.59" y2="81.28" width="0.1524" layer="91" grouprefs="VOLTAGE_MEASUREMENT_PHASE_1"/>
 <label x="21.59" y="81.28" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="VOLTAGE_MEASUREMENT_PHASE_1"/>
 </segment>
 <segment>
-<pinref part="R12" gate="G$1" pin="2"/>
+<pinref part="R16" gate="G$1" pin="2"/>
 <label x="20.955" y="47.625" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="VOLTAGE_MEASUREMENT_PHASE_2"/>
 <wire x1="23.495" y1="47.625" x2="20.955" y2="47.625" width="0.1524" layer="91" grouprefs="VOLTAGE_MEASUREMENT_PHASE_2"/>
 </segment>
 <segment>
-<pinref part="R19" gate="G$1" pin="2"/>
+<pinref part="R27" gate="G$1" pin="2"/>
 <label x="21.59" y="11.43" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="VOLTAGE_MEASUREMENT_PHASE_3"/>
 <wire x1="24.13" y1="11.43" x2="21.59" y2="11.43" width="0.1524" layer="91" grouprefs="VOLTAGE_MEASUREMENT_PHASE_3"/>
 </segment>
@@ -4134,7 +4134,7 @@ the SJ1 and SJ3.</text>
 </net>
 <net name="L1_VOLTAGE" class="0">
 <segment>
-<pinref part="R1" gate="G$1" pin="2"/>
+<pinref part="R6" gate="G$1" pin="2"/>
 <wire x1="21.59" y1="96.52" x2="24.13" y2="96.52" width="0.1524" layer="91" grouprefs="VOLTAGE_MEASUREMENT_PHASE_1"/>
 <label x="21.59" y="96.52" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="VOLTAGE_MEASUREMENT_PHASE_1"/>
 </segment>
@@ -4153,7 +4153,7 @@ the SJ1 and SJ3.</text>
 </net>
 <net name="L2_VOLTAGE" class="0">
 <segment>
-<pinref part="R8" gate="G$1" pin="2"/>
+<pinref part="R19" gate="G$1" pin="2"/>
 <wire x1="20.955" y1="62.865" x2="23.495" y2="62.865" width="0.1524" layer="91" grouprefs="VOLTAGE_MEASUREMENT_PHASE_2"/>
 <label x="20.955" y="62.865" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="VOLTAGE_MEASUREMENT_PHASE_2"/>
 </segment>
@@ -4169,7 +4169,7 @@ the SJ1 and SJ3.</text>
 </net>
 <net name="L3_VOLTAGE" class="0">
 <segment>
-<pinref part="R15" gate="G$1" pin="2"/>
+<pinref part="R30" gate="G$1" pin="2"/>
 <label x="21.59" y="26.67" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="VOLTAGE_MEASUREMENT_PHASE_3"/>
 <wire x1="24.13" y1="26.67" x2="21.59" y2="26.67" width="0.1524" layer="91" grouprefs="VOLTAGE_MEASUREMENT_PHASE_3"/>
 </segment>
@@ -4304,14 +4304,14 @@ the SJ1 and SJ3.</text>
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="R3" gate="G$1" pin="1"/>
+<pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="59.69" y1="96.52" x2="62.23" y2="96.52" width="0.1524" layer="91" grouprefs="VOLTAGE_MEASUREMENT_PHASE_1"/>
 <pinref part="T1" gate="G$1" pin="PRI_1"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="R7" gate="G$1" pin="1"/>
+<pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="59.69" y1="81.28" x2="62.23" y2="81.28" width="0.1524" layer="91" grouprefs="VOLTAGE_MEASUREMENT_PHASE_1"/>
 <pinref part="T1" gate="G$1" pin="PRI_2"/>
 </segment>
@@ -4319,28 +4319,28 @@ the SJ1 and SJ3.</text>
 <net name="N$10" class="0">
 <segment>
 <pinref part="T2" gate="G$1" pin="PRI_1"/>
-<pinref part="R10" gate="G$1" pin="1"/>
+<pinref part="R17" gate="G$1" pin="1"/>
 <wire x1="59.055" y1="62.865" x2="61.595" y2="62.865" width="0.1524" layer="91" grouprefs="VOLTAGE_MEASUREMENT_PHASE_2"/>
 </segment>
 </net>
 <net name="N$11" class="0">
 <segment>
 <pinref part="T2" gate="G$1" pin="PRI_2"/>
-<pinref part="R14" gate="G$1" pin="1"/>
+<pinref part="R12" gate="G$1" pin="1"/>
 <wire x1="59.055" y1="47.625" x2="61.595" y2="47.625" width="0.1524" layer="91" grouprefs="VOLTAGE_MEASUREMENT_PHASE_2"/>
 </segment>
 </net>
 <net name="N$18" class="0">
 <segment>
 <pinref part="T3" gate="G$1" pin="PRI_1"/>
-<pinref part="R17" gate="G$1" pin="1"/>
+<pinref part="R28" gate="G$1" pin="1"/>
 <wire x1="59.69" y1="26.67" x2="62.23" y2="26.67" width="0.1524" layer="91" grouprefs="VOLTAGE_MEASUREMENT_PHASE_3"/>
 </segment>
 </net>
 <net name="N$19" class="0">
 <segment>
 <pinref part="T3" gate="G$1" pin="PRI_2"/>
-<pinref part="R21" gate="G$1" pin="1"/>
+<pinref part="R25" gate="G$1" pin="1"/>
 <wire x1="59.69" y1="11.43" x2="62.23" y2="11.43" width="0.1524" layer="91" grouprefs="VOLTAGE_MEASUREMENT_PHASE_3"/>
 </segment>
 </net>
@@ -4367,12 +4367,12 @@ the SJ1 and SJ3.</text>
 <wire x1="72.39" y1="81.28" x2="78.105" y2="81.28" width="0.1524" layer="91" grouprefs="VOLTAGE_MEASUREMENT_PHASE_1"/>
 <pinref part="SUPPLY3" gate="G$1" pin="0V"/>
 <wire x1="78.105" y1="78.74" x2="78.105" y2="81.28" width="0.1524" layer="91" grouprefs="VOLTAGE_MEASUREMENT_PHASE_1"/>
-<pinref part="R18" gate="G$1" pin="2"/>
+<pinref part="R9" gate="G$1" pin="2"/>
 <wire x1="78.105" y1="83.82" x2="78.105" y2="81.28" width="0.1524" layer="91" grouprefs="VOLTAGE_MEASUREMENT_PHASE_1"/>
 <junction x="78.105" y="81.28" grouprefs="VOLTAGE_MEASUREMENT_PHASE_1"/>
 </segment>
 <segment>
-<pinref part="R11" gate="G$1" pin="2"/>
+<pinref part="R8" gate="G$1" pin="2"/>
 <wire x1="78.105" y1="50.165" x2="78.105" y2="47.625" width="0.1524" layer="91" grouprefs="VOLTAGE_MEASUREMENT_PHASE_2"/>
 <pinref part="T2" gate="G$1" pin="SEC_1"/>
 <wire x1="71.755" y1="47.625" x2="78.105" y2="47.625" width="0.1524" layer="91" grouprefs="VOLTAGE_MEASUREMENT_PHASE_2"/>
@@ -4385,7 +4385,7 @@ the SJ1 and SJ3.</text>
 <wire x1="72.39" y1="11.43" x2="78.105" y2="11.43" width="0.1524" layer="91" grouprefs="VOLTAGE_MEASUREMENT_PHASE_3"/>
 <pinref part="SUPPLY5" gate="G$1" pin="0V"/>
 <wire x1="78.105" y1="9.525" x2="78.105" y2="11.43" width="0.1524" layer="91" grouprefs="VOLTAGE_MEASUREMENT_PHASE_3"/>
-<pinref part="R4" gate="G$1" pin="2"/>
+<pinref part="R21" gate="G$1" pin="2"/>
 <wire x1="78.105" y1="13.97" x2="78.105" y2="11.43" width="0.1524" layer="91" grouprefs="VOLTAGE_MEASUREMENT_PHASE_3"/>
 <junction x="78.105" y="11.43" grouprefs="VOLTAGE_MEASUREMENT_PHASE_3"/>
 </segment>

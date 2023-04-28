@@ -69,3 +69,7 @@
 - General improvements to schematic symbols organization and aesthetics.
 - Phase L1 MOV removed from the output choke (L1) and placed on the input.
   In this way, protecting the cooke input capacitor and building a classic "common mode surge suppression" topology.
+
+
+## V1.3.1  
+- Renumbered resistor designators to be backwards compatible with older versions.

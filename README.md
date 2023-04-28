@@ -29,7 +29,7 @@ AC voltage sensor and power supply for [emonTx V4](https://github.com/openenergy
 1	|L1|	Common Mode Choke, 47mH|	RN214-0.3-02-47M|
 1	|L2|	Common Mode Choke, 100uH|	744252101|
 1	|PS1|	AC-DC converter, 10W / 5V|	MP-LD10-23B05R2|
-18	|R1, R2, R3, R5, R6, R7, R8, R9, R10, R12, R13, R14, R15, R16, R17, R19, R20, R21|	10k (5%)|	ERJ-H3GJ103V|
+18	|R1, R2, R3, R4, R5, R6, R12, R15, R16, R17, R18, R19, R25, R26, R27, R28, R29, R30|	10k (5%)|	ERJ-H3GJ103V|
 3	|R4, R11, R18|	75R (1%)|	ERJ-H3EF75R0V|
 3	|RV1, RV2, RV3|	Varistor, 275VAC|	MOV-14D431KTR|
 3	|T1, T2, T3|	Micro-transformer, 1000:1000 ratio|	ZMPT101B|

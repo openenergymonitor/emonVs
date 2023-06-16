@@ -73,3 +73,6 @@
 
 ## V1.3.1  
 - Renumbered resistor designators to be backwards compatible with older versions.
+
+## V1.3.2
+- Renumbered all component designators to be backwards compatible with older versions.

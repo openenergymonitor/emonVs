@@ -12,8 +12,9 @@ AC voltage sensor and power supply for [emonTx V4](https://github.com/openenergy
 
 - The **2-pins terminal block connector** from emonVS (CN3) can supply power to an [emonBase](https://github.com/openenergymonitor/emonbase) using a open-ended USB-C connector.
 
-## Schematic Preview 
-<p align="center"><a href="1.3/emonVS.pdf"><img src="1.3/assets/schematic_preview.png"  title="download .pdf file" alt="PDF Download"></a></p>
+## Schematic Preview
+Click to [download .pdf file](1.3.2/emonVS.pdf).  
+![emonVS_schematic_preview](1.3.2/assets/schematic_preview.png)
 
 ## Bill of Materials
 | Qty | Designator | Description | PN |
@@ -35,7 +36,5 @@ AC voltage sensor and power supply for [emonTx V4](https://github.com/openenergy
 3	|T1, T2, T3|	Micro-transformer, 1000:1000 ratio|	ZMPT101B|
 
 ## 3D Model Preview
-<p align="center"><a href="1.3/assets/emonVS%20v1.3.step"><img src="1.3/assets/3d_model_preview.PNG"  title="download .step file" alt=".STEP Download"></a></p>
-
-
-
+Click to [download .step file](1.3.2/assets/emonVS%20v1.3.step).  
+![emonVS_3d_model_preview](1.3.2/assets/3d_model_preview.PNG)

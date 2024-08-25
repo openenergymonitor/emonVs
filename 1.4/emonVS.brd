@@ -208,10 +208,10 @@
 <wire x1="11" y1="116.5" x2="11" y2="109" width="0" layer="20"/>
 <wire x1="11" y1="109" x2="0" y2="109" width="0" layer="20"/>
 <wire x1="0" y1="109" x2="0" y2="11" width="0" layer="20"/>
-<text x="21.553" y="103.754" size="2.1844" layer="25" font="vector" ratio="20" distance="15" rot="R90">N</text>
-<text x="21.553" y="98.317" size="2.1844" layer="25" font="vector" ratio="20" distance="15" rot="R90">L1</text>
-<text x="21.553" y="92.864" size="2.1844" layer="25" font="vector" ratio="20" distance="15" rot="R90">L2</text>
-<text x="21.553" y="87.292" size="2.1844" layer="25" font="vector" ratio="20" distance="15" rot="R90">L3</text>
+<text x="19.5" y="103" size="2.1844" layer="25" font="vector" ratio="20" distance="15">N</text>
+<text x="19" y="98.5" size="2.1844" layer="25" font="vector" ratio="20" distance="15">L1</text>
+<text x="19" y="93" size="2.1844" layer="25" font="vector" ratio="20" distance="15">L2</text>
+<text x="19" y="88" size="2.1844" layer="25" font="vector" ratio="20" distance="15">L3</text>
 <wire x1="42.746" y1="91.992" x2="42.746" y2="90.992" width="0.254" layer="46"/>
 <wire x1="17.619" y1="90.992" x2="17.619" y2="91.992" width="0.254" layer="46"/>
 <wire x1="17.619" y1="91.992" x2="42.746" y2="91.992" width="0.254" layer="46"/>
@@ -226,14 +226,14 @@
 <wire x1="17.746" y1="102.468" x2="39.671" y2="102.468" width="0.254" layer="46"/>
 <wire x1="39.671" y1="102.468" x2="39.671" y2="101.595" width="0.254" layer="46"/>
 <wire x1="17.746" y1="101.595" x2="17.746" y2="102.468" width="0.254" layer="46"/>
-<text x="5.3048" y="21.9746" size="2.1844" layer="25" font="vector" ratio="20">5V</text>
-<text x="3.2286" y="13.6698" size="2.1844" layer="25" font="vector" ratio="20">GND</text>
+<text x="7" y="19" size="2.1844" layer="25" font="vector" ratio="20">5V</text>
+<text x="5" y="14" size="2.1844" layer="25" font="vector" ratio="20">GND</text>
 <text x="36.196" y="112.012" size="3.81" layer="21" font="vector" ratio="20">emonVS</text>
 <text x="23.72" y="83.656" size="1.27" layer="21" font="vector" ratio="20">OpenEnergyMonitor.org</text>
 <text x="28.1004" y="26.5918" size="1.905" layer="25" font="vector" ratio="20" align="center">AC VSENS
 PSU RJ45</text>
 <text x="48" y="108.5" size="1.27" layer="21" font="vector" ratio="20">v1.4.0</text>
-<text x="21.541" y="108.127" size="2.1844" layer="25" font="vector" ratio="20" distance="15" rot="R90">E</text>
+<text x="19.5" y="107.5" size="2.1844" layer="25" font="vector" ratio="20" distance="15">E</text>
 <hole x="56.5" y="6.5" drill="3" locked="yes"/>
 <hole x="56.5" y="113.5" drill="3" locked="yes"/>
 <circle x="16.5" y="6.5" locked="yes" radius="3" width="0.1524" layer="39"/>
@@ -3393,7 +3393,7 @@ Hardware</text>
 <rectangle x1="5.8063" y1="106.9273" x2="6.4921" y2="106.9527" layer="21"/>
 <rectangle x1="5.8317" y1="106.9527" x2="6.4921" y2="106.9781" layer="21"/>
 <text x="6.1318" y="92.3592" size="1.27" layer="21" font="vector" ratio="20" rot="R180" align="center">RoHS</text>
-<text x="27.2288" y="11.3284" size="1.778" layer="25">J7</text>
+<text x="27.5" y="10.5" size="1.778" layer="25">J7</text>
 </plain>
 <libraries>
 <library name="My-Diodes" urn="urn:adsk.eagle:library:35512051">
@@ -4141,31 +4141,31 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/MOV-14D431KTR
 <attribute name="VALUE" value="1A x 250V" x="34.388" y="90.848" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="M1" library="OpenEnergyMonitor" package="MOV" value="275VAC" x="60.452" y="66.548" smashed="yes">
-<attribute name="NAME" x="65.185" y="67.263" size="1.27" layer="25" font="vector" ratio="20" rot="R180"/>
+<attribute name="NAME" x="62" y="66" size="1.27" layer="25" font="vector" ratio="20"/>
 <attribute name="PN" value="MOV-14D431KTR" x="60.452" y="66.548" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" value="275VAC" x="60.452" y="66.548" size="1.778" layer="27" display="off"/>
 </element>
 <element name="M2" library="OpenEnergyMonitor" package="MOV" value="275VAC" x="56.896" y="60.452" smashed="yes">
-<attribute name="NAME" x="61.879" y="61.103" size="1.27" layer="25" font="vector" ratio="20" rot="R180"/>
+<attribute name="NAME" x="58.5" y="60" size="1.27" layer="25" font="vector" ratio="20"/>
 <attribute name="PN" value="MOV-14D431KTR" x="56.896" y="60.452" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" value="275VAC" x="56.896" y="60.452" size="1.778" layer="27" display="off"/>
 </element>
 <element name="M3" library="OpenEnergyMonitor" package="MOV" value="275VAC" x="53.848" y="54.356" smashed="yes">
-<attribute name="NAME" x="56.539" y="53.731" size="1.27" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="55.5" y="54" size="1.27" layer="25" font="vector" ratio="20"/>
 <attribute name="PN" value="MOV-14D431KTR" x="53.848" y="54.356" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" value="275VAC" x="53.848" y="54.356" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C3" library="My-RLC" library_urn="urn:adsk.eagle:library:35509816" package="C0603" package3d_urn="urn:adsk.eagle:package:35509984/1" value="1uF x 16V" x="45.22" y="10.72" smashed="yes" rot="R270">
-<attribute name="NAME" x="44.8244" y="6.534" size="1.27" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="44.5" y="7.5" size="1.27" layer="25" font="vector" ratio="20"/>
 <attribute name="PN" value="GCM188R71C105KA64D" x="45.22" y="10.72" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C5" library="My-RLC" library_urn="urn:adsk.eagle:library:35509816" package="CSV-C" package3d_urn="urn:adsk.eagle:package:35509926/1" value="180uF x 6.3V" x="40.3035" y="11.563" smashed="yes" rot="R180">
-<attribute name="NAME" x="39.5165" y="6.3708" size="1.27" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="40" y="7" size="1.27" layer="25" font="vector" ratio="20"/>
 <attribute name="PN" value="6SVPE180M" x="40.3035" y="11.563" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="D1" library="My-Diodes" library_urn="urn:adsk.eagle:library:35512051" package="DO-214AA" package3d_urn="urn:adsk.eagle:package:35541124/5" value="TVS" x="41.808" y="17.004" smashed="yes" rot="R180">
 <attribute name="FAMILY" value="SMBJ7.0A" x="41.808" y="17.004" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="37.4808" y="18.9364" size="1.27" layer="25" font="vector" ratio="20" align="center"/>
+<attribute name="NAME" x="42" y="19.5" size="1.27" layer="25" font="vector" ratio="20" align="center"/>
 <attribute name="PN" value="SMBJ7.0A" x="41.808" y="17.004" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="FD1" library="OpenEnergyMonitor" package="FIDUCIAL" value="FIDUCIAL1X2" x="12.5" y="5" smashed="yes"/>
@@ -4179,17 +4179,17 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/MOV-14D431KTR
 <attribute name="NAME" x="33.2804" y="22.003" size="1.016" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="SJ1" library="OpenEnergyMonitor" package="SJ_2S-NC" value="SOLDER_JUMPER_2P_NC" x="42.25" y="26.7406" smashed="yes" rot="R180">
-<attribute name="NAME" x="43.8941" y="26.3116" size="1.016" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="41" y="28" size="1.016" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="SJ3" library="OpenEnergyMonitor" package="SJ_2S-NC" value="SOLDER_JUMPER_2P_NC" x="42.2246" y="22.6658" smashed="yes" rot="R180">
-<attribute name="NAME" x="43.9449" y="22.1614" size="1.016" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="41" y="24" size="1.016" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="J9" library="OpenEnergyMonitor" package="TERMINAL_BLOCK_5P" value="TERMINAL_BLOCK_5P" x="28.934" y="108.988" smashed="yes" rot="R270">
-<attribute name="NAME" x="34.9538" y="110.3108" size="1.27" layer="25" font="vector" ratio="20" rot="R270" align="center"/>
+<attribute name="NAME" x="24.6892" y="114.4538" size="1.27" layer="25" font="vector" ratio="20" align="center"/>
 <attribute name="PN" value="282836-5" x="28.934" y="108.988" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C4" library="OpenEnergyMonitor" package="C_PTH" value="1uF x 310VAC" x="69.313" y="100.373" smashed="yes" rot="R90">
-<attribute name="NAME" x="73.5606" y="100.5748" size="1.27" layer="25" font="vector" ratio="20" rot="R270" align="center"/>
+<attribute name="NAME" x="57.5748" y="108.4394" size="1.27" layer="25" font="vector" ratio="20" rot="R180" align="center"/>
 <attribute name="PN" value="B32923C3105M000" x="69.313" y="100.373" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PN1" value="B32923C3105M" x="69.313" y="100.373" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PN2" value="DE2F3KY103MA3BM02F" x="69.313" y="100.373" size="1.778" layer="27" rot="R90" display="off"/>
@@ -4199,27 +4199,27 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/MOV-14D431KTR
 <attribute name="PN" value="RN214-0.3-02-47M" x="61.5" y="81.5" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="PS1" library="OpenEnergyMonitor" package="MULTICOMP-AC/DC" value="AC-DC converter (10W / 5V)" x="62.5" y="32.5" smashed="yes">
-<attribute name="NAME" x="63.0248" y="35.5664" size="1.27" layer="25" font="vector" ratio="20" rot="R90" align="center"/>
+<attribute name="NAME" x="62.5" y="32.5" size="1.27" layer="25" font="vector" ratio="20" rot="R180" align="center"/>
 <attribute name="PN" value="MP-LD10-23B05R2" x="62.5" y="32.5" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="45.355" y="49.264" size="1.27" layer="27" font="vector" ratio="20" rot="R90" align="center" display="off"/>
 </element>
 <element name="R21" library="OpenEnergyMonitor" package="R_PTH_SMD" value="75R (1%)" x="3.06" y="72.632" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="Burden Resistor" x="3.06" y="72.632" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="1.461" y="71.616" size="1.27" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="NAME" x="2" y="71.5" size="1.27" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="PN" value="ERJ-H3EF75R0V" x="3.06" y="72.632" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R8" library="OpenEnergyMonitor" package="R_PTH_SMD" value="75R (1%)" x="3.123" y="54.852" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="Burden Resistor" x="3.123" y="54.852" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="1.461" y="53.2772" size="1.27" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="NAME" x="2" y="54" size="1.27" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="PN" value="ERJ-H3EF75R0V" x="3.123" y="54.852" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R9" library="OpenEnergyMonitor" package="R_PTH_SMD" value="75R (1%)" x="3.059" y="39.104" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="Burden Resistor" x="3.059" y="39.104" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="1.461" y="37.5292" size="1.27" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="NAME" x="2" y="38" size="1.27" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="PN" value="ERJ-H3EF75R0V" x="3.059" y="39.104" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="L1" library="OpenEnergyMonitor" package="CHOKE_WURTH" value="100uH" x="42" y="24.5" smashed="yes" rot="R270">
-<attribute name="NAME" x="35.6765" y="24.5747" size="1.27" layer="25" font="vector" ratio="20" align="center"/>
+<attribute name="NAME" x="36" y="24.5" size="1.27" layer="25" font="vector" ratio="20" align="center"/>
 <attribute name="PN" value="744252101" x="42" y="24.5" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="J8" library="OpenEnergyMonitor" package="TERMINAL_BLOCK_2P" value="TERMINAL_BLOCK_2P" x="14.95" y="17.7375" smashed="yes" rot="R90">

@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="59" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="21" fill="1" visible="no" active="no"/>
@@ -1576,7 +1576,7 @@ With round pins</description>
 <schematic_group name="OUTPUT_SIGNALS_AND_SUPPLY" titleSize="2.54" layer="95"/>
 </groups>
 <parts>
-<part name="T1" library="OpenEnergyMonitor" deviceset="ZMPT101B" device=""/>
+<part name="ZMPT" library="OpenEnergyMonitor" deviceset="ZMPT101B" device=""/>
 <part name="R1" library="My-RLC" library_urn="urn:adsk.eagle:library:35509816" deviceset="R_" device="1206" package3d_urn="urn:adsk.eagle:package:35509967/1" value="10k (5%)">
 <attribute name="PN" value="ERJ-H3GJ103V"/>
 </part>
@@ -1595,8 +1595,8 @@ With round pins</description>
 <part name="R6" library="My-RLC" library_urn="urn:adsk.eagle:library:35509816" deviceset="R_" device="1206" package3d_urn="urn:adsk.eagle:package:35509967/1" value="10k (5%)">
 <attribute name="PN" value="ERJ-H3GJ103V"/>
 </part>
-<part name="F1" library="OpenEnergyMonitor" deviceset="FUSE" device="" value="1A x 250V"/>
-<part name="M1" library="OpenEnergyMonitor" deviceset="MOV_" device="14MM_275VAC" value="275VAC"/>
+<part name="FUSE" library="OpenEnergyMonitor" deviceset="FUSE" device="" value="1A x 250V"/>
+<part name="MOV" library="OpenEnergyMonitor" deviceset="MOV_" device="14MM_275VAC" value="275VAC"/>
 <part name="FD1" library="OpenEnergyMonitor" deviceset="FIDUCIAL" device="1X2"/>
 <part name="FD2" library="OpenEnergyMonitor" deviceset="FIDUCIAL" device="1X2"/>
 <part name="J7" library="OpenEnergyMonitor" deviceset="RJ45-8P" device="PTH" value="RJ45 Jack"/>
@@ -1611,6 +1611,9 @@ With round pins</description>
 <part name="JP1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X1" device="" package3d_urn="urn:adsk.eagle:package:6240654/1"/>
 <part name="JP2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X1" device="" package3d_urn="urn:adsk.eagle:package:6240654/1"/>
 <part name="JP3" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X1" device="" package3d_urn="urn:adsk.eagle:package:6240654/1"/>
+<part name="R7" library="My-RLC" library_urn="urn:adsk.eagle:library:35509816" deviceset="R_" device="1206" package3d_urn="urn:adsk.eagle:package:35509967/1" value="0R">
+<attribute name="PN" value="ERJ-H3GJ103V"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -1618,7 +1621,7 @@ With round pins</description>
 <plain>
 </plain>
 <instances>
-<instance part="T1" gate="G$1" x="95.885" y="68.58" smashed="yes" grouprefs="VOLTAGE_MEASUREMENT_PHASE_1">
+<instance part="ZMPT" gate="G$1" x="95.885" y="68.58" smashed="yes" grouprefs="VOLTAGE_MEASUREMENT_PHASE_1">
 <attribute name="NAME" x="95.885" y="79.8576" size="1.27" layer="95" rot="R180" align="center"/>
 <attribute name="VALUE" x="95.885" y="77.9526" size="1.27" layer="96" rot="R180" align="center"/>
 <attribute name="RATIO" x="95.885" y="59.69" size="1.27" layer="97" align="center"/>
@@ -1653,12 +1656,12 @@ With round pins</description>
 <attribute name="NAME" x="57.785" y="78.3336" size="1.27" layer="95" rot="MR0" align="center"/>
 <attribute name="VALUE" x="57.785" y="74.295" size="1.27" layer="96" rot="MR0" align="center"/>
 </instance>
-<instance part="F1" gate="G$1" x="55.245" y="121.285" smashed="yes" rot="R180" grouprefs="SINGLE-PHASE_AC_NETWORK_INTERFACE">
+<instance part="FUSE" gate="G$1" x="55.245" y="121.285" smashed="yes" rot="R180" grouprefs="SINGLE-PHASE_AC_NETWORK_INTERFACE">
 <attribute name="NAME" x="55.245" y="123.5075" size="1.27" layer="95" rot="R180" align="center"/>
 <attribute name="FAMILY" x="55.245" y="117.4115" size="1.27" layer="96" rot="R180" align="center"/>
 <attribute name="VALUE" x="55.245" y="119.3165" size="1.27" layer="96" rot="R180" align="center"/>
 </instance>
-<instance part="M1" gate="G$1" x="69.215" y="113.03" smashed="yes" rot="MR0" grouprefs="SINGLE-PHASE_AC_NETWORK_INTERFACE">
+<instance part="MOV" gate="G$1" x="69.215" y="113.03" smashed="yes" rot="MR0" grouprefs="SINGLE-PHASE_AC_NETWORK_INTERFACE">
 <attribute name="NAME" x="65.151" y="113.03" size="1.27" layer="95" rot="MR90" align="center"/>
 <attribute name="VALUE" x="73.279" y="113.03" size="1.27" layer="96" rot="MR90" align="center"/>
 </instance>
@@ -1705,6 +1708,11 @@ With round pins</description>
 <attribute name="NAME" x="50.8" y="91.44" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="50.8" y="99.695" size="1.778" layer="96" rot="R180"/>
 </instance>
+<instance part="R7" gate="G$1" x="61.595" y="94.615" smashed="yes" rot="MR0">
+<attribute name="PN" x="61.595" y="94.615" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="61.595" y="96.7486" size="1.27" layer="95" rot="MR0" align="center"/>
+<attribute name="VALUE" x="61.595" y="92.71" size="1.27" layer="96" rot="MR0" align="center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -1713,7 +1721,7 @@ With round pins</description>
 <segment>
 <wire x1="100.965" y1="76.2" x2="106.68" y2="76.2" width="0.1524" layer="91" grouprefs="VOLTAGE_MEASUREMENT_PHASE_1"/>
 <label x="113.03" y="76.2" size="1.27" layer="95" rot="MR180" xref="yes" grouprefs="VOLTAGE_MEASUREMENT_PHASE_1"/>
-<pinref part="T1" gate="G$1" pin="SEC_2"/>
+<pinref part="ZMPT" gate="G$1" pin="SEC_2"/>
 <pinref part="R9" gate="G$1" pin="1"/>
 <wire x1="106.68" y1="76.2" x2="113.03" y2="76.2" width="0.1524" layer="91" grouprefs="VOLTAGE_MEASUREMENT_PHASE_1"/>
 <wire x1="106.68" y1="73.66" x2="106.68" y2="76.2" width="0.1524" layer="91" grouprefs="VOLTAGE_MEASUREMENT_PHASE_1"/>
@@ -1767,7 +1775,7 @@ With round pins</description>
 <label x="95.885" y="104.775" size="1.27" layer="95" xref="yes" grouprefs="SINGLE-PHASE_AC_NETWORK_INTERFACE"/>
 <wire x1="95.885" y1="104.775" x2="69.215" y2="104.775" width="0.1524" layer="91" grouprefs="SINGLE-PHASE_AC_NETWORK_INTERFACE"/>
 <wire x1="69.215" y1="104.775" x2="46.99" y2="104.775" width="0.1524" layer="91" grouprefs="SINGLE-PHASE_AC_NETWORK_INTERFACE"/>
-<pinref part="M1" gate="G$1" pin="1"/>
+<pinref part="MOV" gate="G$1" pin="1"/>
 <wire x1="69.215" y1="106.68" x2="69.215" y2="104.775" width="0.1524" layer="91" grouprefs="SINGLE-PHASE_AC_NETWORK_INTERFACE"/>
 <junction x="69.215" y="104.775" grouprefs="SINGLE-PHASE_AC_NETWORK_INTERFACE"/>
 <pinref part="JP2" gate="G$1" pin="1"/>
@@ -1782,9 +1790,9 @@ With round pins</description>
 </segment>
 <segment>
 <label x="95.885" y="121.285" size="1.27" layer="95" xref="yes" grouprefs="SINGLE-PHASE_AC_NETWORK_INTERFACE"/>
-<pinref part="F1" gate="G$1" pin="1"/>
+<pinref part="FUSE" gate="G$1" pin="1"/>
 <wire x1="60.325" y1="121.285" x2="69.215" y2="121.285" width="0.1524" layer="91" grouprefs="SINGLE-PHASE_AC_NETWORK_INTERFACE"/>
-<pinref part="M1" gate="G$1" pin="2"/>
+<pinref part="MOV" gate="G$1" pin="2"/>
 <wire x1="69.215" y1="119.38" x2="69.215" y2="121.285" width="0.1524" layer="91" grouprefs="SINGLE-PHASE_AC_NETWORK_INTERFACE"/>
 <wire x1="95.885" y1="121.285" x2="69.215" y2="121.285" width="0.1524" layer="91"/>
 <junction x="69.215" y="121.285"/>
@@ -1792,7 +1800,7 @@ With round pins</description>
 </net>
 <net name="N$7" class="0">
 <segment>
-<pinref part="F1" gate="G$1" pin="2"/>
+<pinref part="FUSE" gate="G$1" pin="2"/>
 <wire x1="46.99" y1="121.285" x2="50.165" y2="121.285" width="0.1524" layer="91" grouprefs="SINGLE-PHASE_AC_NETWORK_INTERFACE"/>
 <pinref part="JP1" gate="G$1" pin="1"/>
 <junction x="46.99" y="121.285"/>
@@ -1802,19 +1810,19 @@ With round pins</description>
 <segment>
 <pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="88.265" y1="76.2" x2="90.805" y2="76.2" width="0.1524" layer="91" grouprefs="VOLTAGE_MEASUREMENT_PHASE_1"/>
-<pinref part="T1" gate="G$1" pin="PRI_1"/>
+<pinref part="ZMPT" gate="G$1" pin="PRI_1"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="88.265" y1="60.96" x2="90.805" y2="60.96" width="0.1524" layer="91" grouprefs="VOLTAGE_MEASUREMENT_PHASE_1"/>
-<pinref part="T1" gate="G$1" pin="PRI_2"/>
+<pinref part="ZMPT" gate="G$1" pin="PRI_2"/>
 </segment>
 </net>
 <net name="GND" class="0">
 <segment>
-<pinref part="T1" gate="G$1" pin="SEC_1"/>
+<pinref part="ZMPT" gate="G$1" pin="SEC_1"/>
 <wire x1="100.965" y1="60.96" x2="106.68" y2="60.96" width="0.1524" layer="91" grouprefs="VOLTAGE_MEASUREMENT_PHASE_1"/>
 <pinref part="SUPPLY3" gate="G$1" pin="0V"/>
 <wire x1="106.68" y1="58.42" x2="106.68" y2="60.96" width="0.1524" layer="91" grouprefs="VOLTAGE_MEASUREMENT_PHASE_1"/>
@@ -1823,13 +1831,13 @@ With round pins</description>
 <junction x="106.68" y="60.96" grouprefs="VOLTAGE_MEASUREMENT_PHASE_1"/>
 </segment>
 <segment>
-<wire x1="46.99" y1="94.615" x2="69.215" y2="94.615" width="0.1524" layer="91" grouprefs="SINGLE-PHASE_AC_NETWORK_INTERFACE"/>
 <label x="95.885" y="94.615" size="1.27" layer="95" xref="yes" grouprefs="SINGLE-PHASE_AC_NETWORK_INTERFACE"/>
 <pinref part="SUPPLY6" gate="G$1" pin="0V"/>
-<wire x1="69.215" y1="94.615" x2="95.885" y2="94.615" width="0.1524" layer="91" grouprefs="SINGLE-PHASE_AC_NETWORK_INTERFACE"/>
 <wire x1="69.215" y1="93.98" x2="69.215" y2="94.615" width="0.1524" layer="91" grouprefs="SINGLE-PHASE_AC_NETWORK_INTERFACE"/>
-<junction x="69.215" y="94.615" grouprefs="SINGLE-PHASE_AC_NETWORK_INTERFACE"/>
-<pinref part="JP3" gate="G$1" pin="1"/>
+<pinref part="R7" gate="G$1" pin="1"/>
+<wire x1="66.675" y1="94.615" x2="69.215" y2="94.615" width="0.1524" layer="91"/>
+<wire x1="69.215" y1="94.615" x2="95.885" y2="94.615" width="0.1524" layer="91"/>
+<junction x="69.215" y="94.615"/>
 </segment>
 <segment>
 <pinref part="SUPPLY7" gate="G$1" pin="0V"/>
@@ -1843,6 +1851,13 @@ With round pins</description>
 <pinref part="J8" gate="-2" pin="P$1"/>
 <wire x1="125.095" y1="101.6" x2="125.095" y2="99.695" width="0.1524" layer="91"/>
 <junction x="125.095" y="101.6"/>
+</segment>
+</net>
+<net name="N$8" class="0">
+<segment>
+<pinref part="JP3" gate="G$1" pin="1"/>
+<pinref part="R7" gate="G$1" pin="2"/>
+<wire x1="46.99" y1="94.615" x2="56.515" y2="94.615" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

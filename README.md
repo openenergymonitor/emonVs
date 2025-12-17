@@ -27,3 +27,4 @@ Jan 2026
 - Change output capacitor 
 - Increase spacing of ZMPT101B to support ZMPT101K
 - L1 connected directly to ZMPT input
+- GND disconnected (possible to re-connect via solder jumper) 

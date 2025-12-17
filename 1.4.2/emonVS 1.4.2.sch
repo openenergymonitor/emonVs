@@ -12612,6 +12612,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <part name="FRAME1" library="My-Frames" library_urn="urn:adsk.eagle:library:35797712" deviceset="DINA4_L" device=""/>
 <part name="SUPPLY7" library="My-Supply" library_urn="urn:adsk.eagle:library:35531236" deviceset="0V" device=""/>
 <part name="SUPPLY8" library="My-Supply" library_urn="urn:adsk.eagle:library:35531236" deviceset="5V" device=""/>
+<part name="GND" library="OpenEnergyMonitor" deviceset="SOLDER_JUMPER_2P_NO" device="" value="SOLDER_JUMPER_2P_NO"/>
 </parts>
 <sheets>
 <sheet>
@@ -12868,6 +12869,9 @@ the SJ1 and SJ3.</text>
 <instance part="SUPPLY7" gate="G$1" x="178.435" y="70.485" smashed="yes" rot="MR0" grouprefs="OUTPUT_SIGNALS_AND_SUPPLY"/>
 <instance part="SUPPLY8" gate="G$1" x="178.435" y="115.57" smashed="yes" rot="MR0" grouprefs="OUTPUT_SIGNALS_AND_SUPPLY">
 <attribute name="VALUE" x="178.4096" y="119.38" size="1.27" layer="96" rot="MR0" align="center"/>
+</instance>
+<instance part="GND" gate="G$1" x="91.317609375" y="115.11870625" smashed="yes">
+<attribute name="NAME" x="91.41184375" y="117.534603125" size="1.27" layer="95" align="center"/>
 </instance>
 </instances>
 <busses>
@@ -13268,18 +13272,6 @@ the SJ1 and SJ3.</text>
 <junction x="78.105" y="11.43" grouprefs="VOLTAGE_MEASUREMENT_PHASE_3"/>
 </segment>
 <segment>
-<label x="114.3" y="114.935" size="1.27" layer="95" xref="yes" grouprefs="THREE-PHASE_AC_NETWORK_INTERFACE"/>
-<pinref part="SUPPLY6" gate="G$1" pin="0V"/>
-<wire x1="59.69" y1="114.935" x2="114.3" y2="114.935" width="0.1524" layer="91" grouprefs="THREE-PHASE_AC_NETWORK_INTERFACE"/>
-<wire x1="59.69" y1="113.03" x2="59.69" y2="114.935" width="0.1524" layer="91" grouprefs="THREE-PHASE_AC_NETWORK_INTERFACE"/>
-<wire x1="59.69" y1="113.03" x2="29.5" y2="113.03" width="0.1524" layer="91"/>
-<wire x1="29.5" y1="113.03" x2="29.5" y2="125.1" width="0.1524" layer="91"/>
-<junction x="59.69" y="113.03"/>
-<pinref part="J9" gate="-2" pin="P$1"/>
-<wire x1="29.5" y1="125.1" x2="18.415" y2="125.1" width="0.1524" layer="91"/>
-<wire x1="18.415" y1="125.1" x2="18.415" y2="125.095" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="SJ3" gate="1" pin="1"/>
 <pinref part="L1" gate="G$1" pin="4"/>
 <wire x1="178.435" y1="86.36" x2="183.515" y2="86.36" width="0.1524" layer="91" grouprefs="OUTPUT_SIGNALS_AND_SUPPLY"/>
@@ -13288,6 +13280,11 @@ the SJ1 and SJ3.</text>
 <wire x1="178.435" y1="86.36" x2="178.435" y2="91.44" width="0.1524" layer="91" grouprefs="OUTPUT_SIGNALS_AND_SUPPLY"/>
 <wire x1="178.435" y1="73.025" x2="178.435" y2="86.36" width="0.1524" layer="91" grouprefs="OUTPUT_SIGNALS_AND_SUPPLY"/>
 <junction x="178.435" y="86.36" grouprefs="OUTPUT_SIGNALS_AND_SUPPLY"/>
+</segment>
+<segment>
+<pinref part="GND" gate="G$1" pin="2"/>
+<wire x1="95.127609375" y1="115.11870625" x2="114.22185" y2="115.11870625" width="0.1524" layer="91"/>
+<label x="114.283696875" y="115.1201875" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="5.0V" class="0">
@@ -13344,6 +13341,22 @@ the SJ1 and SJ3.</text>
 <wire x1="66.04" y1="127.635" x2="66.04" y2="125.095" width="0.1524" layer="91" grouprefs="THREE-PHASE_AC_NETWORK_INTERFACE"/>
 <junction x="66.04" y="125.095" grouprefs="THREE-PHASE_AC_NETWORK_INTERFACE"/>
 <junction x="40.64" y="125.095"/>
+</segment>
+</net>
+<net name="GND_IN" class="0">
+<segment>
+<pinref part="SUPPLY6" gate="G$1" pin="0V"/>
+<wire x1="59.69" y1="113.03" x2="59.69" y2="114.935" width="0.1524" layer="91" grouprefs="THREE-PHASE_AC_NETWORK_INTERFACE"/>
+<wire x1="59.69" y1="113.03" x2="29.5" y2="113.03" width="0.1524" layer="91"/>
+<wire x1="29.5" y1="113.03" x2="29.5" y2="125.1" width="0.1524" layer="91"/>
+<junction x="59.69" y="113.03"/>
+<pinref part="J9" gate="-2" pin="P$1"/>
+<wire x1="29.5" y1="125.1" x2="18.415" y2="125.1" width="0.1524" layer="91"/>
+<wire x1="18.415" y1="125.1" x2="18.415" y2="125.095" width="0.1524" layer="91"/>
+<pinref part="GND" gate="G$1" pin="1"/>
+<wire x1="87.507609375" y1="115.11870625" x2="59.69" y2="115.11870625" width="0.1524" layer="91"/>
+<wire x1="59.69" y1="115.11870625" x2="59.69" y2="113.03" width="0.1524" layer="91"/>
+<label x="62.235346875" y="112.115753125" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>

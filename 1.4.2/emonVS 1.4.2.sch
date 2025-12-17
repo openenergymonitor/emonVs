@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.000000123031" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="59" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="21" fill="1" visible="no" active="no"/>
@@ -13034,12 +13034,7 @@ the SJ1 and SJ3.</text>
 <label x="189.865" y="146.685" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="EMBEDDED_POWER_SUPPLY"/>
 </segment>
 </net>
-<net name="L1_VOLTAGE" class="0">
-<segment>
-<pinref part="R6" gate="G$1" pin="2"/>
-<wire x1="21.59" y1="96.52" x2="24.13" y2="96.52" width="0.1524" layer="91" grouprefs="VOLTAGE_MEASUREMENT_PHASE_1"/>
-<label x="21.59" y="96.52" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="VOLTAGE_MEASUREMENT_PHASE_1"/>
-</segment>
+<net name="L1_FILTERED" class="0">
 <segment>
 <label x="114.3" y="141.605" size="1.27" layer="95" xref="yes" grouprefs="THREE-PHASE_AC_NETWORK_INTERFACE"/>
 <pinref part="U$1" gate="G$1" pin="2"/>
@@ -13106,7 +13101,7 @@ the SJ1 and SJ3.</text>
 <pinref part="J9" gate="-4" pin="P$1"/>
 </segment>
 </net>
-<net name="N$29" class="0">
+<net name="L1_VOLTAGE" class="0">
 <segment>
 <pinref part="F1" gate="G$1" pin="1"/>
 <wire x1="31.75" y1="141.605" x2="40.64" y2="141.605" width="0.1524" layer="91" grouprefs="THREE-PHASE_AC_NETWORK_INTERFACE"/>
@@ -13121,6 +13116,12 @@ the SJ1 and SJ3.</text>
 <pinref part="M1" gate="G$1" pin="2"/>
 <wire x1="40.64" y1="139.7" x2="40.64" y2="141.605" width="0.1524" layer="91" grouprefs="THREE-PHASE_AC_NETWORK_INTERFACE"/>
 <junction x="40.64" y="141.605" grouprefs="THREE-PHASE_AC_NETWORK_INTERFACE"/>
+<label x="89.917828125" y="141.820115625" size="1.27" layer="95" rot="R90" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R6" gate="G$1" pin="2"/>
+<wire x1="24.13" y1="96.52" x2="22.86" y2="96.52" width="0.1524" layer="91"/>
+<label x="22.86" y="96.52" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$9" class="0">

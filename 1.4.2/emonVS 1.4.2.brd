@@ -5676,9 +5676,7 @@ http://www.bccomponents.com/</description>
 </polygon>
 <via x="45.5" y="71.5" extent="1-16" drill="0.35"/>
 </signal>
-<signal name="L1_VOLTAGE">
-<contactref element="R6" pad="2"/>
-<via x="46" y="39" extent="1-16" drill="0.35" diameter="0.7"/>
+<signal name="L1_FILTERED">
 <contactref element="U$1" pad="4A"/>
 <contactref element="U$1" pad="4B"/>
 <wire x1="56.57" y1="74.993" x2="56.57" y2="72.614" width="1.27" layer="1"/>
@@ -5690,37 +5688,10 @@ http://www.bccomponents.com/</description>
 <wire x1="55.332" y1="66.7404" x2="55.332" y2="71.376" width="1.27" layer="16"/>
 <wire x1="61.0108" y1="61.0616" x2="55.332" y2="66.7404" width="1.27" layer="16"/>
 <wire x1="69.485" y1="50.657" x2="69.485" y2="47.994" width="1.27" layer="16"/>
-<wire x1="44.524" y1="41" x2="44.524" y2="40.476" width="1.27" layer="1"/>
-<wire x1="44.524" y1="40.476" x2="46" y2="39" width="1.27" layer="1"/>
-<polygon width="0.15" layer="1">
-<vertex x="43.75" y="44.5"/>
-<vertex x="47.75" y="44.5"/>
-<vertex x="48.25" y="44"/>
-<vertex x="48.25" y="40.75"/>
-<vertex x="47.5" y="40"/>
-<vertex x="47.5" y="39"/>
-<vertex x="46.25" y="37.75"/>
-<vertex x="43.75" y="37.75"/>
-</polygon>
-<polygon width="0.15" layer="16">
-<vertex x="43.75" y="44.5"/>
-<vertex x="43.75" y="37.75"/>
-<vertex x="46.25" y="37.75"/>
-<vertex x="47.5" y="39"/>
-<vertex x="47.5" y="40"/>
-<vertex x="48.25" y="40.75"/>
-<vertex x="48.25" y="44"/>
-<vertex x="47.75" y="44.5"/>
-</polygon>
-<via x="46" y="43" extent="1-16" drill="0.35"/>
-<wire x1="46" y1="39" x2="47.5" y2="40.5" width="0.508" layer="16"/>
-<wire x1="47.5" y1="40.5" x2="47.5" y2="42" width="0.508" layer="16"/>
 <wire x1="54.4925" y1="35.9925" x2="58" y2="39.5" width="1.27" layer="1"/>
 <wire x1="58" y1="39.5" x2="66.494" y2="47.994" width="1.27" layer="1"/>
 <wire x1="66.494" y1="47.994" x2="69.485" y2="47.994" width="1.27" layer="1"/>
 <wire x1="49.8" y1="35.9925" x2="54.4925" y2="35.9925" width="1.27" layer="1"/>
-<wire x1="49.8" y1="35.9925" x2="46.7925" y2="39" width="0.508" layer="16"/>
-<wire x1="46.7925" y1="39" x2="46" y2="39" width="0.508" layer="16"/>
 </signal>
 <signal name="L2_VOLTAGE">
 <contactref element="R19" pad="2"/>
@@ -5804,7 +5775,7 @@ http://www.bccomponents.com/</description>
 <wire x1="29.12" y1="94.174" x2="28.934" y2="93.988" width="1.27" layer="1"/>
 <contactref element="J9" pad="4"/>
 </signal>
-<signal name="N$29">
+<signal name="L1_VOLTAGE">
 <contactref element="F1" pad="OUT"/>
 <contactref element="C4" pad="2B"/>
 <contactref element="C4" pad="2A"/>
@@ -5824,6 +5795,43 @@ http://www.bccomponents.com/</description>
 <wire x1="46.686" y1="100.5" x2="42.128" y2="100.5" width="1.27" layer="1"/>
 <wire x1="41.128" y1="99.5" x2="42.128" y2="100.5" width="1.27" layer="1"/>
 <wire x1="46.813" y1="100.373" x2="46.686" y2="100.5" width="1.27" layer="1"/>
+<contactref element="R6" pad="2"/>
+<polygon width="0.15" layer="16">
+<vertex x="43.75" y="44.5"/>
+<vertex x="43.75" y="37.75"/>
+<vertex x="46.25" y="37.75"/>
+<vertex x="47" y="38.5"/>
+<vertex x="47" y="42.5"/>
+<vertex x="47.75" y="43.25"/>
+<vertex x="47.75" y="44.5"/>
+</polygon>
+<polygon width="0.15" layer="1">
+<vertex x="43.75" y="44.5"/>
+<vertex x="47.75" y="44.5"/>
+<vertex x="47.75" y="43.25"/>
+<vertex x="47" y="42.5"/>
+<vertex x="47" y="38.5"/>
+<vertex x="46.25" y="37.75"/>
+<vertex x="43.75" y="37.75"/>
+</polygon>
+<wire x1="60.452" y1="66.548" x2="60.452" y2="57.952" width="0.508" layer="1"/>
+<wire x1="57.5" y1="55" x2="57.5" y2="51" width="0.508" layer="1"/>
+<wire x1="57.5" y1="51" x2="57" y2="50.5" width="0.508" layer="1"/>
+<via x="57" y="50.5" extent="1-16" drill="0.35"/>
+<wire x1="57" y1="50.5" x2="57.5" y2="50" width="0.508" layer="16"/>
+<wire x1="57.5" y1="50" x2="57.5" y2="49" width="0.508" layer="16"/>
+<wire x1="52.5" y1="44" x2="47.5" y2="44" width="0.508" layer="16"/>
+<wire x1="47.5" y1="44" x2="46.5" y2="43" width="0.508" layer="16"/>
+<via x="46.5" y="43" extent="1-16" drill="0.35"/>
+<wire x1="46.5" y1="43" x2="46" y2="42.5" width="0.508" layer="1"/>
+<wire x1="46" y1="42.5" x2="46" y2="41" width="0.508" layer="1"/>
+<wire x1="46" y1="41" x2="45.5" y2="41" width="0.508" layer="1"/>
+<wire x1="45.5" y1="41" x2="44.524" y2="41" width="0.508" layer="1"/>
+<wire x1="60.452" y1="57.952" x2="57.5" y2="55" width="0.508" layer="1"/>
+<wire x1="57.5" y1="49" x2="52.5" y2="44" width="0.508" layer="16"/>
+<wire x1="45.5" y1="41" x2="46.5" y2="40" width="0.508" layer="1"/>
+<wire x1="46.5" y1="40" x2="46.5" y2="39.5" width="0.508" layer="1"/>
+<via x="46.5" y="39.5" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="N$9">
 <contactref element="J7" pad="6"/>

@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="59" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="21" fill="1" visible="no" active="no"/>
@@ -3576,6 +3576,75 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="AC03000006808JAC00">
+<description>&lt;Cemented Leaded Wirewound Resistors, AEC-Q200 qualified AC-AT series, Non-flammable coating conforming to UL 94 V-181&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="RESAD3220W83L1300D480">
+<description>&lt;b&gt;AC03&lt;/b&gt;&lt;br&gt;
+</description>
+<pad name="1" x="0" y="0" drill="1.05" diameter="1.575"/>
+<pad name="2" x="32.2" y="0" drill="1.05" diameter="1.575"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-1.038" y1="2.75" x2="33.237" y2="2.75" width="0.05" layer="51"/>
+<wire x1="33.237" y1="2.75" x2="33.237" y2="-2.75" width="0.05" layer="51"/>
+<wire x1="33.237" y1="-2.75" x2="-1.038" y2="-2.75" width="0.05" layer="51"/>
+<wire x1="-1.038" y1="-2.75" x2="-1.038" y2="2.75" width="0.05" layer="51"/>
+<wire x1="9.6" y1="2.4" x2="22.6" y2="2.4" width="0.1" layer="51"/>
+<wire x1="22.6" y1="2.4" x2="22.6" y2="-2.4" width="0.1" layer="51"/>
+<wire x1="22.6" y1="-2.4" x2="9.6" y2="-2.4" width="0.1" layer="51"/>
+<wire x1="9.6" y1="-2.4" x2="9.6" y2="2.4" width="0.1" layer="51"/>
+<wire x1="0" y1="0" x2="9.6" y2="0" width="0.1" layer="51"/>
+<wire x1="22.6" y1="0" x2="32.2" y2="0" width="0.1" layer="51"/>
+<wire x1="9.6" y1="2.4" x2="22.6" y2="2.4" width="0.2" layer="21"/>
+<wire x1="22.6" y1="2.4" x2="22.6" y2="-2.4" width="0.2" layer="21"/>
+<wire x1="22.6" y1="-2.4" x2="9.6" y2="-2.4" width="0.2" layer="21"/>
+<wire x1="9.6" y1="-2.4" x2="9.6" y2="2.4" width="0.2" layer="21"/>
+<wire x1="1.138" y1="0" x2="9.6" y2="0" width="0.2" layer="21"/>
+<wire x1="22.6" y1="0" x2="31.062" y2="0" width="0.2" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="AC03000006808JAC00">
+<wire x1="5.08" y1="1.27" x2="12.7" y2="1.27" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-1.27" x2="12.7" y2="1.27" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-1.27" x2="5.08" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="5.08" y1="1.27" x2="5.08" y2="-1.27" width="0.254" layer="94"/>
+<text x="13.97" y="6.35" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="13.97" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="1" x="0" y="0" visible="pad" length="middle"/>
+<pin name="2" x="17.78" y="0" visible="pad" length="middle" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="AC03000006808JAC00" prefix="R">
+<description>&lt;b&gt;Cemented Leaded Wirewound Resistors, AEC-Q200 qualified AC-AT series, Non-flammable coating conforming to UL 94 V-181&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://www.vishay.com/docs/28730/acac-at.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="AC03000006808JAC00" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESAD3220W83L1300D480">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Cemented Leaded Wirewound Resistors, AEC-Q200 qualified AC-AT series, Non-flammable coating conforming to UL 94 V-181" constant="no"/>
+<attribute name="HEIGHT" value="mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Vishay" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="AC03000006808JAC00" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="594-AC030006808JAC00" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Vishay-Draloric/AC03000006808JAC00?qs=ClR5yMXwuUfRrrsDAcO4Zg%3D%3D" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 <attribute name="AUTHOR" value="OpenEnergyMonitor"/>
@@ -3671,7 +3740,7 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 <part name="C3" library="My-RLC" library_urn="urn:adsk.eagle:library:35509816" deviceset="C_" device="0603" package3d_urn="urn:adsk.eagle:package:35509984/1" value="1uF x 16V">
 <attribute name="PN" value="GCM188R71C105KA64D"/>
 </part>
-<part name="C5" library="My-RLC" library_urn="urn:adsk.eagle:library:35509816" deviceset="CP_" device="SV-C" package3d_urn="urn:adsk.eagle:package:35509926/1" value="180uF x 6.3V">
+<part name="C5" library="My-RLC" library_urn="urn:adsk.eagle:library:35509816" deviceset="CP_" device="SV-D" package3d_urn="urn:adsk.eagle:package:35509947/1" value="180uF x 6.3V">
 <attribute name="PN" value="6SVPE180M"/>
 </part>
 <part name="D1" library="My-Diodes" library_urn="urn:adsk.eagle:library:35512051" deviceset="TVS" device="" package3d_urn="urn:adsk.eagle:package:35541124/5"/>
@@ -3710,9 +3779,7 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 <part name="FRAME1" library="My-Frames" library_urn="urn:adsk.eagle:library:35797712" deviceset="DINA4_L" device=""/>
 <part name="SUPPLY7" library="My-Supply" library_urn="urn:adsk.eagle:library:35531236" deviceset="0V" device=""/>
 <part name="SUPPLY8" library="My-Supply" library_urn="urn:adsk.eagle:library:35531236" deviceset="5V" device=""/>
-<part name="R7" library="My-RLC" library_urn="urn:adsk.eagle:library:35509816" deviceset="R_" device="1206" package3d_urn="urn:adsk.eagle:package:35509967/1" value="0R">
-<attribute name="PN" value="ERJ-H3GJ103V"/>
-</part>
+<part name="R7" library="AC03000006808JAC00" deviceset="AC03000006808JAC00" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3970,10 +4037,9 @@ the SJ1 and SJ3.</text>
 <instance part="SUPPLY8" gate="G$1" x="178.435" y="115.57" smashed="yes" rot="MR0" grouprefs="OUTPUT_SIGNALS_AND_SUPPLY">
 <attribute name="VALUE" x="178.4096" y="119.38" size="1.27" layer="96" rot="MR0" align="center"/>
 </instance>
-<instance part="R7" gate="G$1" x="25.4" y="125.095" smashed="yes" rot="MR0">
-<attribute name="PN" x="25.4" y="125.095" size="1.778" layer="96" display="off"/>
-<attribute name="NAME" x="25.4" y="127.2286" size="1.27" layer="95" rot="MR0" align="center"/>
-<attribute name="VALUE" x="25.4" y="123.19" size="1.27" layer="96" rot="MR0" align="center"/>
+<instance part="R7" gate="G$1" x="139.7" y="144.78" smashed="yes">
+<attribute name="NAME" x="153.67" y="151.13" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="153.67" y="148.59" size="1.778" layer="96" align="center-left"/>
 </instance>
 </instances>
 <busses>
@@ -4377,11 +4443,16 @@ the SJ1 and SJ3.</text>
 <pinref part="SUPPLY6" gate="G$1" pin="0V"/>
 <wire x1="59.69" y1="114.935" x2="114.3" y2="114.935" width="0.1524" layer="91" grouprefs="THREE-PHASE_AC_NETWORK_INTERFACE"/>
 <wire x1="59.69" y1="113.03" x2="59.69" y2="114.935" width="0.1524" layer="91" grouprefs="THREE-PHASE_AC_NETWORK_INTERFACE"/>
-<pinref part="R7" gate="G$1" pin="1"/>
-<wire x1="30.48" y1="125.095" x2="30.48" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="116.84" x2="59.69" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="59.69" y1="116.84" x2="59.69" y2="114.935" width="0.1524" layer="91"/>
 <junction x="59.69" y="114.935"/>
+<wire x1="59.69" y1="113.03" x2="45.406003125" y2="113.03" width="0.1524" layer="91"/>
+<wire x1="45.406003125" y1="113.03" x2="45.406003125" y2="118.84200625" width="0.1524" layer="91"/>
+<junction x="59.69" y="113.03"/>
+<wire x1="45.406003125" y1="118.84200625" x2="25.9462875" y2="118.84200625" width="0.1524" layer="91"/>
+<wire x1="25.9462875" y1="118.84200625" x2="25.9462875" y2="118.48188125" width="0.1524" layer="91"/>
+<pinref part="J9" gate="-2" pin="P$1"/>
+<wire x1="25.9462875" y1="118.84200625" x2="25.9462875" y2="125.095" width="0.1524" layer="91"/>
+<wire x1="25.9462875" y1="125.095" x2="18.415" y2="125.095" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SJ3" gate="1" pin="1"/>
@@ -4448,13 +4519,6 @@ the SJ1 and SJ3.</text>
 <wire x1="66.04" y1="127.635" x2="66.04" y2="125.095" width="0.1524" layer="91" grouprefs="THREE-PHASE_AC_NETWORK_INTERFACE"/>
 <junction x="66.04" y="125.095" grouprefs="THREE-PHASE_AC_NETWORK_INTERFACE"/>
 <junction x="40.64" y="125.095"/>
-</segment>
-</net>
-<net name="N$20" class="0">
-<segment>
-<pinref part="J9" gate="-2" pin="P$1"/>
-<pinref part="R7" gate="G$1" pin="2"/>
-<wire x1="18.415" y1="125.095" x2="20.32" y2="125.095" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
